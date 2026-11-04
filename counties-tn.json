@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T18:11:35Z",
+ "updatedAt": "2026-11-04T19:10:16Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
@@ -389,7 +389,7 @@
     {
      "fips": "47047",
      "name": "Fayette",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 17462,
      "D": {
       "name": "Jerri Green",
@@ -1927,7 +1927,7 @@
     {
      "fips": "47047",
      "name": "Fayette",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 16941,
      "D": {
       "name": "Marquita Bradshaw",

@@ -4,7 +4,7 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 236,
+   "wonD": 240,
    "wonR": 146,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T18:13:16Z"
+  "updatedAt": "2026-11-04T19:11:46Z"
  },
  "races": [
   {
@@ -117,9 +117,11 @@
    "incumbent": "Bill Huizenga",
    "rating": "tossup",
    "state": "MI",
-   "status": "Counting",
+   "status": "Called",
    "id": "H-MI-04",
-   "reporting": 97
+   "reporting": 97,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
@@ -131,7 +133,7 @@
     {
      "name": "Tom Barrett",
      "party": "R",
-     "pct": 47.8,
+     "pct": 47.7,
      "inc": true
     }
    ],
@@ -141,9 +143,11 @@
    "incumbent": "Tom Barrett",
    "rating": "tossup",
    "state": "MI",
-   "status": "Counting",
+   "status": "Called",
    "id": "H-MI-07",
-   "reporting": 97
+   "reporting": 97,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
@@ -1655,7 +1659,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 61
+   "reporting": 62
   },
   {
    "id": "H-AZ-01",
@@ -1946,7 +1950,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 81
+   "reporting": 80
   },
   {
    "id": "H-NC-01",
@@ -2018,12 +2022,12 @@
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 50
+     "pct": 49.9
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 87
+   "reporting": 88
   },
   {
    "id": "H-NM-02",
@@ -3258,7 +3262,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 80
+   "reporting": 84
   },
   {
    "id": "H-AZ-03",
@@ -4287,10 +4291,12 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 34,
-   "reporting": 73
+   "reporting": 73,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-CA-35",
@@ -9105,19 +9111,19 @@
     {
      "name": "Mike Flood",
      "party": "R",
-     "pct": 50.1,
+     "pct": 50.3,
      "inc": true
     },
     {
      "name": "Chris Backemeyer",
      "party": "D",
-     "pct": 46.4
+     "pct": 46.2
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 91
+   "reporting": 92
   },
   {
    "id": "H-NE-02",
@@ -9592,10 +9598,12 @@
      "pct": 44.1
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 86
+   "reporting": 86,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-NV-03",
@@ -9674,7 +9682,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 86
+   "reporting": 97
   },
   {
    "id": "H-NY-02",
@@ -9699,7 +9707,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 80
+   "reporting": 97
   },
   {
    "id": "H-NY-03",
@@ -11541,7 +11549,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 96
+   "reporting": 99
   },
   {
    "id": "H-TX-03",
@@ -12336,7 +12344,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 32,
-   "reporting": 95
+   "reporting": 99
   },
   {
    "id": "H-TX-33",
