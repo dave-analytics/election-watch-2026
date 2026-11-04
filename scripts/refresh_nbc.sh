@@ -14,7 +14,7 @@ python3 -I -c "
 import json
 N={'AL':'alabama','AK':'alaska','AZ':'arizona','AR':'arkansas','CA':'california','CO':'colorado','CT':'connecticut','DE':'delaware','FL':'florida','GA':'georgia','HI':'hawaii','ID':'idaho','IL':'illinois','IN':'indiana','IA':'iowa','KS':'kansas','KY':'kentucky','LA':'louisiana','ME':'maine','MD':'maryland','MA':'massachusetts','MI':'michigan','MN':'minnesota','MS':'mississippi','MO':'missouri','MT':'montana','NE':'nebraska','NV':'nevada','NH':'new-hampshire','NJ':'new-jersey','NM':'new-mexico','NY':'new-york','NC':'north-carolina','ND':'north-dakota','OH':'ohio','OK':'oklahoma','OR':'oregon','PA':'pennsylvania','RI':'rhode-island','SC':'south-carolina','SD':'south-dakota','TN':'tennessee','TX':'texas','UT':'utah','VT':'vermont','VA':'virginia','WA':'washington','WV':'west-virginia','WI':'wisconsin','WY':'wyoming'}
 for r in json.load(open('data.json'))['races']:
-    if r.get('winner') or r['state'] not in N: continue
+    if r['state'] not in N or (r.get('winner') and all(c.get('pct') is not None for c in r.get('cands',[]))): continue
     if r['chamber']=='senate':
         print(r['id'], ('2026-special-elections/' if r.get('special') else '2026-elections/')+N[r['state']]+'-senate-results')
     elif r['chamber']=='house':

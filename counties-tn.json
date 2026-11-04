@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-04T03:49:57Z",
+ "updatedAt": "2026-11-04T04:02:12Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
-   "reporting": 81.5,
+   "reporting": 85.9,
    "callStatus": "Too early to call",
    "statewide": {
     "D": {
      "name": "Jerri Green",
-     "votes": 803184,
-     "pct": 42.9
+     "votes": 861172,
+     "pct": 43.6
     },
     "R": {
      "name": "Marsha Blackburn",
-     "votes": 854248,
-     "pct": 45.6
+     "votes": 887807,
+     "pct": 45
     }
    },
    "counties": [
@@ -149,17 +149,17 @@
     {
      "fips": "47017",
      "name": "Carroll",
-     "reporting": 48.4,
-     "totalVote": 3341,
+     "reporting": 95,
+     "totalVote": 7131,
      "D": {
       "name": "Jerri Green",
-      "votes": 957,
-      "pct": 28.6
+      "votes": 1739,
+      "pct": 24.4
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 1869,
-      "pct": 55.9
+      "votes": 4179,
+      "pct": 58.6
      }
     },
     {
@@ -309,17 +309,17 @@
     {
      "fips": "47037",
      "name": "Davidson",
-     "reporting": 62.5,
-     "totalVote": 166671,
+     "reporting": 84.1,
+     "totalVote": 224389,
      "D": {
       "name": "Jerri Green",
-      "votes": 124947,
-      "pct": 75
+      "votes": 160749,
+      "pct": 71.6
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 32061,
-      "pct": 19.2
+      "votes": 48546,
+      "pct": 21.6
      }
     },
     {
@@ -581,17 +581,17 @@
     {
      "fips": "47071",
      "name": "Hardin",
-     "reporting": 76.1,
-     "totalVote": 5709,
+     "reporting": 99,
+     "totalVote": 7524,
      "D": {
       "name": "Jerri Green",
-      "votes": 1129,
-      "pct": 19.8
+      "votes": 1331,
+      "pct": 17.7
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 3970,
-      "pct": 69.5
+      "votes": 5307,
+      "pct": 70.5
      }
     },
     {
@@ -758,15 +758,15 @@
      "fips": "47093",
      "name": "Knox",
      "reporting": 95,
-     "totalVote": 155886,
+     "totalVote": 157007,
      "D": {
       "name": "Jerri Green",
-      "votes": 75684,
-      "pct": 48.6
+      "votes": 76116,
+      "pct": 48.5
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 66034,
+      "votes": 66600,
       "pct": 42.4
      }
     },
@@ -1110,16 +1110,16 @@
      "fips": "47137",
      "name": "Pickett",
      "reporting": 95,
-     "totalVote": 1841,
+     "totalVote": 1956,
      "D": {
       "name": "Jerri Green",
-      "votes": 419,
-      "pct": 22.8
+      "votes": 431,
+      "pct": 22
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 1018,
-      "pct": 55.3
+      "votes": 1102,
+      "pct": 56.3
      }
     },
     {
@@ -1205,17 +1205,17 @@
     {
      "fips": "47149",
      "name": "Rutherford",
-     "reporting": 82.8,
-     "totalVote": 88049,
+     "reporting": 95.9,
+     "totalVote": 102041,
      "D": {
       "name": "Jerri Green",
-      "votes": 43896,
-      "pct": 49.9
+      "votes": 50530,
+      "pct": 49.5
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 35824,
-      "pct": 40.7
+      "votes": 41699,
+      "pct": 40.9
      }
     },
     {
@@ -1269,17 +1269,17 @@
     {
      "fips": "47157",
      "name": "Shelby",
-     "reporting": 74.9,
-     "totalVote": 223826,
+     "reporting": 81.3,
+     "totalVote": 243182,
      "D": {
       "name": "Jerri Green",
-      "votes": 144409,
-      "pct": 64.5
+      "votes": 157271,
+      "pct": 64.7
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 59571,
-      "pct": 26.6
+      "votes": 64143,
+      "pct": 26.4
      }
     },
     {
@@ -1509,17 +1509,17 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 85,
-     "totalVote": 97953,
+     "reporting": 88.5,
+     "totalVote": 101974,
      "D": {
       "name": "Jerri Green",
-      "votes": 38210,
-      "pct": 39
+      "votes": 39472,
+      "pct": 38.7
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 51336,
-      "pct": 52.4
+      "votes": 53666,
+      "pct": 52.6
      }
     },
     {
@@ -1541,18 +1541,18 @@
    ]
   },
   "S-TN": {
-   "reporting": 81.2,
+   "reporting": 85.5,
    "callStatus": "Projected winner",
    "statewide": {
     "D": {
      "name": "Marquita Bradshaw",
-     "votes": 793631,
-     "pct": 42.6
+     "votes": 850694,
+     "pct": 43.3
     },
     "R": {
      "name": "Bill Hagerty",
-     "votes": 1033954,
-     "pct": 55.5
+     "votes": 1074941,
+     "pct": 54.7
     }
    },
    "counties": [
@@ -1847,17 +1847,17 @@
     {
      "fips": "47037",
      "name": "Davidson",
-     "reporting": 61.6,
-     "totalVote": 164397,
+     "reporting": 82.9,
+     "totalVote": 221227,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 123541,
-      "pct": 75.1
+      "votes": 158305,
+      "pct": 71.6
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 38475,
-      "pct": 23.4
+      "votes": 59248,
+      "pct": 26.8
      }
     },
     {
@@ -2119,17 +2119,17 @@
     {
      "fips": "47071",
      "name": "Hardin",
-     "reporting": 75.1,
-     "totalVote": 5636,
+     "reporting": 99,
+     "totalVote": 7426,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 1095,
-      "pct": 19.4
+      "votes": 1299,
+      "pct": 17.5
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 4435,
-      "pct": 78.7
+      "votes": 5968,
+      "pct": 80.4
      }
     },
     {
@@ -2296,15 +2296,15 @@
      "fips": "47093",
      "name": "Knox",
      "reporting": 95,
-     "totalVote": 155153,
+     "totalVote": 156270,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 75148,
+      "votes": 75557,
       "pct": 48.4
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 77821,
+      "votes": 78503,
       "pct": 50.2
      }
     },
@@ -2647,17 +2647,17 @@
     {
      "fips": "47137",
      "name": "Pickett",
-     "reporting": 93.3,
-     "totalVote": 1769,
+     "reporting": 95,
+     "totalVote": 1883,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 392,
-      "pct": 22.2
+      "votes": 401,
+      "pct": 21.3
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 1339,
-      "pct": 75.7
+      "votes": 1443,
+      "pct": 76.6
      }
     },
     {
@@ -2727,33 +2727,33 @@
     {
      "fips": "47147",
      "name": "Robertson",
-     "reporting": 73.5,
-     "totalVote": 18732,
+     "reporting": 89.1,
+     "totalVote": 22708,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 6176,
-      "pct": 33
+      "votes": 7210,
+      "pct": 31.8
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 12148,
-      "pct": 64.9
+      "votes": 15005,
+      "pct": 66.1
      }
     },
     {
      "fips": "47149",
      "name": "Rutherford",
-     "reporting": 81.4,
-     "totalVote": 86534,
+     "reporting": 94.3,
+     "totalVote": 100324,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 42808,
-      "pct": 49.5
+      "votes": 49225,
+      "pct": 49.1
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 42009,
-      "pct": 48.5
+      "votes": 48977,
+      "pct": 48.8
      }
     },
     {
@@ -2807,17 +2807,17 @@
     {
      "fips": "47157",
      "name": "Shelby",
-     "reporting": 73.2,
-     "totalVote": 218844,
+     "reporting": 79.5,
+     "totalVote": 237757,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 146942,
-      "pct": 67.1
+      "votes": 159990,
+      "pct": 67.3
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 67180,
-      "pct": 30.7
+      "votes": 72498,
+      "pct": 30.5
      }
     },
     {
@@ -3047,17 +3047,17 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 84.6,
-     "totalVote": 97499,
+     "reporting": 88.1,
+     "totalVote": 101511,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 36862,
-      "pct": 37.8
+      "votes": 38040,
+      "pct": 37.5
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 59242,
-      "pct": 60.8
+      "votes": 61994,
+      "pct": 61.1
      }
     },
     {

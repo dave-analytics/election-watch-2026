@@ -14,8 +14,13 @@ s = pp["races"][0]["summary"]
 PARTY = {"dem": "D", "gop": "R"}
 d = json.load(open(data))
 r = next(x for x in d["races"] if x["id"] == rid)
+fill_only = False
 if r.get("winner"):
-    print(rid, "already called; untouched"); sys.exit(0)
+    # Called races are final. Only exception: a race called before any votes were counted
+    # gets its vote shares filled in once (winner/status are never changed).
+    if all(c.get("pct") is not None for c in r.get("cands", [])) or (s.get("percentIn") or 0) <= 0:
+        print(rid, "already called; untouched"); sys.exit(0)
+    fill_only = True
 main = {}
 for c in s.get("candidates", []):
     p = PARTY.get(c.get("party"))
@@ -41,6 +46,9 @@ for p, c in main.items():
     cands.append(e)
 r["cands"] = cands
 if s.get("percentIn") is not None: r["reporting"] = round(s["percentIn"])
+if fill_only:
+    json.dump(d, open(data, "w"), indent=1, ensure_ascii=False)
+    print(rid, "called race: filled missing vote shares", [(c["name"], c["pct"]) for c in cands]); sys.exit(0)
 winners = [c for c in s.get("candidates", []) if c.get("isWinner")]
 if s.get("callStatusText") == "Projected winner" and len(winners) == 1 and PARTY.get(winners[0].get("party")):
     w = PARTY[winners[0]["party"]]
