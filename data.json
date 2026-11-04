@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T13:04:00Z"
+  "updatedAt": "2026-11-04T14:01:33Z"
  },
  "races": [
   {
@@ -302,15 +302,15 @@
   {
    "cands": [
     {
-     "name": "Dan S. Sullivan",
-     "party": "R",
-     "pct": 48.5,
-     "inc": true
-    },
-    {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": 47.7
+     "pct": 48.2
+    },
+    {
+     "name": "Dan S. Sullivan",
+     "party": "R",
+     "pct": 47.9,
+     "inc": true
     }
    ],
    "chamber": "senate",
@@ -320,7 +320,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 72
+   "reporting": 74
   },
   {
    "cands": [
@@ -2394,7 +2394,7 @@
      "pct": 49.7
     }
    ],
-   "status": "Counting",
+   "status": "Too close to call",
    "addedReason": "all races",
    "reporting": 98
   },
@@ -12653,19 +12653,19 @@
     {
      "name": "John McGuire III",
      "party": "R",
-     "pct": 49.9,
+     "pct": 49.8,
      "inc": true
     },
     {
      "name": "Tom Perriello",
      "party": "D",
-     "pct": 48.3
+     "pct": 48.4
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 98
+   "reporting": 97
   },
   {
    "id": "H-VA-06",
