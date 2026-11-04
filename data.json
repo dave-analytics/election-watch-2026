@@ -4,8 +4,8 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 231,
-   "wonR": 144,
+   "wonD": 236,
+   "wonR": 146,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T16:13:49Z"
+  "updatedAt": "2026-11-04T17:11:45Z"
  },
  "races": [
   {
@@ -39,9 +39,11 @@
    "incumbent": "David Valadao",
    "rating": "tossup",
    "state": "CA",
-   "status": "Counting",
+   "status": "Called",
    "id": "H-CA-22",
-   "reporting": 57
+   "reporting": 57,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
@@ -100,12 +102,12 @@
     {
      "name": "Sean McCann",
      "party": "D",
-     "pct": 50.3
+     "pct": 50.1
     },
     {
      "name": "Bill Huizenga",
      "party": "R",
-     "pct": 48.2,
+     "pct": 48.3,
      "inc": true
     }
    ],
@@ -117,7 +119,7 @@
    "state": "MI",
    "status": "Counting",
    "id": "H-MI-04",
-   "reporting": 95
+   "reporting": 98
   },
   {
    "cands": [
@@ -1700,9 +1702,11 @@
      "pct": 43.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 85
+   "reporting": 85,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-NJ-09",
@@ -1886,9 +1890,11 @@
      "pct": 45.3
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 99
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-WI-01",
@@ -2007,7 +2013,7 @@
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 50.1
+     "pct": 50
     },
     {
      "name": "Paul LePage",
@@ -2017,7 +2023,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 86
+   "reporting": 87
   },
   {
    "id": "H-NM-02",
@@ -3773,10 +3779,12 @@
      "pct": 38.7
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 13,
-   "reporting": 57
+   "reporting": 57,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-CA-14",
@@ -11533,7 +11541,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 98
+   "reporting": 96
   },
   {
    "id": "H-TX-03",
@@ -11713,10 +11721,12 @@
      "pct": 42.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 9,
-   "reporting": 84
+   "reporting": 99,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-TX-10",
@@ -12058,10 +12068,12 @@
      "pct": 48.2
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 22,
-   "reporting": 96
+   "reporting": 98,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TX-23",
@@ -12478,10 +12490,12 @@
      "pct": 47.3
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 38,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-UT-01",
@@ -12653,19 +12667,19 @@
     {
      "name": "John McGuire III",
      "party": "R",
-     "pct": 49.8,
+     "pct": 50.2,
      "inc": true
     },
     {
      "name": "Tom Perriello",
      "party": "D",
-     "pct": 48.4
+     "pct": 48
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 97
+   "reporting": 98
   },
   {
    "id": "H-VA-06",
