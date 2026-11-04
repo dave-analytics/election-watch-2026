@@ -7,14 +7,14 @@
    "wonD": 84,
    "wonR": 37
   },
-  "note": "Vote shares 2026-11-04T02:46:10Z: NBC News live results (reporting % from NBC or Fox News where NBC gave none); GA and NC shares as of their calls. Calls: NC, GA, VA (AP); NH, NM, CO, NJ, DE, RI, MA (NBC); IL (ABC); FL (CBS); KY, WV projected; NC-11 (networks). House tally: NBC 84 D, 37 R. Baseline: NBC News. Ratings: Cook (Oct 2026).",
+  "note": "Vote shares 2026-11-04T02:49:01Z: NBC News live results (unofficial; called races show shares as of this update, reporting % from NBC or Fox where given). Calls: NC, GA, VA (AP); NH, NM, CO, NJ, DE, RI, MA (NBC); IL (ABC); FL (CBS); KY, WV projected; NC-11 (networks). House tally: NBC 84 D, 37 R. Baseline: NBC News. Ratings: Cook (Oct 2026).",
   "senate": {
    "baseD": 47,
    "baseR": 53,
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T02:46:10Z"
+  "updatedAt": "2026-11-04T02:49:01Z"
  },
  "races": [
   {
@@ -268,13 +268,15 @@
   {
    "cands": [
     {
-     "inc": true,
      "name": "John Hickenlooper",
-     "party": "D"
+     "party": "D",
+     "pct": 59.5,
+     "inc": true
     },
     {
      "name": "Mark Baisley",
-     "party": "R"
+     "party": "R",
+     "pct": 36.5
     }
    ],
    "chamber": "senate",
@@ -290,13 +292,15 @@
   {
    "cands": [
     {
-     "inc": true,
      "name": "Chris Coons",
-     "party": "D"
+     "party": "D",
+     "pct": 64.7,
+     "inc": true
     },
     {
      "name": "Michael Katz",
-     "party": "R"
+     "party": "R",
+     "pct": 35.3
     }
    ],
    "chamber": "senate",
@@ -312,13 +316,15 @@
   {
    "cands": [
     {
-     "inc": true,
-     "name": "Ashley Moody",
-     "party": "R"
+     "name": "Angie Nixon",
+     "party": "D",
+     "pct": 47.9
     },
     {
-     "name": "Angie Nixon",
-     "party": "D"
+     "name": "Ashley Moody",
+     "party": "R",
+     "pct": 50.9,
+     "inc": true
     }
    ],
    "chamber": "senate",
@@ -399,11 +405,13 @@
    "cands": [
     {
      "name": "Juliana Stratton",
-     "party": "D"
+     "party": "D",
+     "pct": 64.0
     },
     {
      "name": "Don Tracy",
-     "party": "R"
+     "party": "R",
+     "pct": 34.5
     }
    ],
    "chamber": "senate",
@@ -441,12 +449,14 @@
   {
    "cands": [
     {
-     "name": "Andy Barr",
-     "party": "R"
+     "name": "Charles Booker",
+     "party": "D",
+     "pct": 44.2
     },
     {
-     "name": "Charles Booker",
-     "party": "D"
+     "name": "Andy Barr",
+     "party": "R",
+     "pct": 53.7
     }
    ],
    "chamber": "senate",
@@ -475,7 +485,13 @@
     {
      "name": "Ed Markey",
      "party": "D",
+     "pct": 70.9,
      "inc": true
+    },
+    {
+     "name": "John Deaton",
+     "party": "R",
+     "pct": 24.1
     }
    ],
    "chamber": "senate",
@@ -637,11 +653,13 @@
    "cands": [
     {
      "name": "Chris Pappas",
-     "party": "D"
+     "party": "D",
+     "pct": 57.7
     },
     {
      "name": "John E. Sununu",
-     "party": "R"
+     "party": "R",
+     "pct": 40.5
     }
    ],
    "chamber": "senate",
@@ -652,18 +670,21 @@
    "status": "Called",
    "id": "S-NH",
    "winner": "D",
-   "flip": false
+   "flip": false,
+   "reporting": 40
   },
   {
    "cands": [
     {
-     "inc": true,
      "name": "Cory Booker",
-     "party": "D"
+     "party": "D",
+     "pct": 64.5,
+     "inc": true
     },
     {
-     "name": "Murphy (R nominee)",
-     "party": "R"
+     "name": "Justin Murphy",
+     "party": "R",
+     "pct": 33.1
     }
    ],
    "chamber": "senate",
@@ -681,7 +702,13 @@
     {
      "name": "Ben Ray Luján",
      "party": "D",
+     "pct": 71.5,
      "inc": true
+    },
+    {
+     "name": "Larry Marker",
+     "party": "R",
+     "pct": 28.5
     }
    ],
    "chamber": "senate",
@@ -741,13 +768,15 @@
   {
    "cands": [
     {
-     "inc": true,
      "name": "Jack Reed",
-     "party": "D"
+     "party": "D",
+     "pct": 66.5,
+     "inc": true
     },
     {
      "name": "McKay",
-     "party": "R"
+     "party": "R",
+     "pct": 29.6
     }
    ],
    "chamber": "senate",
@@ -830,7 +859,13 @@
     {
      "name": "Mark Warner",
      "party": "D",
+     "pct": 59.1,
      "inc": true
+    },
+    {
+     "name": "Mizusawa",
+     "party": "R",
+     "pct": 40.7
     }
    ],
    "chamber": "senate",
@@ -846,13 +881,15 @@
   {
    "cands": [
     {
-     "name": "Shelley Moore Capito",
-     "party": "R",
-     "inc": true
+     "name": "Rachel Anderson",
+     "party": "D",
+     "pct": 38.4
     },
     {
-     "name": "Rachel Anderson",
-     "party": "D"
+     "name": "Shelley Moore Capito",
+     "party": "R",
+     "pct": 57.8,
+     "inc": true
     }
    ],
    "chamber": "senate",
