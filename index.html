@@ -198,6 +198,7 @@ footer a{color:var(--muted)}
         <button data-f="all" aria-pressed="true">All</button>
         <button data-f="senate" aria-pressed="false">Senate</button>
         <button data-f="house" aria-pressed="false">House</button>
+        <button data-f="governor" aria-pressed="false">Governor</button>
         <button data-f="close" aria-pressed="false">Toss-ups</button>
         <button data-f="called" aria-pressed="false">Called</button>
       </div>
@@ -277,6 +278,7 @@ function matches(x){
   if(stateSel && x.state!==stateSel) return false;
   if(filter==="senate"&&x.chamber!=="senate") return false;
   if(filter==="house"&&x.chamber!=="house") return false;
+  if(filter==="governor"&&x.chamber!=="governor") return false;
   if(filter==="close"&&!CLOSE.has(x.rating)) return false;
   if(filter==="called"&&!x.winner) return false;
   if(!query) return true;
@@ -294,22 +296,23 @@ function mainCands(list){
   return byPct(out);
 }
 function card(x){
-  const isH=x.chamber==="house", title=isH?`${STATES[x.state]?.[0]||x.state} · ${x.district?"District "+x.district:"At-large"}`:`${STATES[x.state]?.[0]||x.state}${x.special?" (special)":""}`;
+  const isH=x.chamber==="house", title=isH?`${STATES[x.state]?.[0]||x.state} · ${x.district?"District "+x.district:"At-large"}`:x.chamber==="governor"?`${STATES[x.state]?.[0]||x.state} · Governor`:`${STATES[x.state]?.[0]||x.state}${x.special?" (special)":""}`;
   const cands=mainCands(x.cands||[]).map(c=>`<li class="${x.winner&&c.party===x.winner?"win":""}"><span class="tag ${esc(c.party)}">${esc(c.party)}</span><span>${esc(c.name)}${c.inc?" <span class='eyebrow'>(inc.)</span>":""}</span><span class="pct ${esc(c.party)}">${c.pct!=null?c.pct.toFixed(1)+"%":"–"}</span></li>`).join("")
     || `<li><span class="tag ${esc(x.incParty)}">${esc(x.incParty)}</span><span>${esc(x.incumbent||"Seat held")}</span><span class="pct">nominees pending</span></li>`;
   const status=x.winner?`<span class="badge call">Called ${x.winner}${x.flip?" · flip":""}</span>`:`<span class="badge">${esc(x.status||"Too early")}</span>`;
   return `<article class="race ${x.winner?"w"+x.winner:""} ${x.featured?"feat":""}">
-    <div class="r-top"><h3>${esc(title)}</h3><span class="eyebrow">${x.featured?"<b class='pin'>★ Watching</b> · ":""}${isH?"House":"Senate"}${x.open?" · open":""}</span></div>
+    <div class="r-top"><h3>${esc(title)}</h3><span class="eyebrow">${x.featured?"<b class='pin'>★ Watching</b> · ":""}${isH?"House":x.chamber==="governor"?"Governor":"Senate"}${x.open?" · open":""}</span></div>
     <ul class="cands">${cands}</ul>
     <div class="r-foot">${x.rating?`<span class="badge ${x.rating}">${RATING[x.rating]||esc(x.rating)}</span>`:""}${status}<span>Held by ${esc(x.incParty)}</span>${x.reporting!=null?`<span>${x.reporting}% in</span>`:""}</div>
   </article>`;
 }
+const CH={senate:0,governor:1,house:2};
 const order={tossup:0,leanD:1,leanR:1,likelyD:2,likelyR:2,solidD:3,solidR:3};
 function renderList(){
-  const list=races.filter(matches).sort((a,b)=>((b.featured?1:0)-(a.featured?1:0))||(a.chamber===b.chamber?0:a.chamber==="senate"?-1:1)||((order[a.rating]??4)-(order[b.rating]??4))||a.state.localeCompare(b.state)||(a.district||0)-(b.district||0));
+  const list=races.filter(matches).sort((a,b)=>((b.featured?1:0)-(a.featured?1:0))||((CH[a.chamber]??3)-(CH[b.chamber]??3))||((order[a.rating]??4)-(order[b.rating]??4))||a.state.localeCompare(b.state)||(a.district||0)-(b.district||0));
   $("countLbl").textContent=`${list.length} of ${races.length} tracked races`;
   if(stateSel){const [n,seats]=STATES[stateSel];const sen=races.filter(x=>x.state===stateSel&&x.chamber==="senate").length;
-    $("statebar").hidden=false;$("statebar").innerHTML=`<h3>${n}</h3><span>${seats} House seat${seats>1?"s":""}</span><span>${sen?sen+" Senate race"+(sen>1?"s":""):"No Senate race this year"}</span><span>${races.filter(x=>x.state===stateSel&&x.chamber==="house").length} House race(s) tracked here</span>`;}
+    $("statebar").hidden=false;$("statebar").innerHTML=`<h3>${n}</h3><span>${seats} House seat${seats>1?"s":""}</span><span>${sen?sen+" Senate race"+(sen>1?"s":""):"No Senate race this year"}</span><span>${races.filter(x=>x.state===stateSel&&x.chamber==="house").length} House race(s) tracked here</span>${races.some(x=>x.state===stateSel&&x.chamber==="governor")?"<span>Governor's race</span>":""}`;}
   else $("statebar").hidden=true;
   $("grid").innerHTML=list.length?list.map(card).join(""):`<div class="empty">${races.length?"No races match. Try another state or clear the filters.":"Race data appears here once the feed connects."}</div>`;
 }
