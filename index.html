@@ -327,7 +327,7 @@ function card(x){
   return `<article class="race ${x.winner?"w"+x.winner:""} ${x.featured?"feat":""}">
     <div class="r-top"><h3>${esc(title)}</h3><span class="eyebrow">${x.featured?"<b class='pin'>★ Watching</b> · ":""}${isH?"House":x.chamber==="governor"?"Governor":"Senate"}${x.open?" · open":""}</span></div>
     <ul class="cands">${cands}</ul>
-    <div class="r-foot">${x.rating?`<span class="badge ${x.rating}">${RATING[x.rating]||esc(x.rating)}</span>`:""}${status}<span>Held by ${esc(x.incParty)}</span>${x.reporting!=null?`<span>${x.reporting}% in</span>`:""}</div>
+    <div class="r-foot">${x.rating?`<span class="badge ${x.rating}">${RATING[x.rating]||esc(x.rating)}</span>`:""}${status}<span>${x.incParty?"Held by "+esc(x.incParty):"Open seat"}</span>${x.reporting!=null?`<span>${x.reporting}% in</span>`:""}</div>
   </article>`;
 }
 const CH={senate:0,governor:1,house:2};
