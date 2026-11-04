@@ -5,7 +5,7 @@
    "baseR": 219,
    "vacant": 2,
    "wonD": 242,
-   "wonR": 150,
+   "wonR": 151,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T22:11:54Z"
+  "updatedAt": "2026-11-04T23:11:23Z"
  },
  "races": [
   {
@@ -2406,7 +2406,7 @@
    ],
    "status": "Too close to call",
    "addedReason": "all races",
-   "reporting": 98
+   "reporting": 99
   },
   {
    "id": "G-MA",
@@ -3358,14 +3358,14 @@
     {
      "name": "Juan Ciscomani",
      "party": "R",
-     "pct": 45,
+     "pct": 45.1,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 6,
-   "reporting": 80
+   "reporting": 81
   },
   {
    "id": "H-AZ-07",
@@ -4870,19 +4870,19 @@
     {
      "name": "Jessica Killin",
      "party": "D",
-     "pct": 51.6
+     "pct": 50.9
     },
     {
      "name": "Jeff Crank",
      "party": "R",
-     "pct": 45.3,
+     "pct": 45.8,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 72
+   "reporting": 80
   },
   {
    "id": "H-CO-06",
@@ -8719,7 +8719,7 @@
     {
      "name": "Sam Forstag",
      "party": "D",
-     "pct": 49.9
+     "pct": 50
     },
     {
      "name": "Aaron Flint",
@@ -8730,7 +8730,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 90
+   "reporting": 96
   },
   {
    "id": "H-MT-02",
@@ -10138,7 +10138,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 21,
-   "reporting": 95
+   "reporting": 96
   },
   {
    "id": "H-NY-23",
@@ -12220,10 +12220,12 @@
      "pct": 48.8
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 27,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TX-28",
@@ -12554,19 +12556,19 @@
     {
      "name": "Blake Moore",
      "party": "R",
-     "pct": 49.8,
+     "pct": 50,
      "inc": true
     },
     {
      "name": "Peter Crosby",
      "party": "D",
-     "pct": 43.2
+     "pct": 42.8
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 68
+   "reporting": 70
   },
   {
    "id": "H-UT-03",
@@ -12964,7 +12966,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 57
+   "reporting": 58
   },
   {
    "id": "H-WA-06",
