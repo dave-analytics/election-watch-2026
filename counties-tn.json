@@ -1,19 +1,19 @@
 {
- "updatedAt": "2026-11-04T04:40:31Z",
+ "updatedAt": "2026-11-04T05:01:58Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
-   "reporting": 89.2,
+   "reporting": 92.5,
    "callStatus": "Too early to call",
    "statewide": {
     "D": {
      "name": "Jerri Green",
-     "votes": 871179,
+     "votes": 877730,
      "pct": 43.4
     },
     "R": {
      "name": "Marsha Blackburn",
-     "votes": 908394,
+     "votes": 914958,
      "pct": 45.2
     }
    },
@@ -133,7 +133,7 @@
     {
      "fips": "47015",
      "name": "Cannon",
-     "reporting": 95.1,
+     "reporting": 99,
      "totalVote": 4343,
      "D": {
       "name": "Jerri Green",
@@ -181,7 +181,7 @@
     {
      "fips": "47021",
      "name": "Cheatham",
-     "reporting": 87.6,
+     "reporting": 95,
      "totalVote": 14074,
      "D": {
       "name": "Jerri Green",
@@ -213,7 +213,7 @@
     {
      "fips": "47025",
      "name": "Claiborne",
-     "reporting": 89.2,
+     "reporting": 95,
      "totalVote": 8989,
      "D": {
       "name": "Jerri Green",
@@ -309,7 +309,7 @@
     {
      "fips": "47037",
      "name": "Davidson",
-     "reporting": 84.1,
+     "reporting": 99,
      "totalVote": 224389,
      "D": {
       "name": "Jerri Green",
@@ -437,7 +437,7 @@
     {
      "fips": "47053",
      "name": "Gibson",
-     "reporting": 96.4,
+     "reporting": 99,
      "totalVote": 13201,
      "D": {
       "name": "Jerri Green",
@@ -517,7 +517,7 @@
     {
      "fips": "47063",
      "name": "Hamblen",
-     "reporting": 87.3,
+     "reporting": 99,
      "totalVote": 15212,
      "D": {
       "name": "Jerri Green",
@@ -805,7 +805,7 @@
     {
      "fips": "47099",
      "name": "Lawrence",
-     "reporting": 86.2,
+     "reporting": 95,
      "totalVote": 12296,
      "D": {
       "name": "Jerri Green",
@@ -821,7 +821,7 @@
     {
      "fips": "47101",
      "name": "Lewis",
-     "reporting": 95.5,
+     "reporting": 99,
      "totalVote": 3783,
      "D": {
       "name": "Jerri Green",
@@ -885,7 +885,7 @@
     {
      "fips": "47113",
      "name": "Madison",
-     "reporting": 94.2,
+     "reporting": 95,
      "totalVote": 27337,
      "D": {
       "name": "Jerri Green",
@@ -1013,7 +1013,7 @@
     {
      "fips": "47125",
      "name": "Montgomery",
-     "reporting": 93.2,
+     "reporting": 99,
      "totalVote": 57144,
      "D": {
       "name": "Jerri Green",
@@ -1157,17 +1157,17 @@
     {
      "fips": "47143",
      "name": "Rhea",
-     "reporting": 0,
-     "totalVote": 0,
+     "reporting": 95,
+     "totalVote": 8554,
      "D": {
       "name": "Jerri Green",
-      "votes": 0,
-      "pct": 0
+      "votes": 2060,
+      "pct": 24.1
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 0,
-      "pct": 0
+      "votes": 5371,
+      "pct": 62.8
      }
     },
     {
@@ -1269,17 +1269,17 @@
     {
      "fips": "47157",
      "name": "Shelby",
-     "reporting": 81.4,
-     "totalVote": 243218,
+     "reporting": 83.4,
+     "totalVote": 249407,
      "D": {
       "name": "Jerri Green",
-      "votes": 157271,
-      "pct": 64.7
+      "votes": 161762,
+      "pct": 64.9
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 64143,
-      "pct": 26.4
+      "votes": 65336,
+      "pct": 26.2
      }
     },
     {
@@ -1477,7 +1477,7 @@
     {
      "fips": "47183",
      "name": "Weakley",
-     "reporting": 92.3,
+     "reporting": 95,
      "totalVote": 8772,
      "D": {
       "name": "Jerri Green",
@@ -1509,7 +1509,7 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 90.4,
+     "reporting": 95,
      "totalVote": 104114,
      "D": {
       "name": "Jerri Green",
@@ -1541,18 +1541,18 @@
    ]
   },
   "S-TN": {
-   "reporting": 88.8,
+   "reporting": 92.5,
    "callStatus": "Projected winner",
    "statewide": {
     "D": {
      "name": "Marquita Bradshaw",
-     "votes": 860111,
-     "pct": 43.3
+     "votes": 865123,
+     "pct": 43.2
     },
     "R": {
      "name": "Bill Hagerty",
-     "votes": 1088388,
-     "pct": 54.7
+     "votes": 1096192,
+     "pct": 54.8
     }
    },
    "counties": [
@@ -1655,7 +1655,7 @@
     {
      "fips": "47013",
      "name": "Campbell",
-     "reporting": 97,
+     "reporting": 99,
      "totalVote": 8369,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1671,7 +1671,7 @@
     {
      "fips": "47015",
      "name": "Cannon",
-     "reporting": 91.9,
+     "reporting": 99,
      "totalVote": 4198,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1703,7 +1703,7 @@
     {
      "fips": "47019",
      "name": "Carter",
-     "reporting": 94.3,
+     "reporting": 99,
      "totalVote": 14988,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1719,7 +1719,7 @@
     {
      "fips": "47021",
      "name": "Cheatham",
-     "reporting": 86.8,
+     "reporting": 95,
      "totalVote": 13949,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1751,7 +1751,7 @@
     {
      "fips": "47025",
      "name": "Claiborne",
-     "reporting": 87.1,
+     "reporting": 95,
      "totalVote": 8777,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1831,7 +1831,7 @@
     {
      "fips": "47035",
      "name": "Cumberland",
-     "reporting": 97.2,
+     "reporting": 99,
      "totalVote": 23639,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1847,7 +1847,7 @@
     {
      "fips": "47037",
      "name": "Davidson",
-     "reporting": 82.9,
+     "reporting": 99,
      "totalVote": 221227,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1911,7 +1911,7 @@
     {
      "fips": "47045",
      "name": "Dyer",
-     "reporting": 96.8,
+     "reporting": 99,
      "totalVote": 8601,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1959,7 +1959,7 @@
     {
      "fips": "47051",
      "name": "Franklin",
-     "reporting": 94.4,
+     "reporting": 95,
      "totalVote": 12317,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1975,7 +1975,7 @@
     {
      "fips": "47053",
      "name": "Gibson",
-     "reporting": 92.5,
+     "reporting": 99,
      "totalVote": 12657,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1991,7 +1991,7 @@
     {
      "fips": "47055",
      "name": "Giles",
-     "reporting": 96.8,
+     "reporting": 99,
      "totalVote": 8401,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2055,7 +2055,7 @@
     {
      "fips": "47063",
      "name": "Hamblen",
-     "reporting": 88,
+     "reporting": 99,
      "totalVote": 15330,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2263,7 +2263,7 @@
     {
      "fips": "47089",
      "name": "Jefferson",
-     "reporting": 93.9,
+     "reporting": 95,
      "totalVote": 15497,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2343,7 +2343,7 @@
     {
      "fips": "47099",
      "name": "Lawrence",
-     "reporting": 82.8,
+     "reporting": 95,
      "totalVote": 11808,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2359,7 +2359,7 @@
     {
      "fips": "47101",
      "name": "Lewis",
-     "reporting": 94.9,
+     "reporting": 99,
      "totalVote": 3757,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2375,7 +2375,7 @@
     {
      "fips": "47103",
      "name": "Lincoln",
-     "reporting": 94,
+     "reporting": 95,
      "totalVote": 9949,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2423,7 +2423,7 @@
     {
      "fips": "47113",
      "name": "Madison",
-     "reporting": 93.7,
+     "reporting": 95,
      "totalVote": 27195,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2455,7 +2455,7 @@
     {
      "fips": "47117",
      "name": "Marshall",
-     "reporting": 94.2,
+     "reporting": 95,
      "totalVote": 10098,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2471,7 +2471,7 @@
     {
      "fips": "47119",
      "name": "Maury",
-     "reporting": 92.7,
+     "reporting": 95,
      "totalVote": 35725,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2551,7 +2551,7 @@
     {
      "fips": "47125",
      "name": "Montgomery",
-     "reporting": 91.3,
+     "reporting": 99,
      "totalVote": 55954,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2631,7 +2631,7 @@
     {
      "fips": "47135",
      "name": "Perry",
-     "reporting": 94.8,
+     "reporting": 99,
      "totalVote": 2137,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2695,17 +2695,17 @@
     {
      "fips": "47143",
      "name": "Rhea",
-     "reporting": 0,
-     "totalVote": 0,
+     "reporting": 95,
+     "totalVote": 8517,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 0,
-      "pct": 0
+      "votes": 1922,
+      "pct": 22.6
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 0,
-      "pct": 0
+      "votes": 6412,
+      "pct": 75.3
      }
     },
     {
@@ -2744,7 +2744,7 @@
      "fips": "47149",
      "name": "Rutherford",
      "reporting": 99,
-     "totalVote": 100324,
+     "totalVote": 100344,
      "D": {
       "name": "Marquita Bradshaw",
       "votes": 49225,
@@ -2752,7 +2752,7 @@
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 48977,
+      "votes": 48997,
       "pct": 48.8
      }
     },
@@ -2807,16 +2807,16 @@
     {
      "fips": "47157",
      "name": "Shelby",
-     "reporting": 81.6,
-     "totalVote": 243878,
+     "reporting": 83.1,
+     "totalVote": 248486,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 164533,
+      "votes": 167623,
       "pct": 67.5
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 73900,
+      "votes": 75272,
       "pct": 30.3
      }
     },
@@ -3015,7 +3015,7 @@
     {
      "fips": "47183",
      "name": "Weakley",
-     "reporting": 92,
+     "reporting": 95,
      "totalVote": 8743,
      "D": {
       "name": "Marquita Bradshaw",
@@ -3047,7 +3047,7 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 90,
+     "reporting": 95,
      "totalVote": 103659,
      "D": {
       "name": "Marquita Bradshaw",

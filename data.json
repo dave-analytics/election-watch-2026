@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T04:40:56Z"
+  "updatedAt": "2026-11-04T05:02:15Z"
  },
  "races": [
   {
@@ -24,12 +24,12 @@
     {
      "name": "Randy Villegas",
      "party": "D",
-     "pct": 60.6
+     "pct": 64.9
     },
     {
      "name": "David Valadao",
      "party": "R",
-     "pct": 39.4,
+     "pct": 35.1,
      "inc": true
     }
    ],
@@ -41,7 +41,7 @@
    "state": "CA",
    "status": "Counting",
    "id": "H-CA-22",
-   "reporting": 16
+   "reporting": 43
   },
   {
    "cands": [
@@ -65,7 +65,7 @@
    "state": "IA",
    "status": "Counting",
    "id": "H-IA-01",
-   "reporting": 84
+   "reporting": 89
   },
   {
    "cands": [
@@ -96,15 +96,15 @@
   {
    "cands": [
     {
-     "name": "Sean McCann",
-     "party": "D",
-     "pct": 49.3
-    },
-    {
      "name": "Bill Huizenga",
      "party": "R",
-     "pct": 48.8,
+     "pct": 53,
      "inc": true
+    },
+    {
+     "name": "Sean McCann",
+     "party": "D",
+     "pct": 45.5
     }
    ],
    "chamber": "house",
@@ -115,20 +115,20 @@
    "state": "MI",
    "status": "Counting",
    "id": "H-MI-04",
-   "reporting": 12
+   "reporting": 23
   },
   {
    "cands": [
     {
      "name": "Tom Barrett",
      "party": "R",
-     "pct": 56.6,
+     "pct": 55.6,
      "inc": true
     },
     {
      "name": "William Lawrence",
      "party": "D",
-     "pct": 42.2
+     "pct": 43.2
     }
    ],
    "chamber": "house",
@@ -139,19 +139,19 @@
    "state": "MI",
    "status": "Counting",
    "id": "H-MI-07",
-   "reporting": 55
+   "reporting": 61
   },
   {
    "cands": [
     {
      "name": "Brian Poindexter",
      "party": "D",
-     "pct": 53.6
+     "pct": 53.8
     },
     {
      "name": "Max Miller",
      "party": "R",
-     "pct": 46.4,
+     "pct": 46.2,
      "inc": true
     }
    ],
@@ -163,19 +163,19 @@
    "state": "OH",
    "status": "Counting",
    "id": "H-OH-07",
-   "reporting": 70
+   "reporting": 74
   },
   {
    "cands": [
     {
      "name": "Bob Harvie",
      "party": "D",
-     "pct": 53.5
+     "pct": 52.8
     },
     {
      "name": "Brian Fitzpatrick",
      "party": "R",
-     "pct": 46.5,
+     "pct": 47.2,
      "inc": true
     }
    ],
@@ -187,7 +187,7 @@
    "state": "PA",
    "status": "Counting",
    "id": "H-PA-01",
-   "reporting": 73
+   "reporting": 86
   },
   {
    "cands": [
@@ -493,13 +493,13 @@
     {
      "name": "Jim Risch",
      "party": "R",
-     "pct": 47.8,
+     "pct": 49.3,
      "inc": true
     },
     {
      "name": "Todd Achilles",
      "party": "I",
-     "pct": 43
+     "pct": 41.5
     }
    ],
    "chamber": "senate",
@@ -509,7 +509,7 @@
    "state": "ID",
    "status": "Counting",
    "id": "S-ID",
-   "reporting": 30
+   "reporting": 39
   },
   {
    "cands": [
@@ -589,12 +589,12 @@
     {
      "name": "Julia Letlow",
      "party": "R",
-     "pct": 53.3
+     "pct": 53.2
     },
     {
      "name": "Jamie Davis",
      "party": "D",
-     "pct": 46.7
+     "pct": 46.8
     }
    ],
    "chamber": "senate",
@@ -604,7 +604,7 @@
    "state": "LA",
    "status": "Counting",
    "id": "S-LA",
-   "reporting": 81
+   "reporting": 84
   },
   {
    "cands": [
@@ -635,12 +635,12 @@
     {
      "name": "Troy Jackson",
      "party": "D",
-     "pct": 50.6
+     "pct": 51.8
     },
     {
      "name": "Susan Collins",
      "party": "R",
-     "pct": 49.3,
+     "pct": 48.2,
      "inc": true
     }
    ],
@@ -651,19 +651,19 @@
    "state": "ME",
    "status": "Counting",
    "id": "S-ME",
-   "reporting": 49
+   "reporting": 59
   },
   {
    "cands": [
     {
      "name": "Abdul El-Sayed",
      "party": "D",
-     "pct": 50.4
+     "pct": 49.5
     },
     {
      "name": "Mike Rogers",
      "party": "R",
-     "pct": 47.7
+     "pct": 48.5
     }
    ],
    "chamber": "senate",
@@ -674,19 +674,19 @@
    "state": "MI",
    "status": "Counting",
    "id": "S-MI",
-   "reporting": 36
+   "reporting": 44
   },
   {
    "cands": [
     {
-     "name": "Michele Tafoya",
-     "party": "R",
-     "pct": 51.7
-    },
-    {
      "name": "Peggy Flanagan",
      "party": "D",
-     "pct": 45.4
+     "pct": 53.9
+    },
+    {
+     "name": "Michele Tafoya",
+     "party": "R",
+     "pct": 43.4
     }
    ],
    "chamber": "senate",
@@ -696,20 +696,20 @@
    "state": "MN",
    "status": "Counting",
    "id": "S-MN",
-   "reporting": 41
+   "reporting": 68
   },
   {
    "cands": [
     {
      "name": "Cindy Hyde-Smith",
      "party": "R",
-     "pct": 50.1,
+     "pct": 49.7,
      "inc": true
     },
     {
      "name": "Scott Colom",
      "party": "D",
-     "pct": 47.8
+     "pct": 48.1
     }
    ],
    "chamber": "senate",
@@ -719,19 +719,19 @@
    "state": "MS",
    "status": "Counting",
    "id": "S-MS",
-   "reporting": 89
+   "reporting": 91
   },
   {
    "cands": [
     {
      "name": "Kurt Alme",
      "party": "R",
-     "pct": 48.5
+     "pct": 50.5
     },
     {
      "name": "Seth Bodnar",
      "party": "I",
-     "pct": 37.7
+     "pct": 36.1
     }
    ],
    "chamber": "senate",
@@ -741,7 +741,7 @@
    "state": "MT",
    "status": "Counting",
    "id": "S-MT",
-   "reporting": 28
+   "reporting": 36
   },
   {
    "cands": [
@@ -773,13 +773,13 @@
     {
      "name": "Pete Ricketts",
      "party": "R",
-     "pct": 45.8,
+     "pct": 46.7,
      "inc": true
     },
     {
      "name": "Dan Osborn",
      "party": "I",
-     "pct": 48.6
+     "pct": 47.6
     }
    ],
    "chamber": "senate",
@@ -789,7 +789,7 @@
    "state": "NE",
    "status": "Counting",
    "id": "S-NE",
-   "reporting": 49
+   "reporting": 55
   },
   {
    "cands": [
@@ -992,13 +992,13 @@
     {
      "name": "Mike Rounds",
      "party": "R",
-     "pct": 61.3,
+     "pct": 61.6,
      "inc": true
     },
     {
      "name": "Brian Bengs",
      "party": "I",
-     "pct": 38.7
+     "pct": 38.4
     }
    ],
    "chamber": "senate",
@@ -1006,9 +1006,11 @@
    "incumbent": "Mike Rounds",
    "rating": "solidR",
    "state": "SD",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-SD",
-   "reporting": 50
+   "reporting": 58,
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
@@ -1146,18 +1148,20 @@
     {
      "name": "George Whitesides",
      "party": "D",
-     "pct": 62.9,
+     "pct": 63,
      "inc": true
     },
     {
      "name": "Jason Gibbs",
      "party": "R",
-     "pct": 37.1
+     "pct": 37
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "note": "June 2 top-two primary: Gibbs 41.0%, Whitesides 40.6% (CA SOS, certified).",
-   "reporting": 55
+   "reporting": 55,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-NC-11",
@@ -1289,7 +1293,7 @@
    ],
    "status": "Counting",
    "addedReason": "requested",
-   "reporting": 90
+   "reporting": 99
   },
   {
    "id": "H-TN-05",
@@ -1303,17 +1307,17 @@
     {
      "name": "Charlie Hatcher",
      "party": "R",
-     "pct": 52
+     "pct": 51.7
     },
     {
      "name": "Chaz Molder",
      "party": "D",
-     "pct": 46.4
+     "pct": 46.7
     }
    ],
    "status": "Counting",
    "addedReason": "requested",
-   "reporting": 85
+   "reporting": 90
   },
   {
    "id": "H-TN-06",
@@ -1335,9 +1339,11 @@
      "pct": 47.5
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "requested",
-   "reporting": 89
+   "reporting": 98,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TN-07",
@@ -1362,7 +1368,7 @@
    ],
    "status": "Counting",
    "addedReason": "requested",
-   "reporting": 88
+   "reporting": 94
   },
   {
    "id": "H-TN-08",
@@ -1376,18 +1382,18 @@
     {
      "name": "David Kustoff",
      "party": "R",
-     "pct": 51.7,
+     "pct": 51.6,
      "inc": true
     },
     {
      "name": "Heidi Kuhn",
      "party": "D",
-     "pct": 46.3
+     "pct": 46.4
     }
    ],
    "status": "Counting",
    "addedReason": "requested",
-   "reporting": 91
+   "reporting": 93
   },
   {
    "id": "H-TN-09",
@@ -1401,17 +1407,17 @@
     {
      "name": "Brent Taylor",
      "party": "R",
-     "pct": 49.7
+     "pct": 49.6
     },
     {
      "name": "Justin Pearson",
      "party": "D",
-     "pct": 48.4
+     "pct": 48.5
     }
    ],
    "status": "Counting",
    "addedReason": "requested",
-   "reporting": 89
+   "reporting": 93
   },
   {
    "id": "G-TN",
@@ -1432,7 +1438,7 @@
      "pct": 43.4
     }
    ],
-   "reporting": 89,
+   "reporting": 92,
    "status": "Counting",
    "addedReason": "requested"
   },
@@ -1581,18 +1587,18 @@
     {
      "name": "Rebecca Cooke",
      "party": "D",
-     "pct": 52.6
+     "pct": 52.4
     },
     {
      "name": "Derrick Van Orden",
      "party": "R",
-     "pct": 45.6,
+     "pct": 45.8,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 77
+   "reporting": 79
   },
   {
    "id": "H-NY-17",
@@ -1840,19 +1846,19 @@
    "open": true,
    "cands": [
     {
-     "name": "Michael Bouchard",
-     "party": "R",
-     "pct": 48.9
-    },
-    {
      "name": "Christina Hines",
      "party": "D",
-     "pct": 48.4
+     "pct": 50.4
+    },
+    {
+     "name": "Michael Bouchard",
+     "party": "R",
+     "pct": 47.2
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 21
+   "reporting": 27
   },
   {
    "id": "H-WI-01",
@@ -1866,12 +1872,12 @@
     {
      "name": "Mitchell Berman",
      "party": "D",
-     "pct": 51.5
+     "pct": 52.2
     },
     {
      "name": "Bryan Steil",
      "party": "R",
-     "pct": 48.5,
+     "pct": 47.8,
      "inc": true
     }
    ],
@@ -1896,7 +1902,7 @@
     {
      "name": "Jeff Hurd",
      "party": "R",
-     "pct": 47.8,
+     "pct": 47.9,
      "inc": true
     }
    ],
@@ -1916,18 +1922,20 @@
     {
      "name": "Don Davis",
      "party": "D",
-     "pct": 49.5,
+     "pct": 49.6,
      "inc": true
     },
     {
      "name": "Laurie Buckhout",
      "party": "R",
-     "pct": 47.3
+     "pct": 47.2
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 95
+   "reporting": 96,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-IA-02",
@@ -1941,17 +1949,17 @@
     {
      "name": "Lindsay James",
      "party": "D",
-     "pct": 50.4
+     "pct": 50.1
     },
     {
      "name": "Joe Mitchell",
      "party": "R",
-     "pct": 45
+     "pct": 45.3
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 91
+   "reporting": 93
   },
   {
    "id": "H-ME-02",
@@ -1965,17 +1973,17 @@
     {
      "name": "Paul LePage",
      "party": "R",
-     "pct": 52.7
+     "pct": 52.2
     },
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 47.3
+     "pct": 47.8
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 51
+   "reporting": 60
   },
   {
    "id": "H-NM-02",
@@ -1989,18 +1997,18 @@
     {
      "name": "Gabriel Vasquez",
      "party": "D",
-     "pct": 54.5,
+     "pct": 54.7,
      "inc": true
     },
     {
      "name": "Gregory Cunningham",
      "party": "R",
-     "pct": 45.5
+     "pct": 45.3
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 55
+   "reporting": 57
   }
  ]
 }
