@@ -283,6 +283,7 @@ function renderTotals(){
   $("hNet").textContent=(h.netD!=null&&(hD+hR)>0)?`D ${sign(h.netD)}`:"–";
   arc($("houseArc"),435,hD,hR); setBar("h",hD,hR,435);
   $("hVerdict").innerHTML= hD>=218?"<b>Democrats have won control.</b>": hR>=218?"<b>Republicans have kept control.</b>"
+    : h.projected? `<b>Projected: ${h.projected==="D"?"Democrats win":"Republicans keep"} control</b> (${esc(h.projectedBy||"networks")}) · ${218-(h.projected==="D"?hD:hR)} more seats to be called for the majority.`
     : `Democrats need <b>${218-hD}</b> more · Republicans need <b>${218-hR}</b> more.`;
 
   if(meta.updatedAt){const d=new Date(meta.updatedAt);$("updated").textContent="Data as of "+d.toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZoneName:"short"});}

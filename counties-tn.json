@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-04T03:42:50Z",
+ "updatedAt": "2026-11-04T03:47:47Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
-   "reporting": 80.6,
+   "reporting": 80.9,
    "callStatus": "Too early to call",
    "statewide": {
     "D": {
      "name": "Jerri Green",
-     "votes": 797140,
-     "pct": 43.1
+     "votes": 799640,
+     "pct": 43
     },
     "R": {
      "name": "Marsha Blackburn",
-     "votes": 842117,
-     "pct": 45.5
+     "votes": 847410,
+     "pct": 45.6
     }
    },
    "counties": [
@@ -933,17 +933,17 @@
     {
      "fips": "47119",
      "name": "Maury",
-     "reporting": 71.7,
-     "totalVote": 27604,
+     "reporting": 95,
+     "totalVote": 36581,
      "D": {
       "name": "Jerri Green",
-      "votes": 9662,
-      "pct": 35
+      "votes": 12162,
+      "pct": 33.2
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 14490,
-      "pct": 52.5
+      "votes": 19783,
+      "pct": 54.1
      }
     },
     {
@@ -1541,18 +1541,18 @@
    ]
   },
   "S-TN": {
-   "reporting": 80.1,
+   "reporting": 81,
    "callStatus": "Projected winner",
    "statewide": {
     "D": {
      "name": "Marquita Bradshaw",
-     "votes": 787175,
-     "pct": 42.8
+     "votes": 792930,
+     "pct": 42.6
     },
     "R": {
      "name": "Bill Hagerty",
-     "votes": 1016569,
-     "pct": 55.3
+     "votes": 1030981,
+     "pct": 55.4
     }
    },
    "counties": [
@@ -2231,17 +2231,17 @@
     {
      "fips": "47085",
      "name": "Humphreys",
-     "reporting": 74.7,
-     "totalVote": 4189,
+     "reporting": 92.9,
+     "totalVote": 5212,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 1273,
-      "pct": 30.4
+      "votes": 1467,
+      "pct": 28.1
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 2820,
-      "pct": 67.3
+      "votes": 3625,
+      "pct": 69.6
      }
     },
     {
@@ -2471,17 +2471,17 @@
     {
      "fips": "47119",
      "name": "Maury",
-     "reporting": 69.8,
-     "totalVote": 26894,
+     "reporting": 92.7,
+     "totalVote": 35725,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 9640,
-      "pct": 35.8
+      "votes": 12059,
+      "pct": 33.8
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 16787,
-      "pct": 62.4
+      "votes": 23036,
+      "pct": 64.5
      }
     },
     {
@@ -3047,17 +3047,17 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 75.3,
-     "totalVote": 86803,
+     "reporting": 84.6,
+     "totalVote": 97499,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 33720,
-      "pct": 38.8
+      "votes": 36862,
+      "pct": 37.8
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 51884,
-      "pct": 59.8
+      "votes": 59242,
+      "pct": 60.8
      }
     },
     {
