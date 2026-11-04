@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T14:10:15Z"
+  "updatedAt": "2026-11-04T15:11:59Z"
  },
  "races": [
   {
@@ -3240,19 +3240,19 @@
     {
      "name": "Jonathan Nez",
      "party": "D",
-     "pct": 49.5
+     "pct": 49.2
     },
     {
      "name": "Eli Crane",
      "party": "R",
-     "pct": 48.8,
+     "pct": 49.1,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 78
+   "reporting": 80
   },
   {
    "id": "H-AZ-03",
@@ -5253,7 +5253,7 @@
     {
      "name": "Ryan Elijah",
      "party": "R",
-     "pct": 49.8
+     "pct": 49.7
     },
     {
      "name": "Bale Dalton",
@@ -9255,19 +9255,19 @@
     {
      "name": "Zack Mullock",
      "party": "D",
-     "pct": 51.1
+     "pct": 50.7
     },
     {
      "name": "Jeff Van Drew",
      "party": "R",
-     "pct": 47.9,
+     "pct": 48.3,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 89
+   "reporting": 95
   },
   {
    "id": "H-NJ-03",
@@ -11600,13 +11600,13 @@
     {
      "name": "Lance Gooden",
      "party": "R",
-     "pct": 51.6,
+     "pct": 51.5,
      "inc": true
     },
     {
      "name": "Chelsey Hockett",
      "party": "D",
-     "pct": 48.4
+     "pct": 48.5
     }
    ],
    "status": "Counting",
@@ -12324,7 +12324,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 32,
-   "reporting": 94
+   "reporting": 95
   },
   {
    "id": "H-TX-33",
