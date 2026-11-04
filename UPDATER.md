@@ -31,7 +31,7 @@ Keep the site stocked with live close races:
 
 - A **close race** is one rated `tossup`, `leanD` or `leanR`, or any race (Senate or House) where a desk's current returns show a margin under 5 points with counting still under way.
 - **Called races are final.** Any race that has a `winner` (status `"Called"`) is closed: never edit, re-check or remove it in later runs. Only races without a `winner` get updated.
-- **When a tracked race is called:** record the call once (`winner`, `status: "Called"`, `flip`, final `pct` if known).
+- **When a tracked race is called:** record the call once (`winner`, `status: "Called"`, `flip`) **together with the main D and R `pct` at the time of the call** — a called card must never be left without percentages.
 - **When any race not on the list is called** (Senate or House, close or not): add it once with its result (candidates, `incParty`, `rating` if known, `winner`, `status: "Called"`, `"addedReason": "called"`). It is then final like any other called race.
 - **Then, for each close race called this run, add one replacement:** the uncalled race with the smallest current margin (from NBC, CNN, AP or DDHQ live results) that is not already in `data.json`. Give it `status: "Counting"`, candidates with current `pct`, `reporting`, and `"addedReason": "next closest uncalled race"`. Never add a race whose candidates or margin you could not confirm from a source; skip to the next one instead.
 - Never remove races, and never add duplicates (check the `id` first: `S-<ST>` for Senate, `H-<ST>-<NN>` for House).
