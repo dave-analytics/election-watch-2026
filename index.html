@@ -387,11 +387,12 @@ async function loadCounties(){
 }
 async function load(){
   try{
-    const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
+    const ac=new AbortController(), to=setTimeout(()=>ac.abort(),10000);
+    const r=await fetch("data.json?t="+Date.now(),{cache:"no-store",signal:ac.signal}); clearTimeout(to);
     if(!r.ok) throw new Error(r.status);
     const j=await r.json(); meta=j.meta; races=j.races||[];
     setLive(true,"Live"); renderTotals(); renderChips(); renderList();
-  }catch(e){ setLive(false,"Feed unavailable"); }
+  }catch(e){ setLive(false,meta?"Reconnecting":"Retrying"); clearTimeout(window._retry); window._retry=setTimeout(load,5000); }
 }
 load(); loadCounties(); setInterval(()=>{load();loadCounties();},60000);
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")load();});
