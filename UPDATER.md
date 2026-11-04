@@ -21,6 +21,16 @@ The site (`index.html`) re-reads `data.json` every 60 seconds; nothing else need
    - Validate: `python3 -m json.tool data.json` must pass before committing.
 5. If anything changed: commit `Update results <UTC time>` and push. If nothing changed, update nothing and do not commit.
 
+## Rolling close-race list
+
+Keep the site stocked with live close races:
+
+- A **close race** is one rated `tossup`, `leanD` or `leanR`, or any race (Senate or House) where a desk's current returns show a margin under 5 points with counting still under way.
+- **When a close race is called:** if it is already in `data.json`, record the call. If it is not, add it (with candidates, `incParty`, `rating` if known, the winner, `status: "Called"`, and `"addedReason": "close race called"`).
+- **Then, for each close race called this run, add one replacement:** the uncalled race with the smallest current margin (from NBC, CNN, AP or DDHQ live results) that is not already in `data.json`. Give it `status: "Counting"`, candidates with current `pct`, `reporting`, and `"addedReason": "next closest uncalled race"`. Never add a race whose candidates or margin you could not confirm from a source; skip to the next one instead.
+- Never remove races, and never add duplicates (check the `id` first: `S-<ST>` for Senate, `H-<ST>-<NN>` for House).
+- Note each addition in `meta.note`.
+
 ## When to stop
 
 Once every Senate race is called and the House totals reach 435 (or the user says stop), report that and disable the scheduled task.
