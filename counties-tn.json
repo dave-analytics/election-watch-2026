@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T20:09:44Z",
+ "updatedAt": "2026-11-04T21:10:15Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
@@ -469,7 +469,7 @@
     {
      "fips": "47057",
      "name": "Grainger",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 6620,
      "D": {
       "name": "Jerri Green",
@@ -853,7 +853,7 @@
     {
      "fips": "47105",
      "name": "Loudon",
-     "reporting": 95,
+     "reporting": 96.1,
      "totalVote": 24065,
      "D": {
       "name": "Jerri Green",
@@ -901,7 +901,7 @@
     {
      "fips": "47115",
      "name": "Marion",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 8607,
      "D": {
       "name": "Jerri Green",
@@ -933,7 +933,7 @@
     {
      "fips": "47119",
      "name": "Maury",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 36581,
      "D": {
       "name": "Jerri Green",
@@ -1285,7 +1285,7 @@
     {
      "fips": "47159",
      "name": "Smith",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 5771,
      "D": {
       "name": "Jerri Green",
@@ -1301,7 +1301,7 @@
     {
      "fips": "47161",
      "name": "Stewart",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4459,
      "D": {
       "name": "Jerri Green",
@@ -2007,7 +2007,7 @@
     {
      "fips": "47057",
      "name": "Grainger",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 6525,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2391,7 +2391,7 @@
     {
      "fips": "47105",
      "name": "Loudon",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 23843,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2439,7 +2439,7 @@
     {
      "fips": "47115",
      "name": "Marion",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 8465,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2471,7 +2471,7 @@
     {
      "fips": "47119",
      "name": "Maury",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 35725,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2823,7 +2823,7 @@
     {
      "fips": "47159",
      "name": "Smith",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 5603,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2839,7 +2839,7 @@
     {
      "fips": "47161",
      "name": "Stewart",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4374,
      "D": {
       "name": "Marquita Bradshaw",

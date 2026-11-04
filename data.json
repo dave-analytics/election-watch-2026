@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T20:11:09Z"
+  "updatedAt": "2026-11-04T21:12:00Z"
  },
  "races": [
   {
@@ -1659,7 +1659,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 98
+   "reporting": 84
   },
   {
    "id": "H-AZ-01",
@@ -1939,7 +1939,7 @@
     {
      "name": "Jeff Hurd",
      "party": "R",
-     "pct": 48.6,
+     "pct": 48.7,
      "inc": true
     },
     {
@@ -1950,7 +1950,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 80
+   "reporting": 81
   },
   {
    "id": "H-NC-01",
@@ -2017,17 +2017,17 @@
     {
      "name": "Paul LePage",
      "party": "R",
-     "pct": 50.1
+     "pct": 50.3
     },
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 49.8
+     "pct": 49.7
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 90
+   "reporting": 91
   },
   {
    "id": "H-NM-02",
