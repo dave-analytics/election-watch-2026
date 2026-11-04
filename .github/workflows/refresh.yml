@@ -1,8 +1,7 @@
 name: Refresh results from NBC
 
 on:
-  schedule:
-    - cron: "7,22,37,52 * * * *"
+  # Automatic schedule turned off at the user's request; run manually from the Actions tab if needed.
   workflow_dispatch:
 
 permissions:

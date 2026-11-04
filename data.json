@@ -4,19 +4,19 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 138,
-   "wonR": 78,
+   "wonD": 231,
+   "wonR": 144,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
-  "note": "Update 2026-11-04T04:03:47Z: every tracked Senate, House and governor race comes from its NBC News race page (calls = NBC projections). New this run: TX (Talarico, D flip), OR (Merkley), VA-1 (D flip), PA-8 (D flip), NJ-9, NY-19, NY-22, OH-13, VA-7 called; MI-10, WI-1, CO-3 added as next closest. House: CBS and NBC project a Democratic majority; NBC tally 138 D, 78 R (latest found). Later: OH, IA, KS Senate (D flips — Democrats reach 51), TX governor (Hinojosa), WA-3 called by NBC; NC-1, IA-2, ME-2, NM-2 added as next closest. Earlier calls: NC, GA, VA (AP); IL (ABC); FL (CBS). Baseline: NBC News. Ratings: Cook (Oct 2026).",
+  "note": "Update 2026-11-04T11:10:40Z: every tracked Senate, House and governor race comes from its NBC News race page (calls = NBC projections). Overnight: ME, MI, MN Senate (D); ID, LA, MT, NE, SD Senate (R); TN governor (Blackburn); IA-1, OH-7, PA-1, WI-1, WI-3, IA-2, NM-2 (D); TN-5, TN-6, TN-7, TN-8 (R). House tally: NBC 231 D, 144 R, 60 uncalled — Democrats have won the majority. Earlier calls: NC, GA, VA (AP); IL (ABC); FL (CBS). Baseline: NBC News. Ratings: Cook (Oct 2026).",
   "senate": {
    "baseD": 47,
    "baseR": 53,
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T05:02:15Z"
+  "updatedAt": "2026-11-04T11:10:40Z"
  },
  "races": [
   {
@@ -24,12 +24,12 @@
     {
      "name": "Randy Villegas",
      "party": "D",
-     "pct": 64.9
+     "pct": 66.4
     },
     {
      "name": "David Valadao",
      "party": "R",
-     "pct": 35.1,
+     "pct": 33.6,
      "inc": true
     }
    ],
@@ -41,19 +41,19 @@
    "state": "CA",
    "status": "Counting",
    "id": "H-CA-22",
-   "reporting": 43
+   "reporting": 57
   },
   {
    "cands": [
     {
      "name": "Christina Bohannan",
      "party": "D",
-     "pct": 53.5
+     "pct": 52.8
     },
     {
      "name": "Mariannette Miller-Meeks",
      "party": "R",
-     "pct": 42.8,
+     "pct": 43.6,
      "inc": true
     }
    ],
@@ -63,9 +63,11 @@
    "incumbent": "Mariannette Miller-Meeks",
    "rating": "leanD",
    "state": "IA",
-   "status": "Counting",
+   "status": "Called",
    "id": "H-IA-01",
-   "reporting": 89
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
@@ -96,15 +98,15 @@
   {
    "cands": [
     {
-     "name": "Bill Huizenga",
-     "party": "R",
-     "pct": 53,
-     "inc": true
-    },
-    {
      "name": "Sean McCann",
      "party": "D",
-     "pct": 45.5
+     "pct": 49.3
+    },
+    {
+     "name": "Bill Huizenga",
+     "party": "R",
+     "pct": 49.2,
+     "inc": true
     }
    ],
    "chamber": "house",
@@ -115,20 +117,20 @@
    "state": "MI",
    "status": "Counting",
    "id": "H-MI-04",
-   "reporting": 23
+   "reporting": 92
   },
   {
    "cands": [
     {
-     "name": "Tom Barrett",
-     "party": "R",
-     "pct": 55.6,
-     "inc": true
-    },
-    {
      "name": "William Lawrence",
      "party": "D",
-     "pct": 43.2
+     "pct": 51
+    },
+    {
+     "name": "Tom Barrett",
+     "party": "R",
+     "pct": 47.8,
+     "inc": true
     }
    ],
    "chamber": "house",
@@ -139,19 +141,19 @@
    "state": "MI",
    "status": "Counting",
    "id": "H-MI-07",
-   "reporting": 61
+   "reporting": 96
   },
   {
    "cands": [
     {
      "name": "Brian Poindexter",
      "party": "D",
-     "pct": 53.8
+     "pct": 54.9
     },
     {
      "name": "Max Miller",
      "party": "R",
-     "pct": 46.2,
+     "pct": 45.1,
      "inc": true
     }
    ],
@@ -161,21 +163,23 @@
    "incumbent": "Max Miller",
    "rating": "tossup",
    "state": "OH",
-   "status": "Counting",
+   "status": "Called",
    "id": "H-OH-07",
-   "reporting": 74
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
     {
      "name": "Bob Harvie",
      "party": "D",
-     "pct": 52.8
+     "pct": 52.7
     },
     {
      "name": "Brian Fitzpatrick",
      "party": "R",
-     "pct": 47.2,
+     "pct": 47.3,
      "inc": true
     }
    ],
@@ -185,9 +189,11 @@
    "incumbent": "Brian Fitzpatrick",
    "rating": "tossup",
    "state": "PA",
-   "status": "Counting",
+   "status": "Called",
    "id": "H-PA-01",
-   "reporting": 86
+   "reporting": 98,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
@@ -298,13 +304,13 @@
     {
      "name": "Dan S. Sullivan",
      "party": "R",
-     "pct": null,
+     "pct": 48.5,
      "inc": true
     },
     {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": null
+     "pct": 47.7
     }
    ],
    "chamber": "senate",
@@ -314,7 +320,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 0
+   "reporting": 72
   },
   {
    "cands": [
@@ -493,13 +499,13 @@
     {
      "name": "Jim Risch",
      "party": "R",
-     "pct": 49.3,
+     "pct": 56.5,
      "inc": true
     },
     {
      "name": "Todd Achilles",
      "party": "I",
-     "pct": 41.5
+     "pct": 33.7
     }
    ],
    "chamber": "senate",
@@ -507,9 +513,11 @@
    "incumbent": "Jim Risch",
    "rating": "solidR",
    "state": "ID",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-ID",
-   "reporting": 39
+   "reporting": 95,
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
@@ -589,12 +597,12 @@
     {
      "name": "Julia Letlow",
      "party": "R",
-     "pct": 53.2
+     "pct": 50.9
     },
     {
      "name": "Jamie Davis",
      "party": "D",
-     "pct": 46.8
+     "pct": 49.1
     }
    ],
    "chamber": "senate",
@@ -602,9 +610,11 @@
    "incumbent": "Bill Cassidy",
    "rating": "solidR",
    "state": "LA",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-LA",
-   "reporting": 84
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
@@ -635,12 +645,12 @@
     {
      "name": "Troy Jackson",
      "party": "D",
-     "pct": 51.8
+     "pct": 53.8
     },
     {
      "name": "Susan Collins",
      "party": "R",
-     "pct": 48.2,
+     "pct": 46.1,
      "inc": true
     }
    ],
@@ -649,21 +659,23 @@
    "incumbent": "Susan Collins",
    "rating": "tossup",
    "state": "ME",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-ME",
-   "reporting": 59
+   "reporting": 86,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
     {
      "name": "Abdul El-Sayed",
      "party": "D",
-     "pct": 49.5
+     "pct": 52.4
     },
     {
      "name": "Mike Rogers",
      "party": "R",
-     "pct": 48.5
+     "pct": 45.6
     }
    ],
    "chamber": "senate",
@@ -672,21 +684,23 @@
    "open": true,
    "rating": "tossup",
    "state": "MI",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-MI",
-   "reporting": 44
+   "reporting": 96,
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
     {
      "name": "Peggy Flanagan",
      "party": "D",
-     "pct": 53.9
+     "pct": 53.7
     },
     {
      "name": "Michele Tafoya",
      "party": "R",
-     "pct": 43.4
+     "pct": 43.6
     }
    ],
    "chamber": "senate",
@@ -694,22 +708,24 @@
    "incumbent": "Tina Smith",
    "open": true,
    "state": "MN",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-MN",
-   "reporting": 68
+   "reporting": 99,
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
     {
-     "name": "Cindy Hyde-Smith",
-     "party": "R",
-     "pct": 49.7,
-     "inc": true
-    },
-    {
      "name": "Scott Colom",
      "party": "D",
-     "pct": 48.1
+     "pct": 48.9
+    },
+    {
+     "name": "Cindy Hyde-Smith",
+     "party": "R",
+     "pct": 48.9,
+     "inc": true
     }
    ],
    "chamber": "senate",
@@ -719,19 +735,19 @@
    "state": "MS",
    "status": "Counting",
    "id": "S-MS",
-   "reporting": 91
+   "reporting": 96
   },
   {
    "cands": [
     {
      "name": "Kurt Alme",
      "party": "R",
-     "pct": 50.5
+     "pct": 48.2
     },
     {
      "name": "Seth Bodnar",
      "party": "I",
-     "pct": 36.1
+     "pct": 38.1
     }
    ],
    "chamber": "senate",
@@ -739,9 +755,11 @@
    "incumbent": "Steve Daines",
    "rating": "solidR",
    "state": "MT",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-MT",
-   "reporting": 36
+   "reporting": 83,
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
@@ -773,13 +791,13 @@
     {
      "name": "Pete Ricketts",
      "party": "R",
-     "pct": 46.7,
+     "pct": 50.3,
      "inc": true
     },
     {
      "name": "Dan Osborn",
      "party": "I",
-     "pct": 47.6
+     "pct": 43.7
     }
    ],
    "chamber": "senate",
@@ -787,9 +805,11 @@
    "incumbent": "Pete Ricketts",
    "rating": "likelyR",
    "state": "NE",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-NE",
-   "reporting": 55
+   "reporting": 91,
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
@@ -1315,9 +1335,11 @@
      "pct": 46.7
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "requested",
-   "reporting": 90
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TN-06",
@@ -1366,9 +1388,11 @@
      "pct": 48.1
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "requested",
-   "reporting": 94
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TN-08",
@@ -1391,9 +1415,11 @@
      "pct": 46.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "requested",
-   "reporting": 93
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TN-09",
@@ -1417,7 +1443,7 @@
    ],
    "status": "Counting",
    "addedReason": "requested",
-   "reporting": 93
+   "reporting": 99
   },
   {
    "id": "G-TN",
@@ -1430,17 +1456,19 @@
     {
      "name": "Marsha Blackburn",
      "party": "R",
-     "pct": 45.2
+     "pct": 45.5
     },
     {
      "name": "Jerri Green",
      "party": "D",
-     "pct": 43.4
+     "pct": 43
     }
    ],
-   "reporting": 92,
-   "status": "Counting",
-   "addedReason": "requested"
+   "reporting": 99,
+   "status": "Called",
+   "addedReason": "requested",
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "G-TX",
@@ -1596,9 +1624,11 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 79
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-NY-17",
@@ -1612,18 +1642,18 @@
     {
      "name": "Cait Conley",
      "party": "D",
-     "pct": 52.3
+     "pct": 52.2
     },
     {
      "name": "Mike Lawler",
      "party": "R",
-     "pct": 47.6,
+     "pct": 47.7,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 57
+   "reporting": 61
   },
   {
    "id": "H-AZ-01",
@@ -1637,12 +1667,12 @@
     {
      "name": "Amish Shah",
      "party": "D",
-     "pct": 54.9
+     "pct": 54.6
     },
     {
      "name": "Jay Feely",
      "party": "R",
-     "pct": 43.2
+     "pct": 43.5
     }
    ],
    "status": "Counting",
@@ -1661,18 +1691,18 @@
     {
      "name": "Laura Gillen",
      "party": "D",
-     "pct": 57.9,
+     "pct": 56.2,
      "inc": true
     },
     {
      "name": "Jeanine Driscoll",
      "party": "R",
-     "pct": 41.8
+     "pct": 43.4
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 48
+   "reporting": 85
   },
   {
    "id": "H-NJ-09",
@@ -1848,17 +1878,17 @@
     {
      "name": "Christina Hines",
      "party": "D",
-     "pct": 50.4
+     "pct": 51.9
     },
     {
      "name": "Michael Bouchard",
      "party": "R",
-     "pct": 47.2
+     "pct": 45.8
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 27
+   "reporting": 90
   },
   {
    "id": "H-WI-01",
@@ -1872,18 +1902,20 @@
     {
      "name": "Mitchell Berman",
      "party": "D",
-     "pct": 52.2
+     "pct": 52
     },
     {
      "name": "Bryan Steil",
      "party": "R",
-     "pct": 47.8,
+     "pct": 48,
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 93
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-CO-03",
@@ -1895,20 +1927,20 @@
    "open": false,
    "cands": [
     {
-     "name": "Dwayne Romero",
-     "party": "D",
-     "pct": 49.2
-    },
-    {
      "name": "Jeff Hurd",
      "party": "R",
-     "pct": 47.9,
+     "pct": 48.6,
      "inc": true
+    },
+    {
+     "name": "Dwayne Romero",
+     "party": "D",
+     "pct": 48.2
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 71
+   "reporting": 81
   },
   {
    "id": "H-NC-01",
@@ -1949,17 +1981,19 @@
     {
      "name": "Lindsay James",
      "party": "D",
-     "pct": 50.1
+     "pct": 49.5
     },
     {
      "name": "Joe Mitchell",
      "party": "R",
-     "pct": 45.3
+     "pct": 45.6
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 93
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-ME-02",
@@ -1971,19 +2005,19 @@
    "open": true,
    "cands": [
     {
-     "name": "Paul LePage",
-     "party": "R",
-     "pct": 52.2
-    },
-    {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 47.8
+     "pct": 50.1
+    },
+    {
+     "name": "Paul LePage",
+     "party": "R",
+     "pct": 49.9
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 60
+   "reporting": 85
   },
   {
    "id": "H-NM-02",
@@ -1997,18 +2031,20 @@
     {
      "name": "Gabriel Vasquez",
      "party": "D",
-     "pct": 54.7,
+     "pct": 58.7,
      "inc": true
     },
     {
      "name": "Gregory Cunningham",
      "party": "R",
-     "pct": 45.3
+     "pct": 41.3
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 57
+   "reporting": 98,
+   "winner": "D",
+   "flip": false
   }
  ]
 }
