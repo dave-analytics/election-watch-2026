@@ -1,19 +1,19 @@
 {
- "updatedAt": "2026-11-04T03:47:47Z",
+ "updatedAt": "2026-11-04T03:49:57Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
-   "reporting": 80.9,
+   "reporting": 81.5,
    "callStatus": "Too early to call",
    "statewide": {
     "D": {
      "name": "Jerri Green",
-     "votes": 799640,
-     "pct": 43
+     "votes": 803184,
+     "pct": 42.9
     },
     "R": {
      "name": "Marsha Blackburn",
-     "votes": 847410,
+     "votes": 854248,
      "pct": 45.6
     }
    },
@@ -693,17 +693,17 @@
     {
      "fips": "47085",
      "name": "Humphreys",
-     "reporting": 76.1,
-     "totalVote": 4272,
+     "reporting": 94.5,
+     "totalVote": 5303,
      "D": {
       "name": "Jerri Green",
-      "votes": 1327,
-      "pct": 31.1
+      "votes": 1535,
+      "pct": 28.9
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 2300,
-      "pct": 53.8
+      "votes": 2924,
+      "pct": 55.1
      }
     },
     {
@@ -1509,17 +1509,17 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 75.7,
-     "totalVote": 87248,
+     "reporting": 85,
+     "totalVote": 97953,
      "D": {
       "name": "Jerri Green",
-      "votes": 34874,
-      "pct": 40
+      "votes": 38210,
+      "pct": 39
      },
      "R": {
       "name": "Marsha Blackburn",
-      "votes": 45122,
-      "pct": 51.7
+      "votes": 51336,
+      "pct": 52.4
      }
     },
     {
@@ -1541,18 +1541,18 @@
    ]
   },
   "S-TN": {
-   "reporting": 81,
+   "reporting": 81.2,
    "callStatus": "Projected winner",
    "statewide": {
     "D": {
      "name": "Marquita Bradshaw",
-     "votes": 792930,
+     "votes": 793631,
      "pct": 42.6
     },
     "R": {
      "name": "Bill Hagerty",
-     "votes": 1030981,
-     "pct": 55.4
+     "votes": 1033954,
+     "pct": 55.5
     }
    },
    "counties": [
@@ -1687,17 +1687,17 @@
     {
      "fips": "47017",
      "name": "Carroll",
-     "reporting": 47.7,
-     "totalVote": 3297,
+     "reporting": 95,
+     "totalVote": 7049,
      "D": {
       "name": "Marquita Bradshaw",
-      "votes": 961,
-      "pct": 29.1
+      "votes": 1662,
+      "pct": 23.6
      },
      "R": {
       "name": "Bill Hagerty",
-      "votes": 2263,
-      "pct": 68.6
+      "votes": 5236,
+      "pct": 74.3
      }
     },
     {
