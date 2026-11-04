@@ -7,14 +7,14 @@
    "wonD": 84,
    "wonR": 37
   },
-  "note": "Update 2026-11-04T02:29:35Z: added NC-11 (Ager, D flip; called by networks). Partial returns: OH Brown 50–46 (56% in, ABC); ME Jackson 51–49 (8% in, ABC); TX Talarico leads (42% in, NBC); TN, MN, AL early counts (NBC). Earlier calls: NC, GA, VA (AP); NH, NM, CO, NJ, DE, RI, MA (NBC); IL (ABC); FL (CBS); KY, WV projected. House tally: NBC 84 D, 37 R. Not yet recorded (source not a major desk or conflicting): AR, KY-6, PA-7, FL House seats. Baseline: NBC News. Ratings: Cook (Oct 2026).",
+  "note": "Vote shares 2026-11-04T02:46:10Z: NBC News live results (reporting % from NBC or Fox News where NBC gave none); GA and NC shares as of their calls. Calls: NC, GA, VA (AP); NH, NM, CO, NJ, DE, RI, MA (NBC); IL (ABC); FL (CBS); KY, WV projected; NC-11 (networks). House tally: NBC 84 D, 37 R. Baseline: NBC News. Ratings: Cook (Oct 2026).",
   "senate": {
    "baseD": 47,
    "baseR": 53,
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T02:29:35Z"
+  "updatedAt": "2026-11-04T02:46:10Z"
  },
  "races": [
   {
@@ -336,11 +336,13 @@
     {
      "inc": true,
      "name": "Jon Ossoff",
-     "party": "D"
+     "party": "D",
+     "pct": 59.3
     },
     {
      "name": "Mike Collins",
-     "party": "R"
+     "party": "R",
+     "pct": 40.7
     }
    ],
    "chamber": "senate",
@@ -351,17 +353,20 @@
    "status": "Called",
    "id": "S-GA",
    "winner": "D",
-   "flip": false
+   "flip": false,
+   "reporting": 78
   },
   {
    "cands": [
     {
      "name": "Ashley Hinson",
-     "party": "R"
+     "party": "R",
+     "pct": 37.0
     },
     {
      "name": "Josh Turek",
-     "party": "D"
+     "party": "D",
+     "pct": 60.7
     }
    ],
    "chamber": "senate",
@@ -371,7 +376,8 @@
    "rating": "tossup",
    "state": "IA",
    "status": "Counting",
-   "id": "S-IA"
+   "id": "S-IA",
+   "reporting": 5
   },
   {
    "cands": [
@@ -429,7 +435,8 @@
    "rating": "tossup",
    "state": "KS",
    "status": "Counting",
-   "id": "S-KS"
+   "id": "S-KS",
+   "reporting": 38
   },
   {
    "cands": [
@@ -487,12 +494,12 @@
      "inc": true,
      "name": "Susan Collins",
      "party": "R",
-     "pct": 49.0
+     "pct": 49.7
     },
     {
      "name": "Troy Jackson",
      "party": "D",
-     "pct": 51.0
+     "pct": 50.2
     }
    ],
    "chamber": "senate",
@@ -502,17 +509,19 @@
    "state": "ME",
    "status": "Counting",
    "id": "S-ME",
-   "reporting": 8
+   "reporting": 10
   },
   {
    "cands": [
     {
      "name": "Abdul El-Sayed",
-     "party": "D"
+     "party": "D",
+     "pct": 55.1
     },
     {
      "name": "Mike Rogers",
-     "party": "R"
+     "party": "R",
+     "pct": 43.3
     }
    ],
    "chamber": "senate",
@@ -522,7 +531,8 @@
    "rating": "tossup",
    "state": "MI",
    "status": "Counting",
-   "id": "S-MI"
+   "id": "S-MI",
+   "reporting": 14
   },
   {
    "cands": [
@@ -579,11 +589,13 @@
    "cands": [
     {
      "name": "Roy Cooper",
-     "party": "D"
+     "party": "D",
+     "pct": 59.5
     },
     {
      "name": "Michael Whatley",
-     "party": "R"
+     "party": "R",
+     "pct": 38.5
     }
    ],
    "chamber": "senate",
@@ -595,18 +607,21 @@
    "status": "Called",
    "id": "S-NC",
    "winner": "D",
-   "flip": true
+   "flip": true,
+   "reporting": 85
   },
   {
    "cands": [
     {
      "inc": true,
      "name": "Pete Ricketts",
-     "party": "R"
+     "party": "R",
+     "pct": 37.9
     },
     {
      "name": "Dan Osborn",
-     "party": "I"
+     "party": "I",
+     "pct": 57.0
     }
    ],
    "chamber": "senate",
@@ -615,7 +630,8 @@
    "rating": "likelyR",
    "state": "NE",
    "status": "Counting",
-   "id": "S-NE"
+   "id": "S-NE",
+   "reporting": 21
   },
   {
    "cands": [
@@ -790,11 +806,13 @@
    "cands": [
     {
      "name": "Ken Paxton",
-     "party": "R"
+     "party": "R",
+     "pct": 39.1
     },
     {
      "name": "James Talarico",
-     "party": "D"
+     "party": "D",
+     "pct": 59.4
     }
    ],
    "chamber": "senate",
@@ -805,7 +823,7 @@
    "state": "TX",
    "status": "Counting",
    "id": "S-TX",
-   "reporting": 42
+   "reporting": 40
   },
   {
    "cands": [
