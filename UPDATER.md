@@ -21,6 +21,10 @@ The site (`index.html`) re-reads `data.json` every 60 seconds; nothing else need
    - Validate: `python3 -m json.tool data.json` must pass before committing.
 5. If anything changed: commit `Update results <UTC time>` and push. If nothing changed, update nothing and do not commit.
 
+## Candidates and percentages
+
+For every uncalled race, record `pct` (current vote share) for the main Democrat and main Republican, plus `reporting` (% of expected vote in). The site shows only the main D and R candidates, so don't add minor-party or write-in candidates. Keep an independent only when one major party has no nominee (e.g. Nebraska's Dan Osborn).
+
 ## Rolling close-race list
 
 Keep the site stocked with live close races:

@@ -117,7 +117,8 @@ header{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;justify-co
 .cands li{display:grid;grid-template-columns:22px 1fr auto;gap:8px;align-items:center}
 .tag{font:600 11px var(--f-mono);text-align:center;padding:2px 0;border-radius:2px}
 .tag.D{background:rgba(63,162,255,.15);color:var(--dem)} .tag.R{background:rgba(255,79,109,.15);color:var(--rep)} .tag.I{background:rgba(201,179,126,.15);color:var(--chrome)}
-.cands .pct{font-family:var(--f-mono);font-size:13px;color:var(--muted)}
+.cands .pct{font-family:var(--f-mono);font-size:15px;font-weight:600;color:var(--dim);min-width:4.5ch;text-align:right}
+.cands .pct.D{color:var(--dem)} .cands .pct.R{color:var(--rep)} .cands .pct.I{color:var(--chrome)}
 .cands li.win{font-weight:600}
 .cands li.win .pct{color:var(--fg)}
 .r-foot{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:var(--muted);font-family:var(--f-mono);border-top:1px dashed var(--line);padding-top:8px}
@@ -282,9 +283,19 @@ function matches(x){
   const hay=[x.state,STATES[x.state]?.[0],x.seat,x.incumbent,...(x.cands||[]).map(c=>c.name),x.chamber==="house"?`${x.state}-${x.district}`:""].join(" ").toLowerCase();
   return query.split(/\s+/).every(t=>hay.includes(t));
 }
+/* show only the main Democrat and Republican: the incumbent or the leader in each party; a race with no nominee from one party keeps its strongest other candidate */
+function mainCands(list){
+  const byPct=a=>[...a].sort((x,y)=>(y.pct??-1)-(x.pct??-1));
+  if(list.length<=2) return byPct(list);
+  const score=c=>(c.pct??-1)+(c.inc?1000:0);
+  const best=p=>list.filter(c=>c.party===p).sort((a,b)=>score(b)-score(a))[0];
+  let out=[best("D"),best("R")].filter(Boolean);
+  if(out.length<2){const rest=list.filter(c=>!out.includes(c)).sort((a,b)=>score(b)-score(a));out=out.concat(rest.slice(0,2-out.length));}
+  return byPct(out);
+}
 function card(x){
   const isH=x.chamber==="house", title=isH?`${STATES[x.state]?.[0]||x.state} · ${x.district?"District "+x.district:"At-large"}`:`${STATES[x.state]?.[0]||x.state}${x.special?" (special)":""}`;
-  const cands=(x.cands&&x.cands.length?x.cands:[]).map(c=>`<li class="${x.winner&&c.party===x.winner?"win":""}"><span class="tag ${esc(c.party)}">${esc(c.party)}</span><span>${esc(c.name)}${c.inc?" <span class='eyebrow'>(inc.)</span>":""}</span><span class="pct">${c.pct!=null?c.pct.toFixed(1)+"%":""}</span></li>`).join("")
+  const cands=mainCands(x.cands||[]).map(c=>`<li class="${x.winner&&c.party===x.winner?"win":""}"><span class="tag ${esc(c.party)}">${esc(c.party)}</span><span>${esc(c.name)}${c.inc?" <span class='eyebrow'>(inc.)</span>":""}</span><span class="pct ${esc(c.party)}">${c.pct!=null?c.pct.toFixed(1)+"%":"–"}</span></li>`).join("")
     || `<li><span class="tag ${esc(x.incParty)}">${esc(x.incParty)}</span><span>${esc(x.incumbent||"Seat held")}</span><span class="pct">nominees pending</span></li>`;
   const status=x.winner?`<span class="badge call">Called ${x.winner}${x.flip?" · flip":""}</span>`:`<span class="badge">${esc(x.status||"Too early")}</span>`;
   return `<article class="race ${x.winner?"w"+x.winner:""} ${x.featured?"feat":""}">
