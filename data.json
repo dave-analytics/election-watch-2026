@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T15:11:59Z"
+  "updatedAt": "2026-11-04T16:13:49Z"
  },
  "races": [
   {
@@ -1888,7 +1888,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 95
+   "reporting": 99
   },
   {
    "id": "H-WI-01",
@@ -2017,7 +2017,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 85
+   "reporting": 86
   },
   {
    "id": "H-NM-02",
@@ -8701,18 +8701,18 @@
     {
      "name": "Sam Forstag",
      "party": "D",
-     "pct": 51.5
+     "pct": 49.6
     },
     {
      "name": "Aaron Flint",
      "party": "R",
-     "pct": 45.7
+     "pct": 47.5
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 78
+   "reporting": 87
   },
   {
    "id": "H-MT-02",
@@ -11705,12 +11705,12 @@
     {
      "name": "Leticia Gutierrez",
      "party": "D",
-     "pct": 57.5
+     "pct": 57.6
     },
     {
      "name": "Alex Mealer",
      "party": "R",
-     "pct": 42.5
+     "pct": 42.4
     }
    ],
    "status": "Counting",
@@ -12470,7 +12470,7 @@
     {
      "name": "Jon Bonck",
      "party": "R",
-     "pct": 51.6
+     "pct": 51.5
     },
     {
      "name": "Melissa McDonough",
