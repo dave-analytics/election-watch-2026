@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T21:10:15Z",
+ "updatedAt": "2026-11-04T22:10:23Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
@@ -885,7 +885,7 @@
     {
      "fips": "47113",
      "name": "Madison",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 27337,
      "D": {
       "name": "Jerri Green",
@@ -949,7 +949,7 @@
     {
      "fips": "47107",
      "name": "McMinn",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 14204,
      "D": {
       "name": "Jerri Green",
@@ -1445,7 +1445,7 @@
     {
      "fips": "47179",
      "name": "Washington",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 42887,
      "D": {
       "name": "Jerri Green",
@@ -2423,7 +2423,7 @@
     {
      "fips": "47113",
      "name": "Madison",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 27195,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2487,7 +2487,7 @@
     {
      "fips": "47107",
      "name": "McMinn",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 14035,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2983,7 +2983,7 @@
     {
      "fips": "47179",
      "name": "Washington",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 41681,
      "D": {
       "name": "Marquita Bradshaw",

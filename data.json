@@ -5,7 +5,7 @@
    "baseR": 219,
    "vacant": 2,
    "wonD": 242,
-   "wonR": 146,
+   "wonR": 150,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T21:12:00Z"
+  "updatedAt": "2026-11-04T22:11:54Z"
  },
  "races": [
   {
@@ -741,7 +741,7 @@
    "state": "MS",
    "status": "Too close to call",
    "id": "S-MS",
-   "reporting": 96
+   "reporting": 95
   },
   {
    "cands": [
@@ -1945,7 +1945,7 @@
     {
      "name": "Dwayne Romero",
      "party": "D",
-     "pct": 48.2
+     "pct": 48.1
     }
    ],
    "status": "Counting",
@@ -2027,7 +2027,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 91
+   "reporting": 92
   },
   {
    "id": "H-NM-02",
@@ -3248,21 +3248,21 @@
    "open": false,
    "cands": [
     {
-     "name": "Jonathan Nez",
-     "party": "D",
-     "pct": 49.2
-    },
-    {
      "name": "Eli Crane",
      "party": "R",
-     "pct": 49.1,
+     "pct": 49.3,
      "inc": true
+    },
+    {
+     "name": "Jonathan Nez",
+     "party": "D",
+     "pct": 49
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 84
+   "reporting": 85
   },
   {
    "id": "H-AZ-03",
@@ -3353,7 +3353,7 @@
     {
      "name": "JoAnna Mendoza",
      "party": "D",
-     "pct": 53
+     "pct": 52.9
     },
     {
      "name": "Juan Ciscomani",
@@ -9124,10 +9124,12 @@
      "pct": 46.2
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 92
+   "reporting": 92,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-NE-02",
@@ -9285,7 +9287,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 95
+   "reporting": 96
   },
   {
    "id": "H-NJ-03",
@@ -10130,7 +10132,7 @@
     {
      "name": "Blake Gendebien",
      "party": "D",
-     "pct": 48.8
+     "pct": 48.9
     }
    ],
    "status": "Counting",
@@ -11550,10 +11552,12 @@
      "pct": 49
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TX-03",
@@ -11629,10 +11633,12 @@
      "pct": 48.5
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TX-06",
@@ -12345,10 +12351,12 @@
      "pct": 48.5
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 32,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": true
   },
   {
    "id": "H-TX-33",
