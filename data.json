@@ -7,14 +7,14 @@
    "wonD": 84,
    "wonR": 37
   },
-  "note": "Calls as of 2026-11-04T02:20:20Z: NC (Cooper, D flip) via NBC/CBS/NPR; GA, VA via AP; NH, NM, CO, NJ, DE, RI, MA via NBC; IL via ABC; FL via CBS; KY, WV projected (NBC/CBS live coverage). House tally: NBC (84 D, 37 R called, ~9:15 PM ET snapshot). Safe seats not yet confirmed by a desk in our sources stay uncalled. Baseline: NBC News (Senate 53R–47D; House 219R–214D, 2 vacancies). Ratings: Cook Political Report (Oct 2026).",
+  "note": "Update 2026-11-04T02:29:35Z: added NC-11 (Ager, D flip; called by networks). Partial returns: OH Brown 50–46 (56% in, ABC); ME Jackson 51–49 (8% in, ABC); TX Talarico leads (42% in, NBC); TN, MN, AL early counts (NBC). Earlier calls: NC, GA, VA (AP); NH, NM, CO, NJ, DE, RI, MA (NBC); IL (ABC); FL (CBS); KY, WV projected. House tally: NBC 84 D, 37 R. Not yet recorded (source not a major desk or conflicting): AR, KY-6, PA-7, FL House seats. Baseline: NBC News. Ratings: Cook (Oct 2026).",
   "senate": {
    "baseD": 47,
    "baseR": 53,
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T02:20:20Z"
+  "updatedAt": "2026-11-04T02:29:35Z"
  },
  "races": [
   {
@@ -242,7 +242,8 @@
    "rating": "solidR",
    "state": "AL",
    "status": "Counting",
-   "id": "S-AL"
+   "id": "S-AL",
+   "reporting": 12
   },
   {
    "cands": [
@@ -485,11 +486,13 @@
     {
      "inc": true,
      "name": "Susan Collins",
-     "party": "R"
+     "party": "R",
+     "pct": 49.0
     },
     {
      "name": "Troy Jackson",
-     "party": "D"
+     "party": "D",
+     "pct": 51.0
     }
    ],
    "chamber": "senate",
@@ -498,7 +501,8 @@
    "rating": "tossup",
    "state": "ME",
    "status": "Counting",
-   "id": "S-ME"
+   "id": "S-ME",
+   "reporting": 8
   },
   {
    "cands": [
@@ -524,11 +528,13 @@
    "cands": [
     {
      "name": "Peggy Flanagan",
-     "party": "D"
+     "party": "D",
+     "pct": 34.0
     },
     {
      "name": "Michele Tafoya",
-     "party": "R"
+     "party": "R",
+     "pct": 63.2
     }
    ],
    "chamber": "senate",
@@ -677,11 +683,13 @@
     {
      "inc": true,
      "name": "Jon Husted",
-     "party": "R"
+     "party": "R",
+     "pct": 46.0
     },
     {
      "name": "Sherrod Brown",
-     "party": "D"
+     "party": "D",
+     "pct": 50.0
     }
    ],
    "chamber": "senate",
@@ -691,7 +699,8 @@
    "special": true,
    "state": "OH",
    "status": "Counting",
-   "id": "S-OH"
+   "id": "S-OH",
+   "reporting": 56
   },
   {
    "cands": [],
@@ -760,11 +769,13 @@
     {
      "inc": true,
      "name": "Bill Hagerty",
-     "party": "R"
+     "party": "R",
+     "pct": 55.5
     },
     {
      "name": "Marquita Bradshaw",
-     "party": "D"
+     "party": "D",
+     "pct": 42.6
     }
    ],
    "chamber": "senate",
@@ -793,7 +804,8 @@
    "rating": "tossup",
    "state": "TX",
    "status": "Counting",
-   "id": "S-TX"
+   "id": "S-TX",
+   "reporting": 42
   },
   {
    "cands": [
@@ -877,6 +889,29 @@
    ],
    "status": "Counting",
    "note": "June 2 top-two primary: Gibbs 41.0%, Whitesides 40.6% (CA SOS, certified)."
+  },
+  {
+   "id": "H-NC-11",
+   "chamber": "house",
+   "state": "NC",
+   "district": 11,
+   "incParty": "R",
+   "incumbent": "Chuck Edwards (withdrew)",
+   "open": true,
+   "cands": [
+    {
+     "name": "Jamie Ager",
+     "party": "D"
+    },
+    {
+     "name": "Jennifer Balkcom",
+     "party": "R"
+    }
+   ],
+   "winner": "D",
+   "flip": true,
+   "status": "Called",
+   "addedReason": "called"
   }
  ]
 }
