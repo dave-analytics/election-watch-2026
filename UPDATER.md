@@ -5,7 +5,7 @@ The site (`index.html`) re-reads `data.json` every 60 seconds; nothing else need
 
 ## Each run
 
-1. `git pull` the default branch.
+1. `git pull` the default branch, then run `./scripts/refresh_nbc.sh`. It refreshes Tennessee county results (`counties-tn.json`), all 9 Tennessee House races, CA-27 and both governor's races straight from NBC News pages, and records NBC's calls. Never edit those races by hand when the script succeeds.
 2. Search for current 2026 midterm results (WebSearch, `standard` mode; `extended` only if results are thin):
    - Senate: which of the 35 races in `data.json` have been **called**, by whom, and current vote % / % reporting for uncalled close races.
    - House: total seats called for each party (AP / NBC / Decision Desk HQ counts), and calls for the House districts listed in `data.json`.
@@ -19,7 +19,7 @@ The site (`index.html`) re-reads `data.json` every 60 seconds; nothing else need
    - If sources conflict, leave the race uncalled and note it in `meta.note`.
    - Never remove races or rewrite fields you have no new information for.
    - Validate: `python3 -m json.tool data.json` must pass before committing.
-5. If anything changed: commit `Update results <UTC time>` and push. If nothing changed, update nothing and do not commit.
+5. If anything changed (`data.json` or `counties-tn.json`): commit `Update results <UTC time>` and push. If nothing changed, update nothing and do not commit.
 
 ## Governor races
 

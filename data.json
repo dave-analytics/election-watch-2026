@@ -7,7 +7,7 @@
    "wonD": 84,
    "wonR": 37
   },
-  "note": "Vote shares 2026-11-04T02:49:01Z: NBC News live results (unofficial; called races show shares as of this update, reporting % from NBC or Fox where given). Calls: NC, GA, VA (AP); NH, NM, CO, NJ, DE, RI, MA (NBC); IL (ABC); FL (CBS); KY, WV projected; NC-11 (networks). House tally: NBC 84 D, 37 R. Baseline: NBC News. Ratings: Cook (Oct 2026). Added 2026-11-04T03:18Z: all 9 Tennessee House districts (new map; nominees from Axios Nashville, Tennessee Lookout, CNN, BallotReady; early returns NBC) and the Tennessee and Texas governor's races (NBC early returns).",
+  "note": "Vote shares 2026-11-04T02:49:01Z: NBC News live results (unofficial; called races show shares as of this update, reporting % from NBC or Fox where given). Calls: NC, GA, VA (AP); NH, NM, CO, NJ, DE, RI, MA (NBC); IL (ABC); FL (CBS); KY, WV projected; NC-11 (networks). House tally: NBC 84 D, 37 R. Baseline: NBC News. Ratings: Cook (Oct 2026). Added 2026-11-04T03:18Z: all 9 Tennessee House districts (new map; nominees from Axios Nashville, Tennessee Lookout, CNN, BallotReady; early returns NBC) and the Tennessee and Texas governor's races (NBC early returns). TN Senate called for Hagerty (NBC). Tennessee county results: NBC News.",
   "senate": {
    "baseD": 47,
    "baseR": 53,
@@ -815,12 +815,12 @@
      "inc": true,
      "name": "Bill Hagerty",
      "party": "R",
-     "pct": 55.5
+     "pct": 55.3
     },
     {
      "name": "Marquita Bradshaw",
      "party": "D",
-     "pct": 42.6
+     "pct": 42.8
     }
    ],
    "chamber": "senate",
@@ -828,8 +828,11 @@
    "incumbent": "Bill Hagerty",
    "rating": "solidR",
    "state": "TN",
-   "status": "Counting",
-   "id": "S-TN"
+   "status": "Called",
+   "id": "S-TN",
+   "reporting": 80,
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
@@ -935,15 +938,18 @@
     {
      "name": "George Whitesides",
      "party": "D",
+     "pct": null,
      "inc": true
     },
     {
      "name": "Jason Gibbs",
-     "party": "R"
+     "party": "R",
+     "pct": null
     }
    ],
    "status": "Counting",
-   "note": "June 2 top-two primary: Gibbs 41.0%, Whitesides 40.6% (CA SOS, certified)."
+   "note": "June 2 top-two primary: Gibbs 41.0%, Whitesides 40.6% (CA SOS, certified).",
+   "reporting": 0
   },
   {
    "id": "H-NC-11",
@@ -978,20 +984,22 @@
    "open": false,
    "cands": [
     {
-     "name": "Burke",
-     "party": "D",
-     "pct": 28.0
-    },
-    {
      "name": "Diana Harshbarger",
      "party": "R",
-     "pct": 70.0,
+     "pct": 69.7,
      "inc": true
+    },
+    {
+     "name": "Kristi Burke",
+     "party": "D",
+     "pct": 27.1
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "requested",
-   "reporting": 25
+   "reporting": 72,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TN-02",
@@ -1003,17 +1011,22 @@
    "open": false,
    "cands": [
     {
-     "name": "Barnett",
-     "party": "D"
-    },
-    {
      "name": "Tim Burchett",
      "party": "R",
+     "pct": 56.3,
      "inc": true
+    },
+    {
+     "name": "Michaela Barnett",
+     "party": "D",
+     "pct": 42.6
     }
    ],
-   "status": "Counting",
-   "addedReason": "requested"
+   "status": "Called",
+   "addedReason": "requested",
+   "reporting": 87,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TN-03",
@@ -1025,17 +1038,22 @@
    "open": false,
    "cands": [
     {
-     "name": "Golladay",
-     "party": "D"
-    },
-    {
      "name": "Chuck Fleischmann",
      "party": "R",
+     "pct": 57,
      "inc": true
+    },
+    {
+     "name": "Anna Golladay",
+     "party": "D",
+     "pct": 40.8
     }
    ],
-   "status": "Counting",
-   "addedReason": "requested"
+   "status": "Called",
+   "addedReason": "requested",
+   "reporting": 84,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-TN-04",
@@ -1047,20 +1065,20 @@
    "open": false,
    "cands": [
     {
-     "name": "Victoria Broderick",
-     "party": "D",
-     "pct": 30.0
-    },
-    {
      "name": "Scott DesJarlais",
      "party": "R",
-     "pct": 68.0,
+     "pct": 49.6,
      "inc": true
+    },
+    {
+     "name": "Victoria Broderick",
+     "party": "D",
+     "pct": 48
     }
    ],
    "status": "Counting",
    "addedReason": "requested",
-   "reporting": 11
+   "reporting": 77
   },
   {
    "id": "H-TN-05",
@@ -1072,16 +1090,19 @@
    "open": true,
    "cands": [
     {
-     "name": "Chaz Molder",
-     "party": "D"
+     "name": "Charlie Hatcher",
+     "party": "R",
+     "pct": 50.4
     },
     {
-     "name": "Charlie Hatcher",
-     "party": "R"
+     "name": "Chaz Molder",
+     "party": "D",
+     "pct": 48.1
     }
    ],
    "status": "Counting",
-   "addedReason": "requested"
+   "addedReason": "requested",
+   "reporting": 71
   },
   {
    "id": "H-TN-06",
@@ -1093,16 +1114,19 @@
    "open": true,
    "cands": [
     {
-     "name": "Mike Croley",
-     "party": "D"
+     "name": "Johnny Garrett",
+     "party": "R",
+     "pct": 53
     },
     {
-     "name": "Johnny Garrett",
-     "party": "R"
+     "name": "Mike Croley",
+     "party": "D",
+     "pct": 45.4
     }
    ],
    "status": "Counting",
-   "addedReason": "requested"
+   "addedReason": "requested",
+   "reporting": 79
   },
   {
    "id": "H-TN-07",
@@ -1114,17 +1138,20 @@
    "open": false,
    "cands": [
     {
-     "name": "Darden Copeland",
-     "party": "D"
-    },
-    {
      "name": "Matt Van Epps",
      "party": "R",
+     "pct": 50,
      "inc": true
+    },
+    {
+     "name": "Darden Copeland",
+     "party": "D",
+     "pct": 48.4
     }
    ],
    "status": "Counting",
-   "addedReason": "requested"
+   "addedReason": "requested",
+   "reporting": 72
   },
   {
    "id": "H-TN-08",
@@ -1138,19 +1165,18 @@
     {
      "name": "David Kustoff",
      "party": "R",
+     "pct": 51.8,
      "inc": true
     },
     {
-     "name": "Pamela Moses",
-     "party": "I"
-    },
-    {
-     "name": "Horace Taylor",
-     "party": "I"
+     "name": "Heidi Kuhn",
+     "party": "D",
+     "pct": 46.5
     }
    ],
    "status": "Counting",
-   "addedReason": "requested"
+   "addedReason": "requested",
+   "reporting": 84
   },
   {
    "id": "H-TN-09",
@@ -1163,15 +1189,18 @@
    "cands": [
     {
      "name": "Justin Pearson",
-     "party": "D"
+     "party": "D",
+     "pct": 49.1
     },
     {
      "name": "Brent Taylor",
-     "party": "R"
+     "party": "R",
+     "pct": 49.1
     }
    ],
    "status": "Counting",
-   "addedReason": "requested"
+   "addedReason": "requested",
+   "reporting": 75
   },
   {
    "id": "G-TN",
@@ -1182,17 +1211,17 @@
    "open": true,
    "cands": [
     {
-     "name": "Jerri Green",
-     "party": "D",
-     "pct": 44.7
-    },
-    {
      "name": "Marsha Blackburn",
      "party": "R",
-     "pct": 44.3
+     "pct": 45.5
+    },
+    {
+     "name": "Jerri Green",
+     "party": "D",
+     "pct": 43.1
     }
    ],
-   "reporting": 34,
+   "reporting": 81,
    "status": "Counting",
    "addedReason": "requested"
   },
@@ -1206,17 +1235,18 @@
     {
      "name": "Gina Hinojosa",
      "party": "D",
-     "pct": 56.1
+     "pct": 55.8
     },
     {
      "name": "Greg Abbott",
      "party": "R",
-     "pct": 42.6,
+     "pct": 42.9,
      "inc": true
     }
    ],
    "status": "Counting",
-   "addedReason": "requested"
+   "addedReason": "requested",
+   "reporting": 59
   }
  ]
 }

@@ -1,0 +1,3082 @@
+{
+ "updatedAt": "2026-11-04T03:42:50Z",
+ "source": "NBC News live results",
+ "races": {
+  "G-TN": {
+   "reporting": 80.6,
+   "callStatus": "Too early to call",
+   "statewide": {
+    "D": {
+     "name": "Jerri Green",
+     "votes": 797140,
+     "pct": 43.1
+    },
+    "R": {
+     "name": "Marsha Blackburn",
+     "votes": 842117,
+     "pct": 45.5
+    }
+   },
+   "counties": [
+    {
+     "fips": "47001",
+     "name": "Anderson",
+     "reporting": 95,
+     "totalVote": 23967,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 9989,
+      "pct": 41.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 11223,
+      "pct": 46.8
+     }
+    },
+    {
+     "fips": "47003",
+     "name": "Bedford",
+     "reporting": 95,
+     "totalVote": 13198,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 4114,
+      "pct": 31.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 7347,
+      "pct": 55.7
+     }
+    },
+    {
+     "fips": "47005",
+     "name": "Benton",
+     "reporting": 99,
+     "totalVote": 4765,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1137,
+      "pct": 23.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2897,
+      "pct": 60.8
+     }
+    },
+    {
+     "fips": "47007",
+     "name": "Bledsoe",
+     "reporting": 93,
+     "totalVote": 3876,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 878,
+      "pct": 22.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2468,
+      "pct": 63.7
+     }
+    },
+    {
+     "fips": "47009",
+     "name": "Blount",
+     "reporting": 95.9,
+     "totalVote": 45497,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 14856,
+      "pct": 32.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 24830,
+      "pct": 54.6
+     }
+    },
+    {
+     "fips": "47011",
+     "name": "Bradley",
+     "reporting": 95,
+     "totalVote": 29384,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 8327,
+      "pct": 28.3
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 17061,
+      "pct": 58.1
+     }
+    },
+    {
+     "fips": "47013",
+     "name": "Campbell",
+     "reporting": 99,
+     "totalVote": 8608,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1978,
+      "pct": 23
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5394,
+      "pct": 62.7
+     }
+    },
+    {
+     "fips": "47015",
+     "name": "Cannon",
+     "reporting": 95.1,
+     "totalVote": 4343,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1047,
+      "pct": 24.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2494,
+      "pct": 57.4
+     }
+    },
+    {
+     "fips": "47017",
+     "name": "Carroll",
+     "reporting": 48.4,
+     "totalVote": 3341,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 957,
+      "pct": 28.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1869,
+      "pct": 55.9
+     }
+    },
+    {
+     "fips": "47019",
+     "name": "Carter",
+     "reporting": 99,
+     "totalVote": 15807,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3596,
+      "pct": 22.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 7892,
+      "pct": 49.9
+     }
+    },
+    {
+     "fips": "47021",
+     "name": "Cheatham",
+     "reporting": 87.6,
+     "totalVote": 14074,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 5087,
+      "pct": 36.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 7205,
+      "pct": 51.2
+     }
+    },
+    {
+     "fips": "47023",
+     "name": "Chester",
+     "reporting": 95,
+     "totalVote": 4628,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 961,
+      "pct": 20.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2683,
+      "pct": 58
+     }
+    },
+    {
+     "fips": "47025",
+     "name": "Claiborne",
+     "reporting": 89.2,
+     "totalVote": 8989,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1924,
+      "pct": 21.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5753,
+      "pct": 64
+     }
+    },
+    {
+     "fips": "47027",
+     "name": "Clay",
+     "reporting": 95,
+     "totalVote": 2148,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 507,
+      "pct": 23.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1264,
+      "pct": 58.8
+     }
+    },
+    {
+     "fips": "47029",
+     "name": "Cocke",
+     "reporting": 45.9,
+     "totalVote": 4705,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2120,
+      "pct": 45.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 966,
+      "pct": 20.5
+     }
+    },
+    {
+     "fips": "47031",
+     "name": "Coffee",
+     "reporting": 93.6,
+     "totalVote": 15624,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 4685,
+      "pct": 30
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 8723,
+      "pct": 55.8
+     }
+    },
+    {
+     "fips": "47033",
+     "name": "Crockett",
+     "reporting": 99,
+     "totalVote": 3701,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1022,
+      "pct": 27.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1848,
+      "pct": 49.9
+     }
+    },
+    {
+     "fips": "47035",
+     "name": "Cumberland",
+     "reporting": 99,
+     "totalVote": 24232,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 5576,
+      "pct": 23
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 15880,
+      "pct": 65.5
+     }
+    },
+    {
+     "fips": "47037",
+     "name": "Davidson",
+     "reporting": 62.5,
+     "totalVote": 166671,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 124947,
+      "pct": 75
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 32061,
+      "pct": 19.2
+     }
+    },
+    {
+     "fips": "47041",
+     "name": "DeKalb",
+     "reporting": 95,
+     "totalVote": 5451,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1412,
+      "pct": 25.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3122,
+      "pct": 57.3
+     }
+    },
+    {
+     "fips": "47039",
+     "name": "Decatur",
+     "reporting": 95,
+     "totalVote": 3388,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 701,
+      "pct": 20.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2242,
+      "pct": 66.2
+     }
+    },
+    {
+     "fips": "47043",
+     "name": "Dickson",
+     "reporting": 85.2,
+     "totalVote": 15922,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 5093,
+      "pct": 32
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 8597,
+      "pct": 54
+     }
+    },
+    {
+     "fips": "47045",
+     "name": "Dyer",
+     "reporting": 99,
+     "totalVote": 8941,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2266,
+      "pct": 25.3
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5367,
+      "pct": 60
+     }
+    },
+    {
+     "fips": "47047",
+     "name": "Fayette",
+     "reporting": 87.8,
+     "totalVote": 17462,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 5576,
+      "pct": 31.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 10196,
+      "pct": 58.4
+     }
+    },
+    {
+     "fips": "47049",
+     "name": "Fentress",
+     "reporting": 95,
+     "totalVote": 5819,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1013,
+      "pct": 17.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3952,
+      "pct": 67.9
+     }
+    },
+    {
+     "fips": "47051",
+     "name": "Franklin",
+     "reporting": 95,
+     "totalVote": 12657,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3659,
+      "pct": 28.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 7342,
+      "pct": 58
+     }
+    },
+    {
+     "fips": "47053",
+     "name": "Gibson",
+     "reporting": 96.4,
+     "totalVote": 13201,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 4107,
+      "pct": 31.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 6974,
+      "pct": 52.8
+     }
+    },
+    {
+     "fips": "47055",
+     "name": "Giles",
+     "reporting": 99,
+     "totalVote": 8701,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2383,
+      "pct": 27.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5278,
+      "pct": 60.7
+     }
+    },
+    {
+     "fips": "47057",
+     "name": "Grainger",
+     "reporting": 95,
+     "totalVote": 6620,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1325,
+      "pct": 20
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 4174,
+      "pct": 63.1
+     }
+    },
+    {
+     "fips": "47059",
+     "name": "Greene",
+     "reporting": 88.3,
+     "totalVote": 19728,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 4365,
+      "pct": 22.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 11738,
+      "pct": 59.5
+     }
+    },
+    {
+     "fips": "47061",
+     "name": "Grundy",
+     "reporting": 99,
+     "totalVote": 3641,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 878,
+      "pct": 24.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2292,
+      "pct": 62.9
+     }
+    },
+    {
+     "fips": "47063",
+     "name": "Hamblen",
+     "reporting": 87.3,
+     "totalVote": 15212,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 4767,
+      "pct": 31.3
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 8291,
+      "pct": 54.5
+     }
+    },
+    {
+     "fips": "47065",
+     "name": "Hamilton",
+     "reporting": 81.1,
+     "totalVote": 125266,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 63364,
+      "pct": 50.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 50673,
+      "pct": 40.5
+     }
+    },
+    {
+     "fips": "47067",
+     "name": "Hancock",
+     "reporting": 95,
+     "totalVote": 1582,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 312,
+      "pct": 19.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 938,
+      "pct": 59.3
+     }
+    },
+    {
+     "fips": "47069",
+     "name": "Hardeman",
+     "reporting": 89.3,
+     "totalVote": 6706,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2930,
+      "pct": 43.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3059,
+      "pct": 45.6
+     }
+    },
+    {
+     "fips": "47071",
+     "name": "Hardin",
+     "reporting": 76.1,
+     "totalVote": 5709,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1129,
+      "pct": 19.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3970,
+      "pct": 69.5
+     }
+    },
+    {
+     "fips": "47073",
+     "name": "Hawkins",
+     "reporting": 99,
+     "totalVote": 15494,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3127,
+      "pct": 20.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 9547,
+      "pct": 61.6
+     }
+    },
+    {
+     "fips": "47075",
+     "name": "Haywood",
+     "reporting": 80.5,
+     "totalVote": 4822,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2718,
+      "pct": 56.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1643,
+      "pct": 34.1
+     }
+    },
+    {
+     "fips": "47077",
+     "name": "Henderson",
+     "reporting": 95,
+     "totalVote": 7095,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1469,
+      "pct": 20.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 4362,
+      "pct": 61.5
+     }
+    },
+    {
+     "fips": "47079",
+     "name": "Henry",
+     "reporting": 55.8,
+     "totalVote": 5401,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1763,
+      "pct": 32.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2941,
+      "pct": 54.5
+     }
+    },
+    {
+     "fips": "47081",
+     "name": "Hickman",
+     "reporting": 95,
+     "totalVote": 6540,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1617,
+      "pct": 24.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3893,
+      "pct": 59.5
+     }
+    },
+    {
+     "fips": "47083",
+     "name": "Houston",
+     "reporting": 95,
+     "totalVote": 2383,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 650,
+      "pct": 27.3
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1445,
+      "pct": 60.6
+     }
+    },
+    {
+     "fips": "47085",
+     "name": "Humphreys",
+     "reporting": 76.1,
+     "totalVote": 4272,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1327,
+      "pct": 31.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2300,
+      "pct": 53.8
+     }
+    },
+    {
+     "fips": "47087",
+     "name": "Jackson",
+     "reporting": 89.2,
+     "totalVote": 3457,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 873,
+      "pct": 25.3
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1970,
+      "pct": 57
+     }
+    },
+    {
+     "fips": "47089",
+     "name": "Jefferson",
+     "reporting": 95,
+     "totalVote": 15925,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3883,
+      "pct": 24.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 9626,
+      "pct": 60.4
+     }
+    },
+    {
+     "fips": "47091",
+     "name": "Johnson",
+     "reporting": 99,
+     "totalVote": 5221,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 943,
+      "pct": 18.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3264,
+      "pct": 62.5
+     }
+    },
+    {
+     "fips": "47093",
+     "name": "Knox",
+     "reporting": 95,
+     "totalVote": 155886,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 75684,
+      "pct": 48.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 66034,
+      "pct": 42.4
+     }
+    },
+    {
+     "fips": "47095",
+     "name": "Lake",
+     "reporting": 91.6,
+     "totalVote": 1148,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 356,
+      "pct": 31
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 681,
+      "pct": 59.3
+     }
+    },
+    {
+     "fips": "47097",
+     "name": "Lauderdale",
+     "reporting": 96.5,
+     "totalVote": 5606,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2060,
+      "pct": 36.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2695,
+      "pct": 48.1
+     }
+    },
+    {
+     "fips": "47099",
+     "name": "Lawrence",
+     "reporting": 86.2,
+     "totalVote": 12296,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2682,
+      "pct": 21.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 7350,
+      "pct": 59.8
+     }
+    },
+    {
+     "fips": "47101",
+     "name": "Lewis",
+     "reporting": 95.5,
+     "totalVote": 3783,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 891,
+      "pct": 23.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2251,
+      "pct": 59.5
+     }
+    },
+    {
+     "fips": "47103",
+     "name": "Lincoln",
+     "reporting": 0,
+     "totalVote": 0,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 0,
+      "pct": 0
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 0,
+      "pct": 0
+     }
+    },
+    {
+     "fips": "47105",
+     "name": "Loudon",
+     "reporting": 0,
+     "totalVote": 0,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 0,
+      "pct": 0
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 0,
+      "pct": 0
+     }
+    },
+    {
+     "fips": "47111",
+     "name": "Macon",
+     "reporting": 95,
+     "totalVote": 5588,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1126,
+      "pct": 20.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3374,
+      "pct": 60.4
+     }
+    },
+    {
+     "fips": "47113",
+     "name": "Madison",
+     "reporting": 93.4,
+     "totalVote": 27094,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 12560,
+      "pct": 46.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 11652,
+      "pct": 43
+     }
+    },
+    {
+     "fips": "47115",
+     "name": "Marion",
+     "reporting": 91.9,
+     "totalVote": 8607,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2713,
+      "pct": 31.5
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 4945,
+      "pct": 57.5
+     }
+    },
+    {
+     "fips": "47117",
+     "name": "Marshall",
+     "reporting": 95,
+     "totalVote": 10454,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3046,
+      "pct": 29.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5810,
+      "pct": 55.6
+     }
+    },
+    {
+     "fips": "47119",
+     "name": "Maury",
+     "reporting": 71.7,
+     "totalVote": 27604,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 9662,
+      "pct": 35
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 14490,
+      "pct": 52.5
+     }
+    },
+    {
+     "fips": "47107",
+     "name": "McMinn",
+     "reporting": 95,
+     "totalVote": 14204,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3667,
+      "pct": 25.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 8480,
+      "pct": 59.7
+     }
+    },
+    {
+     "fips": "47109",
+     "name": "McNairy",
+     "reporting": 99,
+     "totalVote": 7357,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1265,
+      "pct": 17.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 4406,
+      "pct": 59.9
+     }
+    },
+    {
+     "fips": "47121",
+     "name": "Meigs",
+     "reporting": 95,
+     "totalVote": 3777,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 870,
+      "pct": 23
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2321,
+      "pct": 61.5
+     }
+    },
+    {
+     "fips": "47123",
+     "name": "Monroe",
+     "reporting": 95,
+     "totalVote": 13634,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3142,
+      "pct": 23
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 8374,
+      "pct": 61.4
+     }
+    },
+    {
+     "fips": "47125",
+     "name": "Montgomery",
+     "reporting": 88.2,
+     "totalVote": 54101,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 26430,
+      "pct": 48.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 22621,
+      "pct": 41.8
+     }
+    },
+    {
+     "fips": "47127",
+     "name": "Moore",
+     "reporting": 89.3,
+     "totalVote": 2320,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 508,
+      "pct": 21.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1490,
+      "pct": 64.2
+     }
+    },
+    {
+     "fips": "47129",
+     "name": "Morgan",
+     "reporting": 95,
+     "totalVote": 4999,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1020,
+      "pct": 20.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3139,
+      "pct": 62.8
+     }
+    },
+    {
+     "fips": "47131",
+     "name": "Obion",
+     "reporting": 95,
+     "totalVote": 8072,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1934,
+      "pct": 24
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5305,
+      "pct": 65.7
+     }
+    },
+    {
+     "fips": "47133",
+     "name": "Overton",
+     "reporting": 74.1,
+     "totalVote": 4872,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1319,
+      "pct": 27.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2724,
+      "pct": 55.9
+     }
+    },
+    {
+     "fips": "47135",
+     "name": "Perry",
+     "reporting": 99,
+     "totalVote": 2235,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 497,
+      "pct": 22.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1380,
+      "pct": 61.7
+     }
+    },
+    {
+     "fips": "47137",
+     "name": "Pickett",
+     "reporting": 95,
+     "totalVote": 1841,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 419,
+      "pct": 22.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1018,
+      "pct": 55.3
+     }
+    },
+    {
+     "fips": "47139",
+     "name": "Polk",
+     "reporting": 78.3,
+     "totalVote": 5168,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1213,
+      "pct": 23.5
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3256,
+      "pct": 63
+     }
+    },
+    {
+     "fips": "47141",
+     "name": "Putnam",
+     "reporting": 96.2,
+     "totalVote": 23628,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 8333,
+      "pct": 35.3
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 12276,
+      "pct": 52
+     }
+    },
+    {
+     "fips": "47143",
+     "name": "Rhea",
+     "reporting": 0,
+     "totalVote": 0,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 0,
+      "pct": 0
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 0,
+      "pct": 0
+     }
+    },
+    {
+     "fips": "47145",
+     "name": "Roane",
+     "reporting": 99,
+     "totalVote": 17651,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 5364,
+      "pct": 30.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 9954,
+      "pct": 56.4
+     }
+    },
+    {
+     "fips": "47147",
+     "name": "Robertson",
+     "reporting": 75.7,
+     "totalVote": 19311,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 6551,
+      "pct": 33.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 10212,
+      "pct": 52.9
+     }
+    },
+    {
+     "fips": "47149",
+     "name": "Rutherford",
+     "reporting": 82.8,
+     "totalVote": 88049,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 43896,
+      "pct": 49.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 35824,
+      "pct": 40.7
+     }
+    },
+    {
+     "fips": "47151",
+     "name": "Scott",
+     "reporting": 92.2,
+     "totalVote": 4526,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 879,
+      "pct": 19.4
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2902,
+      "pct": 64.1
+     }
+    },
+    {
+     "fips": "47153",
+     "name": "Sequatchie",
+     "reporting": 95,
+     "totalVote": 4945,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1080,
+      "pct": 21.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3165,
+      "pct": 64
+     }
+    },
+    {
+     "fips": "47155",
+     "name": "Sevier",
+     "reporting": 90.1,
+     "totalVote": 26319,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 7163,
+      "pct": 27.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 16018,
+      "pct": 60.9
+     }
+    },
+    {
+     "fips": "47157",
+     "name": "Shelby",
+     "reporting": 74.9,
+     "totalVote": 223826,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 144409,
+      "pct": 64.5
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 59571,
+      "pct": 26.6
+     }
+    },
+    {
+     "fips": "47159",
+     "name": "Smith",
+     "reporting": 95,
+     "totalVote": 5771,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1321,
+      "pct": 22.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3321,
+      "pct": 57.5
+     }
+    },
+    {
+     "fips": "47161",
+     "name": "Stewart",
+     "reporting": 95,
+     "totalVote": 4459,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1029,
+      "pct": 23.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2908,
+      "pct": 65.2
+     }
+    },
+    {
+     "fips": "47163",
+     "name": "Sullivan",
+     "reporting": 95,
+     "totalVote": 46277,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 12890,
+      "pct": 27.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 25660,
+      "pct": 55.4
+     }
+    },
+    {
+     "fips": "47165",
+     "name": "Sumner",
+     "reporting": 72.6,
+     "totalVote": 54386,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 20937,
+      "pct": 38.5
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 27364,
+      "pct": 50.3
+     }
+    },
+    {
+     "fips": "47167",
+     "name": "Tipton",
+     "reporting": 94.6,
+     "totalVote": 16690,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 4986,
+      "pct": 29.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 9813,
+      "pct": 58.8
+     }
+    },
+    {
+     "fips": "47169",
+     "name": "Trousdale",
+     "reporting": 99,
+     "totalVote": 2751,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 787,
+      "pct": 28.6
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1496,
+      "pct": 54.4
+     }
+    },
+    {
+     "fips": "47171",
+     "name": "Unicoi",
+     "reporting": 99,
+     "totalVote": 5586,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1279,
+      "pct": 22.9
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3123,
+      "pct": 55.9
+     }
+    },
+    {
+     "fips": "47173",
+     "name": "Union",
+     "reporting": 83.5,
+     "totalVote": 4935,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1044,
+      "pct": 21.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 3145,
+      "pct": 63.7
+     }
+    },
+    {
+     "fips": "47175",
+     "name": "Van Buren",
+     "reporting": 95,
+     "totalVote": 2183,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 523,
+      "pct": 24
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 1198,
+      "pct": 54.9
+     }
+    },
+    {
+     "fips": "47177",
+     "name": "Warren",
+     "reporting": 99,
+     "totalVote": 10403,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 3094,
+      "pct": 29.7
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5039,
+      "pct": 48.4
+     }
+    },
+    {
+     "fips": "47179",
+     "name": "Washington",
+     "reporting": 0,
+     "totalVote": 0,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 0,
+      "pct": 0
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 0,
+      "pct": 0
+     }
+    },
+    {
+     "fips": "47181",
+     "name": "Wayne",
+     "reporting": 98.7,
+     "totalVote": 3971,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 668,
+      "pct": 16.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 2812,
+      "pct": 70.8
+     }
+    },
+    {
+     "fips": "47183",
+     "name": "Weakley",
+     "reporting": 92.3,
+     "totalVote": 8772,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 2389,
+      "pct": 27.2
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 5310,
+      "pct": 60.5
+     }
+    },
+    {
+     "fips": "47185",
+     "name": "White",
+     "reporting": 99,
+     "totalVote": 8065,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 1837,
+      "pct": 22.8
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 4756,
+      "pct": 59
+     }
+    },
+    {
+     "fips": "47187",
+     "name": "Williamson",
+     "reporting": 75.7,
+     "totalVote": 87248,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 34874,
+      "pct": 40
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 45122,
+      "pct": 51.7
+     }
+    },
+    {
+     "fips": "47189",
+     "name": "Wilson",
+     "reporting": 93.8,
+     "totalVote": 56159,
+     "D": {
+      "name": "Jerri Green",
+      "votes": 21385,
+      "pct": 38.1
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "votes": 28278,
+      "pct": 50.4
+     }
+    }
+   ]
+  },
+  "S-TN": {
+   "reporting": 80.1,
+   "callStatus": "Projected winner",
+   "statewide": {
+    "D": {
+     "name": "Marquita Bradshaw",
+     "votes": 787175,
+     "pct": 42.8
+    },
+    "R": {
+     "name": "Bill Hagerty",
+     "votes": 1016569,
+     "pct": 55.3
+    }
+   },
+   "counties": [
+    {
+     "fips": "47001",
+     "name": "Anderson",
+     "reporting": 95,
+     "totalVote": 23688,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 9521,
+      "pct": 40.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 13663,
+      "pct": 57.7
+     }
+    },
+    {
+     "fips": "47003",
+     "name": "Bedford",
+     "reporting": 95,
+     "totalVote": 12739,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3726,
+      "pct": 29.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 8745,
+      "pct": 68.6
+     }
+    },
+    {
+     "fips": "47005",
+     "name": "Benton",
+     "reporting": 99,
+     "totalVote": 4675,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1065,
+      "pct": 22.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3509,
+      "pct": 75.1
+     }
+    },
+    {
+     "fips": "47007",
+     "name": "Bledsoe",
+     "reporting": 91.6,
+     "totalVote": 3816,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 806,
+      "pct": 21.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2940,
+      "pct": 77
+     }
+    },
+    {
+     "fips": "47009",
+     "name": "Blount",
+     "reporting": 95,
+     "totalVote": 45087,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 14475,
+      "pct": 32.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 29702,
+      "pct": 65.9
+     }
+    },
+    {
+     "fips": "47011",
+     "name": "Bradley",
+     "reporting": 95,
+     "totalVote": 28676,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 7926,
+      "pct": 27.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 20127,
+      "pct": 70.2
+     }
+    },
+    {
+     "fips": "47013",
+     "name": "Campbell",
+     "reporting": 97,
+     "totalVote": 8369,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1813,
+      "pct": 21.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 6351,
+      "pct": 75.9
+     }
+    },
+    {
+     "fips": "47015",
+     "name": "Cannon",
+     "reporting": 91.9,
+     "totalVote": 4198,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 993,
+      "pct": 23.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3098,
+      "pct": 73.8
+     }
+    },
+    {
+     "fips": "47017",
+     "name": "Carroll",
+     "reporting": 47.7,
+     "totalVote": 3297,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 961,
+      "pct": 29.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2263,
+      "pct": 68.6
+     }
+    },
+    {
+     "fips": "47019",
+     "name": "Carter",
+     "reporting": 94.3,
+     "totalVote": 14988,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3611,
+      "pct": 24.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 10933,
+      "pct": 72.9
+     }
+    },
+    {
+     "fips": "47021",
+     "name": "Cheatham",
+     "reporting": 86.8,
+     "totalVote": 13949,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 4929,
+      "pct": 35.3
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 8724,
+      "pct": 62.5
+     }
+    },
+    {
+     "fips": "47023",
+     "name": "Chester",
+     "reporting": 95,
+     "totalVote": 4541,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1014,
+      "pct": 22.3
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3433,
+      "pct": 75.6
+     }
+    },
+    {
+     "fips": "47025",
+     "name": "Claiborne",
+     "reporting": 87.1,
+     "totalVote": 8777,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1646,
+      "pct": 18.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 6916,
+      "pct": 78.8
+     }
+    },
+    {
+     "fips": "47027",
+     "name": "Clay",
+     "reporting": 95,
+     "totalVote": 2039,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 444,
+      "pct": 21.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1544,
+      "pct": 75.7
+     }
+    },
+    {
+     "fips": "47029",
+     "name": "Cocke",
+     "reporting": 90.4,
+     "totalVote": 9259,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1940,
+      "pct": 21
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 7111,
+      "pct": 76.8
+     }
+    },
+    {
+     "fips": "47031",
+     "name": "Coffee",
+     "reporting": 92.7,
+     "totalVote": 15487,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 4569,
+      "pct": 29.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 10544,
+      "pct": 68.1
+     }
+    },
+    {
+     "fips": "47033",
+     "name": "Crockett",
+     "reporting": 97,
+     "totalVote": 3552,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 991,
+      "pct": 27.9
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2484,
+      "pct": 69.9
+     }
+    },
+    {
+     "fips": "47035",
+     "name": "Cumberland",
+     "reporting": 97.2,
+     "totalVote": 23639,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 5314,
+      "pct": 22.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 17907,
+      "pct": 75.8
+     }
+    },
+    {
+     "fips": "47037",
+     "name": "Davidson",
+     "reporting": 61.6,
+     "totalVote": 164397,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 123541,
+      "pct": 75.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 38475,
+      "pct": 23.4
+     }
+    },
+    {
+     "fips": "47041",
+     "name": "DeKalb",
+     "reporting": 94.5,
+     "totalVote": 5247,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1286,
+      "pct": 24.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3859,
+      "pct": 73.5
+     }
+    },
+    {
+     "fips": "47039",
+     "name": "Decatur",
+     "reporting": 94.9,
+     "totalVote": 3316,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 645,
+      "pct": 19.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2612,
+      "pct": 78.8
+     }
+    },
+    {
+     "fips": "47043",
+     "name": "Dickson",
+     "reporting": 84.2,
+     "totalVote": 15744,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 4960,
+      "pct": 31.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 10410,
+      "pct": 66.1
+     }
+    },
+    {
+     "fips": "47045",
+     "name": "Dyer",
+     "reporting": 96.8,
+     "totalVote": 8601,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2012,
+      "pct": 23.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 6397,
+      "pct": 74.4
+     }
+    },
+    {
+     "fips": "47047",
+     "name": "Fayette",
+     "reporting": 85.2,
+     "totalVote": 16941,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 5529,
+      "pct": 32.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 11122,
+      "pct": 65.7
+     }
+    },
+    {
+     "fips": "47049",
+     "name": "Fentress",
+     "reporting": 95,
+     "totalVote": 5669,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 916,
+      "pct": 16.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 4646,
+      "pct": 82
+     }
+    },
+    {
+     "fips": "47051",
+     "name": "Franklin",
+     "reporting": 94.4,
+     "totalVote": 12317,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3550,
+      "pct": 28.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 8485,
+      "pct": 68.9
+     }
+    },
+    {
+     "fips": "47053",
+     "name": "Gibson",
+     "reporting": 92.5,
+     "totalVote": 12657,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3754,
+      "pct": 29.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 8618,
+      "pct": 68.1
+     }
+    },
+    {
+     "fips": "47055",
+     "name": "Giles",
+     "reporting": 96.8,
+     "totalVote": 8401,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2226,
+      "pct": 26.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 5987,
+      "pct": 71.3
+     }
+    },
+    {
+     "fips": "47057",
+     "name": "Grainger",
+     "reporting": 95,
+     "totalVote": 6525,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1228,
+      "pct": 18.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 5172,
+      "pct": 79.3
+     }
+    },
+    {
+     "fips": "47059",
+     "name": "Greene",
+     "reporting": 86.7,
+     "totalVote": 19366,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 4275,
+      "pct": 22.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 14597,
+      "pct": 75.4
+     }
+    },
+    {
+     "fips": "47061",
+     "name": "Grundy",
+     "reporting": 96.2,
+     "totalVote": 3492,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 780,
+      "pct": 22.3
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2610,
+      "pct": 74.7
+     }
+    },
+    {
+     "fips": "47063",
+     "name": "Hamblen",
+     "reporting": 88,
+     "totalVote": 15330,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 4478,
+      "pct": 29.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 10563,
+      "pct": 68.9
+     }
+    },
+    {
+     "fips": "47065",
+     "name": "Hamilton",
+     "reporting": 80.4,
+     "totalVote": 124252,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 62609,
+      "pct": 50.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 59388,
+      "pct": 47.8
+     }
+    },
+    {
+     "fips": "47067",
+     "name": "Hancock",
+     "reporting": 95,
+     "totalVote": 1523,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 260,
+      "pct": 17.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1226,
+      "pct": 80.5
+     }
+    },
+    {
+     "fips": "47069",
+     "name": "Hardeman",
+     "reporting": 87.2,
+     "totalVote": 6549,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2902,
+      "pct": 44.3
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3516,
+      "pct": 53.7
+     }
+    },
+    {
+     "fips": "47071",
+     "name": "Hardin",
+     "reporting": 75.1,
+     "totalVote": 5636,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1095,
+      "pct": 19.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 4435,
+      "pct": 78.7
+     }
+    },
+    {
+     "fips": "47073",
+     "name": "Hawkins",
+     "reporting": 95.4,
+     "totalVote": 14858,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3069,
+      "pct": 20.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 11428,
+      "pct": 76.9
+     }
+    },
+    {
+     "fips": "47075",
+     "name": "Haywood",
+     "reporting": 79.4,
+     "totalVote": 4755,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2741,
+      "pct": 57.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1924,
+      "pct": 40.5
+     }
+    },
+    {
+     "fips": "47077",
+     "name": "Henderson",
+     "reporting": 95,
+     "totalVote": 7003,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1416,
+      "pct": 20.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 5455,
+      "pct": 77.9
+     }
+    },
+    {
+     "fips": "47079",
+     "name": "Henry",
+     "reporting": 53.2,
+     "totalVote": 5148,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1601,
+      "pct": 31.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3428,
+      "pct": 66.6
+     }
+    },
+    {
+     "fips": "47081",
+     "name": "Hickman",
+     "reporting": 95,
+     "totalVote": 6485,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1599,
+      "pct": 24.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 4718,
+      "pct": 72.8
+     }
+    },
+    {
+     "fips": "47083",
+     "name": "Houston",
+     "reporting": 95,
+     "totalVote": 2339,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 610,
+      "pct": 26.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1667,
+      "pct": 71.3
+     }
+    },
+    {
+     "fips": "47085",
+     "name": "Humphreys",
+     "reporting": 74.7,
+     "totalVote": 4189,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1273,
+      "pct": 30.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2820,
+      "pct": 67.3
+     }
+    },
+    {
+     "fips": "47087",
+     "name": "Jackson",
+     "reporting": 85.9,
+     "totalVote": 3331,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 792,
+      "pct": 23.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2457,
+      "pct": 73.8
+     }
+    },
+    {
+     "fips": "47089",
+     "name": "Jefferson",
+     "reporting": 93.9,
+     "totalVote": 15497,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3657,
+      "pct": 23.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 11475,
+      "pct": 74
+     }
+    },
+    {
+     "fips": "47091",
+     "name": "Johnson",
+     "reporting": 99,
+     "totalVote": 4998,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 961,
+      "pct": 19.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3934,
+      "pct": 78.7
+     }
+    },
+    {
+     "fips": "47093",
+     "name": "Knox",
+     "reporting": 95,
+     "totalVote": 155153,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 75148,
+      "pct": 48.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 77821,
+      "pct": 50.2
+     }
+    },
+    {
+     "fips": "47095",
+     "name": "Lake",
+     "reporting": 88.9,
+     "totalVote": 1115,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 319,
+      "pct": 28.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 757,
+      "pct": 67.9
+     }
+    },
+    {
+     "fips": "47097",
+     "name": "Lauderdale",
+     "reporting": 91.1,
+     "totalVote": 5293,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1968,
+      "pct": 37.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3216,
+      "pct": 60.8
+     }
+    },
+    {
+     "fips": "47099",
+     "name": "Lawrence",
+     "reporting": 82.8,
+     "totalVote": 11808,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2371,
+      "pct": 20.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 9041,
+      "pct": 76.6
+     }
+    },
+    {
+     "fips": "47101",
+     "name": "Lewis",
+     "reporting": 94.9,
+     "totalVote": 3757,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 866,
+      "pct": 23.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2814,
+      "pct": 74.9
+     }
+    },
+    {
+     "fips": "47103",
+     "name": "Lincoln",
+     "reporting": 94,
+     "totalVote": 9949,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2273,
+      "pct": 22.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 7511,
+      "pct": 75.5
+     }
+    },
+    {
+     "fips": "47105",
+     "name": "Loudon",
+     "reporting": 0,
+     "totalVote": 0,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 0,
+      "pct": 0
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 0,
+      "pct": 0
+     }
+    },
+    {
+     "fips": "47111",
+     "name": "Macon",
+     "reporting": 95,
+     "totalVote": 5403,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1023,
+      "pct": 18.9
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 4262,
+      "pct": 78.9
+     }
+    },
+    {
+     "fips": "47113",
+     "name": "Madison",
+     "reporting": 93.7,
+     "totalVote": 27195,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 12708,
+      "pct": 46.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 13954,
+      "pct": 51.3
+     }
+    },
+    {
+     "fips": "47115",
+     "name": "Marion",
+     "reporting": 90.4,
+     "totalVote": 8465,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2453,
+      "pct": 29
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 5801,
+      "pct": 68.5
+     }
+    },
+    {
+     "fips": "47117",
+     "name": "Marshall",
+     "reporting": 94.2,
+     "totalVote": 10098,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2796,
+      "pct": 27.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 7071,
+      "pct": 70
+     }
+    },
+    {
+     "fips": "47119",
+     "name": "Maury",
+     "reporting": 69.8,
+     "totalVote": 26894,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 9640,
+      "pct": 35.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 16787,
+      "pct": 62.4
+     }
+    },
+    {
+     "fips": "47107",
+     "name": "McMinn",
+     "reporting": 95,
+     "totalVote": 14035,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3384,
+      "pct": 24.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 10286,
+      "pct": 73.3
+     }
+    },
+    {
+     "fips": "47109",
+     "name": "McNairy",
+     "reporting": 99,
+     "totalVote": 7178,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1361,
+      "pct": 19
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 5608,
+      "pct": 78.1
+     }
+    },
+    {
+     "fips": "47121",
+     "name": "Meigs",
+     "reporting": 95,
+     "totalVote": 3651,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 789,
+      "pct": 21.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 2794,
+      "pct": 76.5
+     }
+    },
+    {
+     "fips": "47123",
+     "name": "Monroe",
+     "reporting": 95,
+     "totalVote": 13502,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2945,
+      "pct": 21.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 10225,
+      "pct": 75.7
+     }
+    },
+    {
+     "fips": "47125",
+     "name": "Montgomery",
+     "reporting": 91.3,
+     "totalVote": 55954,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 27373,
+      "pct": 48.9
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 27311,
+      "pct": 48.8
+     }
+    },
+    {
+     "fips": "47127",
+     "name": "Moore",
+     "reporting": 88.7,
+     "totalVote": 2305,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 475,
+      "pct": 20.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1791,
+      "pct": 77.7
+     }
+    },
+    {
+     "fips": "47129",
+     "name": "Morgan",
+     "reporting": 95,
+     "totalVote": 4956,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 923,
+      "pct": 18.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3920,
+      "pct": 79.1
+     }
+    },
+    {
+     "fips": "47131",
+     "name": "Obion",
+     "reporting": 95,
+     "totalVote": 8015,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1796,
+      "pct": 22.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 6093,
+      "pct": 76
+     }
+    },
+    {
+     "fips": "47133",
+     "name": "Overton",
+     "reporting": 95,
+     "totalVote": 6462,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1565,
+      "pct": 24.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 4758,
+      "pct": 73.6
+     }
+    },
+    {
+     "fips": "47135",
+     "name": "Perry",
+     "reporting": 94.8,
+     "totalVote": 2137,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 434,
+      "pct": 20.3
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1656,
+      "pct": 77.5
+     }
+    },
+    {
+     "fips": "47137",
+     "name": "Pickett",
+     "reporting": 93.3,
+     "totalVote": 1769,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 392,
+      "pct": 22.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1339,
+      "pct": 75.7
+     }
+    },
+    {
+     "fips": "47139",
+     "name": "Polk",
+     "reporting": 77.7,
+     "totalVote": 5134,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1091,
+      "pct": 21.3
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3943,
+      "pct": 76.8
+     }
+    },
+    {
+     "fips": "47141",
+     "name": "Putnam",
+     "reporting": 94.1,
+     "totalVote": 23114,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 7721,
+      "pct": 33.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 14961,
+      "pct": 64.7
+     }
+    },
+    {
+     "fips": "47143",
+     "name": "Rhea",
+     "reporting": 0,
+     "totalVote": 0,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 0,
+      "pct": 0
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 0,
+      "pct": 0
+     }
+    },
+    {
+     "fips": "47145",
+     "name": "Roane",
+     "reporting": 99,
+     "totalVote": 17475,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 5018,
+      "pct": 28.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 12085,
+      "pct": 69.2
+     }
+    },
+    {
+     "fips": "47147",
+     "name": "Robertson",
+     "reporting": 73.5,
+     "totalVote": 18732,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 6176,
+      "pct": 33
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 12148,
+      "pct": 64.9
+     }
+    },
+    {
+     "fips": "47149",
+     "name": "Rutherford",
+     "reporting": 81.4,
+     "totalVote": 86534,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 42808,
+      "pct": 49.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 42009,
+      "pct": 48.5
+     }
+    },
+    {
+     "fips": "47151",
+     "name": "Scott",
+     "reporting": 87.7,
+     "totalVote": 4303,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 735,
+      "pct": 17.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3466,
+      "pct": 80.5
+     }
+    },
+    {
+     "fips": "47153",
+     "name": "Sequatchie",
+     "reporting": 95,
+     "totalVote": 4809,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1015,
+      "pct": 21.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3688,
+      "pct": 76.7
+     }
+    },
+    {
+     "fips": "47155",
+     "name": "Sevier",
+     "reporting": 89.1,
+     "totalVote": 26026,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 6924,
+      "pct": 26.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 18601,
+      "pct": 71.5
+     }
+    },
+    {
+     "fips": "47157",
+     "name": "Shelby",
+     "reporting": 73.2,
+     "totalVote": 218844,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 146942,
+      "pct": 67.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 67180,
+      "pct": 30.7
+     }
+    },
+    {
+     "fips": "47159",
+     "name": "Smith",
+     "reporting": 95,
+     "totalVote": 5603,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1213,
+      "pct": 21.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 4254,
+      "pct": 75.9
+     }
+    },
+    {
+     "fips": "47161",
+     "name": "Stewart",
+     "reporting": 95,
+     "totalVote": 4374,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 968,
+      "pct": 22.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3323,
+      "pct": 76
+     }
+    },
+    {
+     "fips": "47163",
+     "name": "Sullivan",
+     "reporting": 95,
+     "totalVote": 45922,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 13111,
+      "pct": 28.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 31817,
+      "pct": 69.3
+     }
+    },
+    {
+     "fips": "47165",
+     "name": "Sumner",
+     "reporting": 71.4,
+     "totalVote": 53556,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 20351,
+      "pct": 38
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 32244,
+      "pct": 60.2
+     }
+    },
+    {
+     "fips": "47167",
+     "name": "Tipton",
+     "reporting": 91.9,
+     "totalVote": 16212,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 4770,
+      "pct": 29.4
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 11069,
+      "pct": 68.3
+     }
+    },
+    {
+     "fips": "47169",
+     "name": "Trousdale",
+     "reporting": 99,
+     "totalVote": 2648,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 723,
+      "pct": 27.3
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1872,
+      "pct": 70.7
+     }
+    },
+    {
+     "fips": "47171",
+     "name": "Unicoi",
+     "reporting": 99,
+     "totalVote": 5329,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1282,
+      "pct": 24.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3902,
+      "pct": 73.2
+     }
+    },
+    {
+     "fips": "47173",
+     "name": "Union",
+     "reporting": 78.1,
+     "totalVote": 4620,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 950,
+      "pct": 20.6
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3592,
+      "pct": 77.7
+     }
+    },
+    {
+     "fips": "47175",
+     "name": "Van Buren",
+     "reporting": 95,
+     "totalVote": 2105,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 465,
+      "pct": 22.1
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 1565,
+      "pct": 74.3
+     }
+    },
+    {
+     "fips": "47177",
+     "name": "Warren",
+     "reporting": 99,
+     "totalVote": 9932,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 3004,
+      "pct": 30.2
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 6646,
+      "pct": 66.9
+     }
+    },
+    {
+     "fips": "47179",
+     "name": "Washington",
+     "reporting": 0,
+     "totalVote": 0,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 0,
+      "pct": 0
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 0,
+      "pct": 0
+     }
+    },
+    {
+     "fips": "47181",
+     "name": "Wayne",
+     "reporting": 95.9,
+     "totalVote": 3857,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 578,
+      "pct": 15
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 3214,
+      "pct": 83.3
+     }
+    },
+    {
+     "fips": "47183",
+     "name": "Weakley",
+     "reporting": 92,
+     "totalVote": 8743,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 2141,
+      "pct": 24.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 6431,
+      "pct": 73.6
+     }
+    },
+    {
+     "fips": "47185",
+     "name": "White",
+     "reporting": 99,
+     "totalVote": 7996,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 1734,
+      "pct": 21.7
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 6085,
+      "pct": 76.1
+     }
+    },
+    {
+     "fips": "47187",
+     "name": "Williamson",
+     "reporting": 75.3,
+     "totalVote": 86803,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 33720,
+      "pct": 38.8
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 51884,
+      "pct": 59.8
+     }
+    },
+    {
+     "fips": "47189",
+     "name": "Wilson",
+     "reporting": 94.6,
+     "totalVote": 56652,
+     "D": {
+      "name": "Marquita Bradshaw",
+      "votes": 21224,
+      "pct": 37.5
+     },
+     "R": {
+      "name": "Bill Hagerty",
+      "votes": 34356,
+      "pct": 60.6
+     }
+    }
+   ]
+  }
+ }
+}

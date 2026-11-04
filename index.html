@@ -127,6 +127,27 @@ header{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;justify-co
 .badge.leanD,.badge.likelyD,.badge.solidD{color:var(--dem);border-color:rgba(63,162,255,.4)}
 .badge.leanR,.badge.likelyR,.badge.solidR{color:var(--rep);border-color:rgba(255,79,109,.4)}
 .badge.call{color:var(--ink);background:var(--fg);border-color:var(--fg)}
+
+/* county table */
+.counties{border:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-width:0}
+.ct-head{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}
+.ct-head h3{font-size:15px}
+.ct-head .eyebrow{font-size:10.5px}
+.ct-controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ct-controls input{background:var(--ink);border:1px solid var(--line);color:var(--fg);font:16px var(--f-body);padding:7px 10px;border-radius:2px;width:min(100%,200px)}
+.ct-sum{display:flex;flex-wrap:wrap;gap:6px 18px;padding:10px 14px;font-family:var(--f-mono);font-size:13px;color:var(--muted);border-bottom:1px dashed var(--line)}
+.ct-sum b.D{color:var(--dem)} .ct-sum b.R{color:var(--rep)}
+.ct-wrap{overflow:auto;max-height:520px}
+table.ct{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+.ct th{position:sticky;top:0;background:var(--panel-2);font:600 11px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;padding:9px 12px;cursor:pointer;white-space:nowrap;border-bottom:1px solid var(--line)}
+.ct th:first-child,.ct td:first-child{text-align:left}
+.ct th[aria-sort]{color:var(--chrome)}
+.ct td{padding:7px 12px;border-bottom:1px solid var(--line-soft);text-align:right;font-family:var(--f-mono);white-space:nowrap}
+.ct td:first-child{font-family:var(--f-body);font-weight:500}
+.ct td.D{color:var(--dem)} .ct td.R{color:var(--rep)}
+.mbar{display:inline-block;width:64px;height:6px;background:var(--tbd);vertical-align:middle;margin-left:8px;position:relative}
+.mbar i{position:absolute;top:0;bottom:0}
+.mbar i.D{right:50%;background:var(--dem)} .mbar i.R{left:50%;background:var(--rep)}
 .empty{padding:40px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line)}
 footer{color:var(--dim);font-size:12.5px;border-top:1px solid var(--line);padding-top:16px;display:flex;flex-direction:column;gap:6px;max-width:80ch}
 footer a{color:var(--muted)}
@@ -205,6 +226,7 @@ footer a{color:var(--muted)}
     </div>
     <div class="chips" id="chips" aria-label="Jump to a state"></div>
     <div class="statebar" id="statebar" hidden></div>
+    <div class="counties" id="counties" hidden></div>
     <div class="grid" id="grid"></div>
   </section>
 
@@ -314,6 +336,7 @@ function renderList(){
   if(stateSel){const [n,seats]=STATES[stateSel];const sen=races.filter(x=>x.state===stateSel&&x.chamber==="senate").length;
     $("statebar").hidden=false;$("statebar").innerHTML=`<h3>${n}</h3><span>${seats} House seat${seats>1?"s":""}</span><span>${sen?sen+" Senate race"+(sen>1?"s":""):"No Senate race this year"}</span><span>${races.filter(x=>x.state===stateSel&&x.chamber==="house").length} House race(s) tracked here</span>${races.some(x=>x.state===stateSel&&x.chamber==="governor")?"<span>Governor's race</span>":""}`;}
   else $("statebar").hidden=true;
+  renderCounties();
   $("grid").innerHTML=list.length?list.map(card).join(""):`<div class="empty">${races.length?"No races match. Try another state or clear the filters.":"Race data appears here once the feed connects."}</div>`;
 }
 
@@ -329,6 +352,38 @@ try{stateSel=localStorage.getItem("cw-state")||null}catch{}
 arc($("senateArc"),100,0,0); arc($("houseArc"),435,0,0); renderChips(); renderList();
 
 function setLive(on,txt){$("livePill").className="pill "+(on?"on":"off");$("liveTxt").textContent=txt;}
+
+/* county results (currently Tennessee) */
+let countyData={}, ctRace=null, ctSort={k:"name",dir:1}, ctQ="";
+function renderCounties(){
+  const box=$("counties"), cd=stateSel&&countyData[stateSel];
+  if(!cd){box.hidden=true;return;}
+  const ids=Object.keys(cd.races); if(!ctRace||!cd.races[ctRace]) ctRace=ids[0];
+  const R=cd.races[ctRace], sw=R.statewide;
+  const label=id=>id.startsWith("G-")?"Governor":id.startsWith("S-")?"Senate":id;
+  let rows=R.counties.filter(c=>!ctQ||String(c.name).toLowerCase().includes(ctQ));
+  const val=(c,k)=>k==="name"?c.name:k==="D"?(c.D?.pct??-1):k==="R"?(c.R?.pct??-1):k==="m"?((c.D?.pct??0)-(c.R?.pct??0)):k==="in"?(c.reporting??-1):(c.totalVote??0);
+  rows.sort((a,b)=>{const x=val(a,ctSort.k),y=val(b,ctSort.k);return (x<y?-1:x>y?1:0)*ctSort.dir;});
+  const th=(k,t)=>`<th data-k="${k}" ${ctSort.k===k?`aria-sort="${ctSort.dir>0?"ascending":"descending"}"`:""}>${t}${ctSort.k===k?(ctSort.dir>0?" ▲":" ▼"):""}</th>`;
+  const dn=sw.D?.name?.split(" ").slice(-1)[0]||"Dem", rn=sw.R?.name?.split(" ").slice(-1)[0]||"Rep";
+  box.hidden=false;
+  box.innerHTML=`<div class="ct-head"><div><div class="eyebrow">County results · ${R.counties.length} counties</div><h3>${esc(STATES[stateSel][0])} ${label(ctRace)}</h3></div>
+    <div class="ct-controls"><div class="seg" role="group" aria-label="County race">${ids.map(id=>`<button data-r="${id}" aria-pressed="${id===ctRace}">${label(id)}</button>`).join("")}</div>
+    <input id="ctq" type="search" placeholder="Find a county" value="${esc(ctQ)}" aria-label="Find a county"></div></div>
+    <div class="ct-sum"><span>Statewide</span><span><b class="D">${esc(sw.D?.name||"")}</b> ${sw.D?.pct??"–"}%</span><span><b class="R">${esc(sw.R?.name||"")}</b> ${sw.R?.pct??"–"}%</span><span>${R.reporting??"–"}% in</span><span>${esc(R.callStatus||"")}</span></div>
+    <div class="ct-wrap"><table class="ct"><thead><tr>${th("name","County")}${th("D",esc(dn)+" (D)")}${th("R",esc(rn)+" (R)")}${th("m","Margin")}${th("in","% in")}${th("v","Votes")}</tr></thead><tbody>
+    ${rows.map(c=>{const m=(c.D?.pct??0)-(c.R?.pct??0),w=Math.min(50,Math.abs(m))/50*32;
+      return `<tr><td>${esc(c.name)}</td><td class="D">${c.D?.pct!=null?c.D.pct.toFixed(1)+"%":"–"}</td><td class="R">${c.R?.pct!=null?c.R.pct.toFixed(1)+"%":"–"}</td>
+      <td class="${m>=0?"D":"R"}">${m>=0?"D":"R"}+${Math.abs(m).toFixed(1)}<span class="mbar"><i class="${m>=0?"D":"R"}" style="width:${w}px"></i></span></td>
+      <td>${c.reporting!=null?Math.round(c.reporting)+"%":"–"}</td><td>${(c.totalVote??0).toLocaleString()}</td></tr>`;}).join("")}
+    </tbody></table></div>`;
+}
+$("counties").addEventListener("click",e=>{const b=e.target.closest("button[data-r]");if(b){ctRace=b.dataset.r;renderCounties();return;}
+  const h=e.target.closest("th[data-k]");if(h){const k=h.dataset.k;ctSort={k,dir:ctSort.k===k?-ctSort.dir:(k==="name"?1:-1)};renderCounties();}});
+$("counties").addEventListener("input",e=>{if(e.target.id==="ctq"){ctQ=e.target.value.trim().toLowerCase();const pos=e.target.selectionStart;renderCounties();const i=$("ctq");i.focus();i.setSelectionRange(pos,pos);}});
+async function loadCounties(){
+  try{const r=await fetch("counties-tn.json?t="+Date.now(),{cache:"no-store"});if(r.ok){countyData.TN=await r.json();renderCounties();}}catch(e){}
+}
 async function load(){
   try{
     const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
@@ -337,7 +392,7 @@ async function load(){
     setLive(true,"Live"); renderTotals(); renderChips(); renderList();
   }catch(e){ setLive(false,"Feed unavailable"); }
 }
-load(); setInterval(load,60000);
+load(); loadCounties(); setInterval(()=>{load();loadCounties();},60000);
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")load();});
 </script>
 
