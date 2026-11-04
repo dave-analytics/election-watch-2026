@@ -9,7 +9,7 @@
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
-  "note": "Update 2026-11-04T04:03:47Z: every tracked Senate, House and governor race comes from its NBC News race page (calls = NBC projections). New this run: TX (Talarico, D flip), OR (Merkley), VA-1 (D flip), PA-8 (D flip), NJ-9, NY-19, NY-22, OH-13, VA-7 called; MI-10, WI-1, CO-3 added as next closest. House: CBS and NBC project a Democratic majority; NBC tally 138 D, 78 R (latest found). Earlier calls: NC, GA, VA (AP); IL (ABC); FL (CBS). Baseline: NBC News. Ratings: Cook (Oct 2026).",
+  "note": "Update 2026-11-04T04:03:47Z: every tracked Senate, House and governor race comes from its NBC News race page (calls = NBC projections). New this run: TX (Talarico, D flip), OR (Merkley), VA-1 (D flip), PA-8 (D flip), NJ-9, NY-19, NY-22, OH-13, VA-7 called; MI-10, WI-1, CO-3 added as next closest. House: CBS and NBC project a Democratic majority; NBC tally 138 D, 78 R (latest found). Later: OH, IA, KS Senate (D flips — Democrats reach 51), TX governor (Hinojosa), WA-3 called by NBC; NC-1, IA-2, ME-2, NM-2 added as next closest. Earlier calls: NC, GA, VA (AP); IL (ABC); FL (CBS). Baseline: NBC News. Ratings: Cook (Oct 2026).",
   "senate": {
    "baseD": 47,
    "baseR": 53,
@@ -1901,6 +1901,104 @@
    "status": "Counting",
    "addedReason": "next closest uncalled race",
    "reporting": 71
+  },
+  {
+   "id": "H-NC-01",
+   "chamber": "house",
+   "state": "NC",
+   "district": 1,
+   "incParty": "D",
+   "incumbent": "Don Davis",
+   "open": false,
+   "cands": [
+    {
+     "name": "Don Davis",
+     "party": "D",
+     "pct": 49.5,
+     "inc": true
+    },
+    {
+     "name": "Laurie Buckhout",
+     "party": "R",
+     "pct": 47.3
+    }
+   ],
+   "status": "Counting",
+   "addedReason": "next closest uncalled race",
+   "reporting": 95
+  },
+  {
+   "id": "H-IA-02",
+   "chamber": "house",
+   "state": "IA",
+   "district": 2,
+   "incParty": "R",
+   "incumbent": "Open seat",
+   "open": true,
+   "cands": [
+    {
+     "name": "Lindsay James",
+     "party": "D",
+     "pct": 50.4
+    },
+    {
+     "name": "Joe Mitchell",
+     "party": "R",
+     "pct": 45
+    }
+   ],
+   "status": "Counting",
+   "addedReason": "next closest uncalled race",
+   "reporting": 91
+  },
+  {
+   "id": "H-ME-02",
+   "chamber": "house",
+   "state": "ME",
+   "district": 2,
+   "incParty": "R",
+   "incumbent": "Open seat",
+   "open": true,
+   "cands": [
+    {
+     "name": "Paul LePage",
+     "party": "R",
+     "pct": 52.7
+    },
+    {
+     "name": "Matthew Dunlap",
+     "party": "D",
+     "pct": 47.3
+    }
+   ],
+   "status": "Counting",
+   "addedReason": "next closest uncalled race",
+   "reporting": 51
+  },
+  {
+   "id": "H-NM-02",
+   "chamber": "house",
+   "state": "NM",
+   "district": 2,
+   "incParty": "D",
+   "incumbent": "Gabriel Vasquez",
+   "open": false,
+   "cands": [
+    {
+     "name": "Gabriel Vasquez",
+     "party": "D",
+     "pct": 54.5,
+     "inc": true
+    },
+    {
+     "name": "Gregory Cunningham",
+     "party": "R",
+     "pct": 45.5
+    }
+   ],
+   "status": "Counting",
+   "addedReason": "next closest uncalled race",
+   "reporting": 55
   }
  ]
 }
