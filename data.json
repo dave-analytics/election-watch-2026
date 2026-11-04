@@ -4,7 +4,7 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 240,
+   "wonD": 242,
    "wonR": 146,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T19:11:46Z"
+  "updatedAt": "2026-11-04T20:11:09Z"
  },
  "races": [
   {
@@ -1648,18 +1648,18 @@
     {
      "name": "Cait Conley",
      "party": "D",
-     "pct": 52.2
+     "pct": 52.1
     },
     {
      "name": "Mike Lawler",
      "party": "R",
-     "pct": 47.7,
+     "pct": 47.8,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 62
+   "reporting": 98
   },
   {
    "id": "H-AZ-01",
@@ -2017,17 +2017,17 @@
     {
      "name": "Paul LePage",
      "party": "R",
-     "pct": 50
+     "pct": 50.1
     },
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 49.9
+     "pct": 49.8
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 88
+   "reporting": 90
   },
   {
    "id": "H-NM-02",
@@ -4640,10 +4640,12 @@
      "pct": 43.3
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 47,
-   "reporting": 59
+   "reporting": 59,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-CA-48",
@@ -4664,10 +4666,12 @@
      "pct": 40.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 48,
-   "reporting": 52
+   "reporting": 52,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-CA-49",
@@ -8720,13 +8724,13 @@
     {
      "name": "Aaron Flint",
      "party": "R",
-     "pct": 47.3
+     "pct": 47.2
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 88
+   "reporting": 90
   },
   {
    "id": "H-MT-02",
@@ -9269,12 +9273,12 @@
     {
      "name": "Zack Mullock",
      "party": "D",
-     "pct": 50.7
+     "pct": 50.8
     },
     {
      "name": "Jeff Van Drew",
      "party": "R",
-     "pct": 48.3,
+     "pct": 48.2,
      "inc": true
     }
    ],
@@ -10132,7 +10136,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 21,
-   "reporting": 81
+   "reporting": 95
   },
   {
    "id": "H-NY-23",
