@@ -256,7 +256,7 @@ function renderTotals(){
   const hD=h.wonD||0, hR=h.wonR||0, hT=435-hD-hR;
   $("hD").textContent=hD;$("hR").textContent=hR;$("hT").textContent=hT;
   $("hBase").textContent=`${h.baseD} D · ${h.baseR} R${h.vacant?` · ${h.vacant} vac.`:""}`;
-  $("hNet").textContent=(hD+hR)>0?`D ${sign(h.netD||0)}`:"–";
+  $("hNet").textContent=(h.netD!=null&&(hD+hR)>0)?`D ${sign(h.netD)}`:"–";
   arc($("houseArc"),435,hD,hR); setBar("h",hD,hR,435);
   $("hVerdict").innerHTML= hD>=218?"<b>Democrats have won control.</b>": hR>=218?"<b>Republicans have kept control.</b>"
     : `Democrats need <b>${218-hD}</b> more · Republicans need <b>${218-hR}</b> more.`;

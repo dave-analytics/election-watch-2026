@@ -3,19 +3,18 @@
   "house": {
    "baseD": 214,
    "baseR": 219,
-   "netD": 0,
    "vacant": 2,
-   "wonD": 0,
-   "wonR": 0
+   "wonD": 84,
+   "wonR": 37
   },
-  "note": "Baseline: NBC News (Senate 53R–47D incl. 2 independents; House 219R–214D, 2 vacancies). Ratings: Cook Political Report via NPR, Axios, Washington Post, Newsweek (Oct 2026); 'Solid' ratings are conventional for lopsided states. Nominees from Ballotpedia, Wikipedia, NBC and Election Central; 'nominees pending' means not confirmed by this feed. Results check 2026-11-04T00:16:02Z: no major-desk calls confirmed yet; counting under way. Sources: Fox News, NBC News, CBS News, CNN results pages.",
+  "note": "Calls as of 2026-11-04T02:20:20Z: NC (Cooper, D flip) via NBC/CBS/NPR; GA, VA via AP; NH, NM, CO, NJ, DE, RI, MA via NBC; IL via ABC; FL via CBS; KY, WV projected (NBC/CBS live coverage). House tally: NBC (84 D, 37 R called, ~9:15 PM ET snapshot). Safe seats not yet confirmed by a desk in our sources stay uncalled. Baseline: NBC News (Senate 53R–47D; House 219R–214D, 2 vacancies). Ratings: Cook Political Report (Oct 2026).",
   "senate": {
    "baseD": 47,
    "baseR": 53,
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T01:30:33Z"
+  "updatedAt": "2026-11-04T02:20:20Z"
  },
  "races": [
   {
@@ -282,8 +281,10 @@
    "incumbent": "John Hickenlooper",
    "rating": "solidD",
    "state": "CO",
-   "status": "Counting",
-   "id": "S-CO"
+   "status": "Called",
+   "id": "S-CO",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
@@ -302,8 +303,10 @@
    "incumbent": "Chris Coons",
    "rating": "solidD",
    "state": "DE",
-   "status": "Counting",
-   "id": "S-DE"
+   "status": "Called",
+   "id": "S-DE",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
@@ -322,8 +325,10 @@
    "incumbent": "Ashley Moody",
    "special": true,
    "state": "FL",
-   "status": "Counting",
-   "id": "S-FL"
+   "status": "Called",
+   "id": "S-FL",
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
@@ -342,8 +347,10 @@
    "incumbent": "Jon Ossoff",
    "rating": "leanD",
    "state": "GA",
-   "status": "Counting",
-   "id": "S-GA"
+   "status": "Called",
+   "id": "S-GA",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
@@ -398,8 +405,10 @@
    "open": true,
    "rating": "solidD",
    "state": "IL",
-   "status": "Counting",
-   "id": "S-IL"
+   "status": "Called",
+   "id": "S-IL",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
@@ -438,8 +447,10 @@
    "open": true,
    "rating": "solidR",
    "state": "KY",
-   "status": "Counting",
-   "id": "S-KY"
+   "status": "Called",
+   "id": "S-KY",
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [],
@@ -452,14 +463,22 @@
    "id": "S-LA"
   },
   {
-   "cands": [],
+   "cands": [
+    {
+     "name": "Ed Markey",
+     "party": "D",
+     "inc": true
+    }
+   ],
    "chamber": "senate",
    "incParty": "D",
    "incumbent": "Ed Markey",
    "rating": "solidD",
    "state": "MA",
-   "status": "Counting",
-   "id": "S-MA"
+   "status": "Called",
+   "id": "S-MA",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
@@ -567,8 +586,10 @@
    "open": true,
    "rating": "leanD",
    "state": "NC",
-   "status": "Counting",
-   "id": "S-NC"
+   "status": "Called",
+   "id": "S-NC",
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
@@ -606,8 +627,10 @@
    "incumbent": "Jeanne Shaheen",
    "open": true,
    "state": "NH",
-   "status": "Counting",
-   "id": "S-NH"
+   "status": "Called",
+   "id": "S-NH",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
@@ -626,18 +649,28 @@
    "incumbent": "Cory Booker",
    "rating": "solidD",
    "state": "NJ",
-   "status": "Counting",
-   "id": "S-NJ"
+   "status": "Called",
+   "id": "S-NJ",
+   "winner": "D",
+   "flip": false
   },
   {
-   "cands": [],
+   "cands": [
+    {
+     "name": "Ben Ray Luján",
+     "party": "D",
+     "inc": true
+    }
+   ],
    "chamber": "senate",
    "incParty": "D",
    "incumbent": "Ben Ray Luján",
    "rating": "solidD",
    "state": "NM",
-   "status": "Counting",
-   "id": "S-NM"
+   "status": "Called",
+   "id": "S-NM",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [
@@ -697,8 +730,10 @@
    "incumbent": "Jack Reed",
    "rating": "solidD",
    "state": "RI",
-   "status": "Counting",
-   "id": "S-RI"
+   "status": "Called",
+   "id": "S-RI",
+   "winner": "D",
+   "flip": false
   },
   {
    "cands": [],
@@ -761,24 +796,44 @@
    "id": "S-TX"
   },
   {
-   "cands": [],
+   "cands": [
+    {
+     "name": "Mark Warner",
+     "party": "D",
+     "inc": true
+    }
+   ],
    "chamber": "senate",
    "incParty": "D",
    "incumbent": "Mark Warner",
    "rating": "solidD",
    "state": "VA",
-   "status": "Counting",
-   "id": "S-VA"
+   "status": "Called",
+   "id": "S-VA",
+   "winner": "D",
+   "flip": false
   },
   {
-   "cands": [],
+   "cands": [
+    {
+     "name": "Shelley Moore Capito",
+     "party": "R",
+     "inc": true
+    },
+    {
+     "name": "Rachel Anderson",
+     "party": "D"
+    }
+   ],
    "chamber": "senate",
    "incParty": "R",
    "incumbent": "Shelley Moore Capito",
    "rating": "solidR",
    "state": "WV",
-   "status": "Counting",
-   "id": "S-WV"
+   "status": "Called",
+   "id": "S-WV",
+   "winner": "R",
+   "flip": false
   },
   {
    "cands": [
