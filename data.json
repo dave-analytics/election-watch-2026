@@ -1,0 +1,804 @@
+{
+ "meta": {
+  "house": {
+   "baseD": 214,
+   "baseR": 219,
+   "netD": 0,
+   "vacant": 2,
+   "wonD": 0,
+   "wonR": 0
+  },
+  "note": "Baseline: NBC News (Senate 53R–47D incl. 2 independents; House 219R–214D, 2 vacancies). Ratings: Cook Political Report via NPR, Axios, Washington Post, Newsweek (Oct 2026); 'Solid' ratings are conventional for lopsided states. Nominees from Ballotpedia, Wikipedia, NBC and Election Central; 'nominees pending' means not confirmed by this feed. Results check 2026-11-04T00:16:02Z: no major-desk calls confirmed yet; counting under way. Sources: Fox News, NBC News, CBS News, CNN results pages.",
+  "senate": {
+   "baseD": 47,
+   "baseR": 53,
+   "holdD": 34,
+   "holdR": 31
+  },
+  "updatedAt": "2026-11-04T00:16:02Z"
+ },
+ "races": [
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "David Valadao",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 22,
+   "incParty": "R",
+   "incumbent": "David Valadao",
+   "rating": "tossup",
+   "state": "CA",
+   "status": "Counting",
+   "id": "H-CA-22"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Mariannette Miller-Meeks",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 1,
+   "incParty": "R",
+   "incumbent": "Mariannette Miller-Meeks",
+   "rating": "leanD",
+   "state": "IA",
+   "status": "Counting",
+   "id": "H-IA-01"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Zach Nunn",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 3,
+   "incParty": "R",
+   "incumbent": "Zach Nunn",
+   "rating": "leanD",
+   "state": "IA",
+   "status": "Counting",
+   "id": "H-IA-03"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Bill Huizenga",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 4,
+   "incParty": "R",
+   "incumbent": "Bill Huizenga",
+   "rating": "tossup",
+   "state": "MI",
+   "status": "Counting",
+   "id": "H-MI-04"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Tom Barrett",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 7,
+   "incParty": "R",
+   "incumbent": "Tom Barrett",
+   "rating": "tossup",
+   "state": "MI",
+   "status": "Counting",
+   "id": "H-MI-07"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Max Miller",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 7,
+   "incParty": "R",
+   "incumbent": "Max Miller",
+   "rating": "tossup",
+   "state": "OH",
+   "status": "Counting",
+   "id": "H-OH-07"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Brian Fitzpatrick",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 1,
+   "incParty": "R",
+   "incumbent": "Brian Fitzpatrick",
+   "rating": "tossup",
+   "state": "PA",
+   "status": "Counting",
+   "id": "H-PA-01"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Ryan Mackenzie",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 7,
+   "incParty": "R",
+   "incumbent": "Ryan Mackenzie",
+   "rating": "leanD",
+   "state": "PA",
+   "status": "Counting",
+   "id": "H-PA-07"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Scott Perry",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 10,
+   "incParty": "R",
+   "incumbent": "Scott Perry",
+   "rating": "leanD",
+   "state": "PA",
+   "status": "Counting",
+   "id": "H-PA-10"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Rob Wittman",
+     "party": "R"
+    }
+   ],
+   "chamber": "house",
+   "district": 1,
+   "incParty": "R",
+   "incumbent": "Rob Wittman",
+   "rating": "tossup",
+   "state": "VA",
+   "status": "Counting",
+   "id": "H-VA-01"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Marie Gluesenkamp Perez",
+     "party": "D"
+    }
+   ],
+   "chamber": "house",
+   "district": 3,
+   "incParty": "D",
+   "incumbent": "Marie Gluesenkamp Perez",
+   "rating": "leanD",
+   "state": "WA",
+   "status": "Counting",
+   "id": "H-WA-03"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Dan Sullivan",
+     "party": "R"
+    },
+    {
+     "name": "Mary Peltola",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Dan Sullivan",
+   "rating": "tossup",
+   "state": "AK",
+   "status": "Counting",
+   "id": "S-AK"
+  },
+  {
+   "cands": [
+    {
+     "name": "Barry Moore",
+     "party": "R"
+    },
+    {
+     "name": "Everett Wess",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Tommy Tuberville",
+   "open": true,
+   "rating": "solidR",
+   "state": "AL",
+   "status": "Counting",
+   "id": "S-AL"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Tom Cotton",
+     "party": "R"
+    },
+    {
+     "name": "Hallie Shoffner",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Tom Cotton",
+   "rating": "solidR",
+   "state": "AR",
+   "status": "Counting",
+   "id": "S-AR"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "John Hickenlooper",
+     "party": "D"
+    },
+    {
+     "name": "Mark Baisley",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "John Hickenlooper",
+   "rating": "solidD",
+   "state": "CO",
+   "status": "Counting",
+   "id": "S-CO"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Chris Coons",
+     "party": "D"
+    },
+    {
+     "name": "Michael Katz",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Chris Coons",
+   "rating": "solidD",
+   "state": "DE",
+   "status": "Counting",
+   "id": "S-DE"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Ashley Moody",
+     "party": "R"
+    },
+    {
+     "name": "Angie Nixon",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Ashley Moody",
+   "special": true,
+   "state": "FL",
+   "status": "Counting",
+   "id": "S-FL"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Jon Ossoff",
+     "party": "D"
+    },
+    {
+     "name": "Mike Collins",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Jon Ossoff",
+   "rating": "leanD",
+   "state": "GA",
+   "status": "Counting",
+   "id": "S-GA"
+  },
+  {
+   "cands": [
+    {
+     "name": "Ashley Hinson",
+     "party": "R"
+    },
+    {
+     "name": "Josh Turek",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Joni Ernst",
+   "open": true,
+   "rating": "tossup",
+   "state": "IA",
+   "status": "Counting",
+   "id": "S-IA"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Jim Risch",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Jim Risch",
+   "rating": "solidR",
+   "state": "ID",
+   "status": "Counting",
+   "id": "S-ID"
+  },
+  {
+   "cands": [
+    {
+     "name": "Juliana Stratton",
+     "party": "D"
+    },
+    {
+     "name": "Don Tracy",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Dick Durbin",
+   "open": true,
+   "rating": "solidD",
+   "state": "IL",
+   "status": "Counting",
+   "id": "S-IL"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Roger Marshall",
+     "party": "R"
+    },
+    {
+     "name": "Adam Hamilton",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Roger Marshall",
+   "rating": "tossup",
+   "state": "KS",
+   "status": "Counting",
+   "id": "S-KS"
+  },
+  {
+   "cands": [
+    {
+     "name": "Andy Barr",
+     "party": "R"
+    },
+    {
+     "name": "Charles Booker",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Mitch McConnell",
+   "open": true,
+   "rating": "solidR",
+   "state": "KY",
+   "status": "Counting",
+   "id": "S-KY"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Bill Cassidy",
+   "rating": "solidR",
+   "state": "LA",
+   "status": "Counting",
+   "id": "S-LA"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Ed Markey",
+   "rating": "solidD",
+   "state": "MA",
+   "status": "Counting",
+   "id": "S-MA"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Susan Collins",
+     "party": "R"
+    },
+    {
+     "name": "Troy Jackson",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Susan Collins",
+   "rating": "tossup",
+   "state": "ME",
+   "status": "Counting",
+   "id": "S-ME"
+  },
+  {
+   "cands": [
+    {
+     "name": "Abdul El-Sayed",
+     "party": "D"
+    },
+    {
+     "name": "Mike Rogers",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Gary Peters",
+   "open": true,
+   "rating": "tossup",
+   "state": "MI",
+   "status": "Counting",
+   "id": "S-MI"
+  },
+  {
+   "cands": [
+    {
+     "name": "Peggy Flanagan",
+     "party": "D"
+    },
+    {
+     "name": "Michele Tafoya",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Tina Smith",
+   "open": true,
+   "state": "MN",
+   "status": "Counting",
+   "id": "S-MN"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Cindy Hyde-Smith",
+     "party": "R"
+    },
+    {
+     "name": "Scott Colom",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Cindy Hyde-Smith",
+   "rating": "solidR",
+   "state": "MS",
+   "status": "Counting",
+   "id": "S-MS"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Steve Daines",
+   "rating": "solidR",
+   "state": "MT",
+   "status": "Counting",
+   "id": "S-MT"
+  },
+  {
+   "cands": [
+    {
+     "name": "Roy Cooper",
+     "party": "D"
+    },
+    {
+     "name": "Michael Whatley",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Thom Tillis",
+   "open": true,
+   "rating": "leanD",
+   "state": "NC",
+   "status": "Counting",
+   "id": "S-NC"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Pete Ricketts",
+     "party": "R"
+    },
+    {
+     "name": "Dan Osborn",
+     "party": "I"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Pete Ricketts",
+   "rating": "likelyR",
+   "state": "NE",
+   "status": "Counting",
+   "id": "S-NE"
+  },
+  {
+   "cands": [
+    {
+     "name": "Chris Pappas",
+     "party": "D"
+    },
+    {
+     "name": "John E. Sununu",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Jeanne Shaheen",
+   "open": true,
+   "state": "NH",
+   "status": "Counting",
+   "id": "S-NH"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Cory Booker",
+     "party": "D"
+    },
+    {
+     "name": "Murphy (R nominee)",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Cory Booker",
+   "rating": "solidD",
+   "state": "NJ",
+   "status": "Counting",
+   "id": "S-NJ"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Ben Ray Luján",
+   "rating": "solidD",
+   "state": "NM",
+   "status": "Counting",
+   "id": "S-NM"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Jon Husted",
+     "party": "R"
+    },
+    {
+     "name": "Sherrod Brown",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Jon Husted",
+   "rating": "tossup",
+   "special": true,
+   "state": "OH",
+   "status": "Counting",
+   "id": "S-OH"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Markwayne Mullin",
+   "rating": "solidR",
+   "state": "OK",
+   "status": "Counting",
+   "id": "S-OK"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Jeff Merkley",
+   "rating": "solidD",
+   "state": "OR",
+   "status": "Counting",
+   "id": "S-OR"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Jack Reed",
+     "party": "D"
+    },
+    {
+     "name": "McKay",
+     "party": "R"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Jack Reed",
+   "rating": "solidD",
+   "state": "RI",
+   "status": "Counting",
+   "id": "S-RI"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Lindsey Graham",
+   "rating": "solidR",
+   "state": "SC",
+   "status": "Counting",
+   "id": "S-SC"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Mike Rounds",
+   "rating": "solidR",
+   "state": "SD",
+   "status": "Counting",
+   "id": "S-SD"
+  },
+  {
+   "cands": [
+    {
+     "inc": true,
+     "name": "Bill Hagerty",
+     "party": "R"
+    },
+    {
+     "name": "Marquita Bradshaw",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Bill Hagerty",
+   "rating": "solidR",
+   "state": "TN",
+   "status": "Counting",
+   "id": "S-TN"
+  },
+  {
+   "cands": [
+    {
+     "name": "Ken Paxton",
+     "party": "R"
+    },
+    {
+     "name": "James Talarico",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "John Cornyn",
+   "open": true,
+   "rating": "tossup",
+   "state": "TX",
+   "status": "Counting",
+   "id": "S-TX"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "D",
+   "incumbent": "Mark Warner",
+   "rating": "solidD",
+   "state": "VA",
+   "status": "Counting",
+   "id": "S-VA"
+  },
+  {
+   "cands": [],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Shelley Moore Capito",
+   "rating": "solidR",
+   "state": "WV",
+   "status": "Counting",
+   "id": "S-WV"
+  },
+  {
+   "cands": [
+    {
+     "name": "Harriet Hageman",
+     "party": "R"
+    },
+    {
+     "name": "Byrd",
+     "party": "D"
+    }
+   ],
+   "chamber": "senate",
+   "incParty": "R",
+   "incumbent": "Cynthia Lummis",
+   "open": true,
+   "rating": "solidR",
+   "state": "WY",
+   "status": "Counting",
+   "id": "S-WY"
+  }
+ ]
+}

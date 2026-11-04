@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Chamber Watch 2026</title>
+<meta name="description" content="Live Senate and House seat counts for the 2026 midterms, searchable by state.">
+<meta name="theme-color" content="#07080F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Michroma&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a night-terminal for election night. Header strip, two chamber consoles side by side, then a state-searchable race ledger. Single dark look by design. */
+:root{
+  --ink:#07080F; --panel:#0E1120; --panel-2:#141830; --line:#262B4A; --line-soft:#1A1E36;
+  --fg:#E7E9F5; --muted:#8C92B4; --dim:#5A6088;
+  --dem:#3FA2FF; --dem-glow:rgba(63,162,255,.35);
+  --rep:#FF4F6D; --rep-glow:rgba(255,79,109,.35);
+  --tbd:#3A3F63; --chrome:#C9B37E; --live:#43F5C4;
+  --f-display:"Michroma","Eurostile","Segoe UI",sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+[hidden]{display:none!important}
+img{max-width:100%}
+body{background:var(--ink);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 15% -10%, rgba(63,162,255,.10), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 100% 0%, rgba(255,79,109,.08), transparent 60%),
+    linear-gradient(var(--line-soft) 1px, transparent 1px);
+  background-size:auto,auto,100% 32px; background-attachment:fixed;}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 60px;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;letter-spacing:.04em;text-wrap:balance;margin:0}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+
+/* header */
+header{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:20px}
+.brand h1{font-size:clamp(22px,4.2vw,36px);line-height:1.15}
+.brand h1 span{color:var(--chrome)}
+.brand p{margin:8px 0 0;color:var(--muted);max-width:60ch}
+.status{display:flex;flex-direction:column;gap:6px;align-items:flex-end;text-align:right}
+.pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;border:1px solid var(--line);border-radius:2px;background:var(--panel)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--dim)}
+.pill.on .dot{background:var(--live);box-shadow:0 0 10px var(--live);animation:pulse 2s infinite}
+.pill.off .dot{background:var(--rep)}
+@keyframes pulse{50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.pill.on .dot{animation:none}}
+.status small{color:var(--muted);font-family:var(--f-mono);font-size:12px}
+
+/* chambers */
+.chambers{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr));gap:20px}
+.console{position:relative;background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);padding:22px;min-width:0;
+  clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px))}
+.console::before{content:"";position:absolute;inset:0;pointer-events:none;border-top:1px solid rgba(201,179,126,.35)}
+.c-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.c-head h2{font-size:18px}
+.c-head .eyebrow b{color:var(--chrome);font-weight:600}
+.arc{width:100%;max-width:100%;height:auto;display:block;margin:10px 0 4px}
+.tally{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:12px}
+.side{display:flex;flex-direction:column;gap:2px}
+.side.r{text-align:right;align-items:flex-end}
+.big{font-family:var(--f-display);font-size:clamp(40px,7vw,58px);line-height:1;font-variant-numeric:tabular-nums}
+.side.d .big{color:var(--dem);text-shadow:0 0 22px var(--dem-glow)}
+.side.r .big{color:var(--rep);text-shadow:0 0 22px var(--rep-glow)}
+.side .lbl{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-family:var(--f-mono)}
+.mid{text-align:center;padding-bottom:6px}
+.mid .n{font-family:var(--f-mono);font-size:20px;color:var(--fg)}
+.mid .eyebrow{font-size:10px}
+.bar{position:relative;height:10px;background:var(--tbd);margin-top:16px;display:flex;overflow:hidden}
+.bar i{display:block;height:100%}
+.bar .bd{background:var(--dem);box-shadow:0 0 12px var(--dem-glow)}
+.bar .br{background:var(--rep);box-shadow:0 0 12px var(--rep-glow);margin-left:auto}
+.bar .maj{position:absolute;left:50%;top:-4px;bottom:-4px;width:2px;background:var(--chrome)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:18px}
+.facts div{background:var(--panel);padding:10px 12px;min-width:0}
+.facts dt{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-family:var(--f-mono)}
+.facts dd{margin:2px 0 0;font-family:var(--f-mono);font-size:14px}
+.verdict{margin-top:14px;font-size:13.5px;color:var(--muted)}
+.verdict b{color:var(--fg);font-weight:600}
+
+/* ledger */
+.ledger{display:flex;flex-direction:column;gap:16px}
+.l-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:10px}
+.l-head h2{font-size:18px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.search{flex:1 1 280px;position:relative}
+.search input{width:100%;background:var(--panel);border:1px solid var(--line);color:var(--fg);font:16px var(--f-body);padding:12px 14px 12px 40px;border-radius:2px;outline:none}
+.search input:focus{border-color:var(--chrome);box-shadow:0 0 0 1px var(--chrome),0 0 18px rgba(201,179,126,.18)}
+.search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--muted)}
+.seg{display:flex;border:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
+.seg button{background:none;border:0;color:var(--muted);font:12px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:11px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{color:var(--ink);background:var(--chrome)}
+.seg button:focus-visible,.chip:focus-visible{outline:2px solid var(--live);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:12px var(--f-mono);letter-spacing:.06em;padding:5px 9px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;border-radius:2px}
+.chip:hover{color:var(--fg);border-color:var(--dim)}
+.chip[aria-pressed="true"]{color:var(--ink);background:var(--fg);border-color:var(--fg)}
+.chip.hasd{box-shadow:inset 0 -2px 0 var(--dem)} .chip.hasr{box-shadow:inset 0 -2px 0 var(--rep)} .chip.hasb{box-shadow:inset 0 -2px 0 var(--chrome)}
+.statebar{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;padding:12px 14px;border:1px solid var(--line);background:var(--panel)}
+.statebar h3{font-size:15px}
+.statebar span{font-family:var(--f-mono);font-size:13px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:12px}
+.race{background:var(--panel);border:1px solid var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0;position:relative}
+.race::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--tbd)}
+.race.wD::after{background:var(--dem);box-shadow:0 0 10px var(--dem-glow)}
+.race.wR::after{background:var(--rep);box-shadow:0 0 10px var(--rep-glow)}
+.r-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.r-top h3{font-family:var(--f-body);font-weight:600;font-size:16px;letter-spacing:0}
+.r-top .eyebrow{font-size:10.5px;white-space:nowrap}
+.cands{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
+.cands li{display:grid;grid-template-columns:22px 1fr auto;gap:8px;align-items:center}
+.tag{font:600 11px var(--f-mono);text-align:center;padding:2px 0;border-radius:2px}
+.tag.D{background:rgba(63,162,255,.15);color:var(--dem)} .tag.R{background:rgba(255,79,109,.15);color:var(--rep)} .tag.I{background:rgba(201,179,126,.15);color:var(--chrome)}
+.cands .pct{font-family:var(--f-mono);font-size:13px;color:var(--muted)}
+.cands li.win{font-weight:600}
+.cands li.win .pct{color:var(--fg)}
+.r-foot{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:var(--muted);font-family:var(--f-mono);border-top:1px dashed var(--line);padding-top:8px}
+.badge{padding:1px 7px;border:1px solid var(--line);border-radius:2px}
+.badge.tossup{color:var(--chrome);border-color:rgba(201,179,126,.5)}
+.badge.leanD,.badge.likelyD,.badge.solidD{color:var(--dem);border-color:rgba(63,162,255,.4)}
+.badge.leanR,.badge.likelyR,.badge.solidR{color:var(--rep);border-color:rgba(255,79,109,.4)}
+.badge.call{color:var(--ink);background:var(--fg);border-color:var(--fg)}
+.empty{padding:40px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line)}
+footer{color:var(--dim);font-size:12.5px;border-top:1px solid var(--line);padding-top:16px;display:flex;flex-direction:column;gap:6px;max-width:80ch}
+footer a{color:var(--muted)}
+@media (max-width:520px){.facts{grid-template-columns:1fr 1fr}.facts div:last-child{grid-column:1/-1}.status{align-items:flex-start;text-align:left}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="eyebrow">U.S. Congress · Midterm 2026 · Nov 3</div>
+      <h1>Chamber <span>Watch</span></h1>
+      <p>Who controls the Senate and the House, seat by seat. Counts update on this page as races are called.</p>
+    </div>
+    <div class="status">
+      <span class="pill" id="livePill"><span class="dot"></span><span id="liveTxt">Connecting</span></span>
+      <small id="updated">Waiting for the data feed</small>
+    </div>
+  </header>
+
+  <section class="chambers" aria-label="Chamber control">
+    <article class="console" id="senate">
+      <div class="c-head"><h2>Senate</h2><span class="eyebrow">100 seats · <b>51</b> for control*</span></div>
+      <svg class="arc" id="senateArc" viewBox="0 0 400 214" role="img" aria-label="Senate seat chart"></svg>
+      <div class="tally">
+        <div class="side d"><span class="big" id="sD">–</span><span class="lbl">Democrats</span></div>
+        <div class="mid"><div class="n" id="sT">–</div><div class="eyebrow">Uncalled</div></div>
+        <div class="side r"><span class="big" id="sR">–</span><span class="lbl">Republicans</span></div>
+      </div>
+      <div class="bar"><i class="bd" id="sBd"></i><i class="br" id="sBr"></i><span class="maj"></span></div>
+      <dl class="facts">
+        <div><dt>Before today</dt><dd id="sBase">–</dd></div>
+        <div><dt>Up this cycle</dt><dd id="sUp">–</dd></div>
+        <div><dt>Net change</dt><dd id="sNet">–</dd></div>
+      </dl>
+      <p class="verdict" id="sVerdict"></p>
+    </article>
+
+    <article class="console" id="house">
+      <div class="c-head"><h2>House</h2><span class="eyebrow">435 seats · <b>218</b> for control</span></div>
+      <svg class="arc" id="houseArc" viewBox="0 0 400 214" role="img" aria-label="House seat chart"></svg>
+      <div class="tally">
+        <div class="side d"><span class="big" id="hD">–</span><span class="lbl">Democrats</span></div>
+        <div class="mid"><div class="n" id="hT">–</div><div class="eyebrow">Uncalled</div></div>
+        <div class="side r"><span class="big" id="hR">–</span><span class="lbl">Republicans</span></div>
+      </div>
+      <div class="bar"><i class="bd" id="hBd"></i><i class="br" id="hBr"></i><span class="maj"></span></div>
+      <dl class="facts">
+        <div><dt>Before today</dt><dd id="hBase">–</dd></div>
+        <div><dt>Up this cycle</dt><dd>All 435</dd></div>
+        <div><dt>Net change</dt><dd id="hNet">–</dd></div>
+      </dl>
+      <p class="verdict" id="hVerdict"></p>
+    </article>
+  </section>
+
+  <section class="ledger" aria-label="Races">
+    <div class="l-head">
+      <h2>Races by state</h2>
+      <span class="eyebrow" id="countLbl"></span>
+    </div>
+    <div class="controls">
+      <label class="search" for="q">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search a state, candidate or district (e.g. Ohio, MI-7, Peltola)" autocomplete="off">
+      </label>
+      <div class="seg" role="group" aria-label="Filter races">
+        <button data-f="all" aria-pressed="true">All</button>
+        <button data-f="senate" aria-pressed="false">Senate</button>
+        <button data-f="house" aria-pressed="false">House</button>
+        <button data-f="close" aria-pressed="false">Toss-ups</button>
+        <button data-f="called" aria-pressed="false">Called</button>
+      </div>
+    </div>
+    <div class="chips" id="chips" aria-label="Jump to a state"></div>
+    <div class="statebar" id="statebar" hidden></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <footer>
+    <span>* The Vice President breaks 50–50 ties, so a 50-seat Senate goes to the VP's party (Republican). Independents who caucus with Democrats are counted as Democrats.</span>
+    <span id="srcLine">Source notes appear once the data feed loads.</span>
+  </footer>
+</div>
+
+<script>
+const STATES={AL:["Alabama",7],AK:["Alaska",1],AZ:["Arizona",9],AR:["Arkansas",4],CA:["California",52],CO:["Colorado",8],CT:["Connecticut",5],DE:["Delaware",1],FL:["Florida",28],GA:["Georgia",14],HI:["Hawaii",2],ID:["Idaho",2],IL:["Illinois",17],IN:["Indiana",9],IA:["Iowa",4],KS:["Kansas",4],KY:["Kentucky",6],LA:["Louisiana",6],ME:["Maine",2],MD:["Maryland",8],MA:["Massachusetts",9],MI:["Michigan",13],MN:["Minnesota",8],MS:["Mississippi",4],MO:["Missouri",8],MT:["Montana",2],NE:["Nebraska",3],NV:["Nevada",4],NH:["New Hampshire",2],NJ:["New Jersey",12],NM:["New Mexico",3],NY:["New York",26],NC:["North Carolina",14],ND:["North Dakota",1],OH:["Ohio",15],OK:["Oklahoma",5],OR:["Oregon",6],PA:["Pennsylvania",17],RI:["Rhode Island",2],SC:["South Carolina",7],SD:["South Dakota",1],TN:["Tennessee",9],TX:["Texas",38],UT:["Utah",4],VT:["Vermont",1],VA:["Virginia",11],WA:["Washington",10],WV:["West Virginia",2],WI:["Wisconsin",8],WY:["Wyoming",1]};
+const RATING={tossup:"Toss-up",leanD:"Lean D",likelyD:"Likely D",solidD:"Solid D",leanR:"Lean R",likelyR:"Likely R",solidR:"Solid R"};
+const CLOSE=new Set(["tossup","leanD","leanR"]);
+let races=[], meta=null, filter="all", stateSel=null, query="";
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* hemicycle: rows of seats placed on concentric arcs, filled D from the left, R from the right */
+function arc(svg,total,d,r){
+  const rows=total>200?11:5, R0=total>200?70:88, R1=188, cx=200, cy=200;
+  const radii=[...Array(rows)].map((_,i)=>R0+(R1-R0)*i/(rows-1));
+  const len=radii.reduce((a,b)=>a+b,0);
+  let counts=radii.map(rr=>Math.round(total*rr/len)); counts[rows-1]+=total-counts.reduce((a,b)=>a+b,0);
+  const pts=[]; radii.forEach((rr,i)=>{for(let k=0;k<counts[i];k++){const t=Math.PI*(1-(counts[i]===1?.5:k/(counts[i]-1)));pts.push({x:cx+rr*Math.cos(t),y:cy-rr*Math.sin(t),a:t});}});
+  pts.sort((p,q)=>q.a-p.a);
+  const size=total>200?3.6:6.4; let out="";
+  pts.forEach((p,i)=>{const c=i<d?"var(--dem)":i>=total-r?"var(--rep)":"var(--tbd)";out+=`<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${size}" fill="${c}"/>`;});
+  out+=`<line x1="${cx}" y1="${cy-R0+14}" x2="${cx}" y2="${cy-R1-10}" stroke="var(--chrome)" stroke-width="1" stroke-dasharray="2 3"/>`;
+  out+=`<text x="${cx}" y="${cy+10}" text-anchor="middle" fill="var(--muted)" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2">MAJORITY LINE</text>`;
+  svg.setAttribute("viewBox","0 0 400 214"); svg.innerHTML=out;
+}
+function setBar(pre,d,r,total){$(pre+"Bd").style.width=(d/total*100)+"%";$(pre+"Br").style.width=(r/total*100)+"%";}
+const sign=n=>n>0?"+"+n:n<0?"−"+Math.abs(n):"0";
+
+function renderTotals(){
+  if(!meta) return;
+  const s=meta.senate||{}, h=meta.house||{};
+  const sen=races.filter(x=>x.chamber==="senate");
+  const wD=sen.filter(x=>x.winner==="D").length, wR=sen.filter(x=>x.winner==="R").length;
+  const sD=(s.holdD||0)+wD, sR=(s.holdR||0)+wR, sT=100-sD-sR;
+  $("sD").textContent=sD;$("sR").textContent=sR;$("sT").textContent=sT;
+  $("sBase").textContent=`${s.baseD} D · ${s.baseR} R`;
+  $("sUp").textContent=`${sen.length} seats`;
+  const heldD=sen.filter(x=>x.incParty==="D"), heldR=sen.filter(x=>x.incParty==="R");
+  const flipsD=heldR.filter(x=>x.winner==="D").length, flipsR=heldD.filter(x=>x.winner==="R").length;
+  $("sNet").textContent=`D ${sign(flipsD-flipsR)}`;
+  arc($("senateArc"),100,sD,sR); setBar("s",sD,sR,100);
+  $("sVerdict").innerHTML= sD>=51?"<b>Democrats have won control.</b>": sR>=50?"<b>Republicans have kept control.</b>"
+    : `Democrats need <b>${Math.max(0,51-sD)}</b> more · Republicans need <b>${Math.max(0,50-sR)}</b> more.`;
+
+  const hD=h.wonD||0, hR=h.wonR||0, hT=435-hD-hR;
+  $("hD").textContent=hD;$("hR").textContent=hR;$("hT").textContent=hT;
+  $("hBase").textContent=`${h.baseD} D · ${h.baseR} R${h.vacant?` · ${h.vacant} vac.`:""}`;
+  $("hNet").textContent=(hD+hR)>0?`D ${sign(h.netD||0)}`:"–";
+  arc($("houseArc"),435,hD,hR); setBar("h",hD,hR,435);
+  $("hVerdict").innerHTML= hD>=218?"<b>Democrats have won control.</b>": hR>=218?"<b>Republicans have kept control.</b>"
+    : `Democrats need <b>${218-hD}</b> more · Republicans need <b>${218-hR}</b> more.`;
+
+  if(meta.updatedAt){const d=new Date(meta.updatedAt);$("updated").textContent="Data as of "+d.toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZoneName:"short"});}
+  if(meta.note) $("srcLine").textContent=meta.note;
+}
+
+function renderChips(){
+  const by={}; races.forEach(x=>{(by[x.state]=by[x.state]||new Set()).add(x.chamber);});
+  $("chips").innerHTML=`<button class="chip" data-s="" aria-pressed="${!stateSel}">All states</button>`+
+    Object.keys(STATES).map(k=>{const c=by[k];const cls=!c?"":c.size>1?"hasb":c.has("senate")?"hasd":"hasr";
+      return `<button class="chip ${cls}" data-s="${k}" aria-pressed="${stateSel===k}" title="${STATES[k][0]}">${k}</button>`;}).join("");
+}
+
+function matches(x){
+  if(stateSel && x.state!==stateSel) return false;
+  if(filter==="senate"&&x.chamber!=="senate") return false;
+  if(filter==="house"&&x.chamber!=="house") return false;
+  if(filter==="close"&&!CLOSE.has(x.rating)) return false;
+  if(filter==="called"&&!x.winner) return false;
+  if(!query) return true;
+  const hay=[x.state,STATES[x.state]?.[0],x.seat,x.incumbent,...(x.cands||[]).map(c=>c.name),x.chamber==="house"?`${x.state}-${x.district}`:""].join(" ").toLowerCase();
+  return query.split(/\s+/).every(t=>hay.includes(t));
+}
+function card(x){
+  const isH=x.chamber==="house", title=isH?`${STATES[x.state]?.[0]||x.state} · District ${x.district}`:`${STATES[x.state]?.[0]||x.state}${x.special?" (special)":""}`;
+  const cands=(x.cands&&x.cands.length?x.cands:[]).map(c=>`<li class="${x.winner&&c.party===x.winner?"win":""}"><span class="tag ${esc(c.party)}">${esc(c.party)}</span><span>${esc(c.name)}${c.inc?" <span class='eyebrow'>(inc.)</span>":""}</span><span class="pct">${c.pct!=null?c.pct.toFixed(1)+"%":""}</span></li>`).join("")
+    || `<li><span class="tag ${esc(x.incParty)}">${esc(x.incParty)}</span><span>${esc(x.incumbent||"Seat held")}</span><span class="pct">nominees pending</span></li>`;
+  const status=x.winner?`<span class="badge call">Called ${x.winner}${x.flip?" · flip":""}</span>`:`<span class="badge">${esc(x.status||"Too early")}</span>`;
+  return `<article class="race ${x.winner?"w"+x.winner:""}">
+    <div class="r-top"><h3>${esc(title)}</h3><span class="eyebrow">${isH?"House":"Senate"}${x.open?" · open":""}</span></div>
+    <ul class="cands">${cands}</ul>
+    <div class="r-foot">${x.rating?`<span class="badge ${x.rating}">${RATING[x.rating]||esc(x.rating)}</span>`:""}${status}<span>Held by ${esc(x.incParty)}</span>${x.reporting!=null?`<span>${x.reporting}% in</span>`:""}</div>
+  </article>`;
+}
+const order={tossup:0,leanD:1,leanR:1,likelyD:2,likelyR:2,solidD:3,solidR:3};
+function renderList(){
+  const list=races.filter(matches).sort((a,b)=>(a.chamber===b.chamber?0:a.chamber==="senate"?-1:1)||((order[a.rating]??4)-(order[b.rating]??4))||a.state.localeCompare(b.state)||(a.district||0)-(b.district||0));
+  $("countLbl").textContent=`${list.length} of ${races.length} tracked races`;
+  if(stateSel){const [n,seats]=STATES[stateSel];const sen=races.filter(x=>x.state===stateSel&&x.chamber==="senate").length;
+    $("statebar").hidden=false;$("statebar").innerHTML=`<h3>${n}</h3><span>${seats} House seat${seats>1?"s":""}</span><span>${sen?sen+" Senate race"+(sen>1?"s":""):"No Senate race this year"}</span><span>${races.filter(x=>x.state===stateSel&&x.chamber==="house").length} House race(s) tracked here</span>`;}
+  else $("statebar").hidden=true;
+  $("grid").innerHTML=list.length?list.map(card).join(""):`<div class="empty">${races.length?"No races match. Try another state or clear the filters.":"Race data appears here once the feed connects."}</div>`;
+}
+
+$("q").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();
+  const hit=Object.entries(STATES).find(([k,[n]])=>n.toLowerCase()===query||k.toLowerCase()===query);
+  if(hit){stateSel=hit[0];query="";} renderChips();renderList();});
+document.querySelector(".seg").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;filter=b.dataset.f;
+  document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x===b));renderList();});
+$("chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;stateSel=b.dataset.s||null;$("q").value="";query="";
+  try{localStorage.setItem("cw-state",stateSel||"")}catch{} renderChips();renderList();});
+try{stateSel=localStorage.getItem("cw-state")||null}catch{}
+
+arc($("senateArc"),100,0,0); arc($("houseArc"),435,0,0); renderChips(); renderList();
+
+function setLive(on,txt){$("livePill").className="pill "+(on?"on":"off");$("liveTxt").textContent=txt;}
+async function load(){
+  try{
+    const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    const j=await r.json(); meta=j.meta; races=j.races||[];
+    setLive(true,"Live"); renderTotals(); renderChips(); renderList();
+  }catch(e){ setLive(false,"Feed unavailable"); }
+}
+load(); setInterval(load,60000);
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")load();});
+</script>
+
+</body>
+</html>
