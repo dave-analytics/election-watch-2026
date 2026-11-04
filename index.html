@@ -241,6 +241,7 @@ const STATES={AL:["Alabama",7],AK:["Alaska",1],AZ:["Arizona",9],AR:["Arkansas",4
 const RATING={tossup:"Toss-up",leanD:"Lean D",likelyD:"Likely D",solidD:"Solid D",leanR:"Lean R",likelyR:"Likely R",solidR:"Solid R"};
 const CLOSE=new Set(["tossup","leanD","leanR"]);
 let races=[], meta=null, filter="all", stateSel=null, query="";
+let countyData={}, ctRace=null, ctSort={k:"name",dir:1}, ctQ="";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
@@ -355,7 +356,6 @@ arc($("senateArc"),100,0,0); arc($("houseArc"),435,0,0); renderChips(); renderLi
 function setLive(on,txt){$("livePill").className="pill "+(on?"on":"off");$("liveTxt").textContent=txt;}
 
 /* county results (currently Tennessee) */
-let countyData={}, ctRace=null, ctSort={k:"name",dir:1}, ctQ="";
 function renderCounties(){
   const box=$("counties"), cd=stateSel&&countyData[stateSel];
   if(!cd){box.hidden=true;return;}
