@@ -1,0 +1,42 @@
+name: Refresh results from NBC
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: refresh-results
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh tracked races and Tennessee counties
+        run: ./scripts/refresh_nbc.sh
+
+      - name: Commit and republish if anything changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data.json counties-tn.json; then
+            echo "No changes."; exit 0
+          fi
+          python3 -I -c "import json,datetime;d=json.load(open('data.json'));d['meta']['updatedAt']=datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ');json.dump(d,open('data.json','w'),indent=1,ensure_ascii=False)"
+          python3 -I -m json.tool data.json > /dev/null
+          git config user.name "election-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json counties-tn.json
+          git commit -m "Update results $(date -u +%H:%MZ) (automatic NBC refresh)"
+          git pull --rebase origin main && git push origin main
+          # Pushes made with GITHUB_TOKEN don't start a Pages build on their own, so request one.
+          curl -sS -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true

@@ -1,5 +1,7 @@
 # Chamber Watch — results updater
 
+> A GitHub Action (`.github/workflows/refresh.yml`) runs `scripts/refresh_nbc.sh` every 15 minutes on its own, so tracked races and Tennessee counties keep updating even when no Claude session is running. The agent run below adds what the script can't: new called races, replacement close races and the House tally.
+
 Instructions for the scheduled agent that refreshes `data.json` every 15 minutes.
 The site (`index.html`) re-reads `data.json` every 60 seconds; nothing else needs changing.
 
