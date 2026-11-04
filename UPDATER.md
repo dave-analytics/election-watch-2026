@@ -24,3 +24,7 @@ The site (`index.html`) re-reads `data.json` every 60 seconds; nothing else need
 ## When to stop
 
 Once every Senate race is called and the House totals reach 435 (or the user says stop), report that and disable the scheduled task.
+
+## Watched races
+
+Races with `"featured": true` (currently CA-27, Whitesides vs. Gibbs) are the user's priority: check each one every run — vote share, % reporting and any call — using NBC's district page or the California Secretary of State results (https://electionresults.sos.ca.gov).

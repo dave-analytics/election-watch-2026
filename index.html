@@ -107,6 +107,8 @@ header{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;justify-co
 .race{background:var(--panel);border:1px solid var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0;position:relative}
 .race::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--tbd)}
 .race.wD::after{background:var(--dem);box-shadow:0 0 10px var(--dem-glow)}
+.race.feat{border-color:rgba(201,179,126,.55);box-shadow:0 0 0 1px rgba(201,179,126,.25),0 0 24px rgba(201,179,126,.08)}
+.pin{color:var(--chrome);font-weight:600}
 .race.wR::after{background:var(--rep);box-shadow:0 0 10px var(--rep-glow)}
 .r-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
 .r-top h3{font-family:var(--f-body);font-weight:600;font-size:16px;letter-spacing:0}
@@ -281,19 +283,19 @@ function matches(x){
   return query.split(/\s+/).every(t=>hay.includes(t));
 }
 function card(x){
-  const isH=x.chamber==="house", title=isH?`${STATES[x.state]?.[0]||x.state} · District ${x.district}`:`${STATES[x.state]?.[0]||x.state}${x.special?" (special)":""}`;
+  const isH=x.chamber==="house", title=isH?`${STATES[x.state]?.[0]||x.state} · ${x.district?"District "+x.district:"At-large"}`:`${STATES[x.state]?.[0]||x.state}${x.special?" (special)":""}`;
   const cands=(x.cands&&x.cands.length?x.cands:[]).map(c=>`<li class="${x.winner&&c.party===x.winner?"win":""}"><span class="tag ${esc(c.party)}">${esc(c.party)}</span><span>${esc(c.name)}${c.inc?" <span class='eyebrow'>(inc.)</span>":""}</span><span class="pct">${c.pct!=null?c.pct.toFixed(1)+"%":""}</span></li>`).join("")
     || `<li><span class="tag ${esc(x.incParty)}">${esc(x.incParty)}</span><span>${esc(x.incumbent||"Seat held")}</span><span class="pct">nominees pending</span></li>`;
   const status=x.winner?`<span class="badge call">Called ${x.winner}${x.flip?" · flip":""}</span>`:`<span class="badge">${esc(x.status||"Too early")}</span>`;
-  return `<article class="race ${x.winner?"w"+x.winner:""}">
-    <div class="r-top"><h3>${esc(title)}</h3><span class="eyebrow">${isH?"House":"Senate"}${x.open?" · open":""}</span></div>
+  return `<article class="race ${x.winner?"w"+x.winner:""} ${x.featured?"feat":""}">
+    <div class="r-top"><h3>${esc(title)}</h3><span class="eyebrow">${x.featured?"<b class='pin'>★ Watching</b> · ":""}${isH?"House":"Senate"}${x.open?" · open":""}</span></div>
     <ul class="cands">${cands}</ul>
     <div class="r-foot">${x.rating?`<span class="badge ${x.rating}">${RATING[x.rating]||esc(x.rating)}</span>`:""}${status}<span>Held by ${esc(x.incParty)}</span>${x.reporting!=null?`<span>${x.reporting}% in</span>`:""}</div>
   </article>`;
 }
 const order={tossup:0,leanD:1,leanR:1,likelyD:2,likelyR:2,solidD:3,solidR:3};
 function renderList(){
-  const list=races.filter(matches).sort((a,b)=>(a.chamber===b.chamber?0:a.chamber==="senate"?-1:1)||((order[a.rating]??4)-(order[b.rating]??4))||a.state.localeCompare(b.state)||(a.district||0)-(b.district||0));
+  const list=races.filter(matches).sort((a,b)=>((b.featured?1:0)-(a.featured?1:0))||(a.chamber===b.chamber?0:a.chamber==="senate"?-1:1)||((order[a.rating]??4)-(order[b.rating]??4))||a.state.localeCompare(b.state)||(a.district||0)-(b.district||0));
   $("countLbl").textContent=`${list.length} of ${races.length} tracked races`;
   if(stateSel){const [n,seats]=STATES[stateSel];const sen=races.filter(x=>x.state===stateSel&&x.chamber==="senate").length;
     $("statebar").hidden=false;$("statebar").innerHTML=`<h3>${n}</h3><span>${seats} House seat${seats>1?"s":""}</span><span>${sen?sen+" Senate race"+(sen>1?"s":""):"No Senate race this year"}</span><span>${races.filter(x=>x.state===stateSel&&x.chamber==="house").length} House race(s) tracked here</span>`;}

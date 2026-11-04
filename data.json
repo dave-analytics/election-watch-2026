@@ -15,7 +15,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T00:16:02Z"
+  "updatedAt": "2026-11-04T01:30:33Z"
  },
  "races": [
   {
@@ -799,6 +799,29 @@
    "state": "WY",
    "status": "Counting",
    "id": "S-WY"
+  },
+  {
+   "id": "H-CA-27",
+   "chamber": "house",
+   "state": "CA",
+   "district": 27,
+   "incParty": "D",
+   "incumbent": "George Whitesides",
+   "open": false,
+   "featured": true,
+   "cands": [
+    {
+     "name": "George Whitesides",
+     "party": "D",
+     "inc": true
+    },
+    {
+     "name": "Jason Gibbs",
+     "party": "R"
+    }
+   ],
+   "status": "Counting",
+   "note": "June 2 top-two primary: Gibbs 41.0%, Whitesides 40.6% (CA SOS, certified)."
   }
  ]
 }
