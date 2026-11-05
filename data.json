@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-04T23:11:23Z"
+  "updatedAt": "2026-11-05T00:12:36Z"
  },
  "races": [
   {
@@ -725,7 +725,7 @@
     {
      "name": "Scott Colom",
      "party": "D",
-     "pct": 48.9
+     "pct": 49
     },
     {
      "name": "Cindy Hyde-Smith",
@@ -741,7 +741,7 @@
    "state": "MS",
    "status": "Too close to call",
    "id": "S-MS",
-   "reporting": 95
+   "reporting": 96
   },
   {
    "cands": [
@@ -1939,18 +1939,18 @@
     {
      "name": "Jeff Hurd",
      "party": "R",
-     "pct": 48.7,
+     "pct": 49.3,
      "inc": true
     },
     {
      "name": "Dwayne Romero",
      "party": "D",
-     "pct": 48.1
+     "pct": 47.5
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 81
+   "reporting": 86
   },
   {
    "id": "H-NC-01",
@@ -4845,19 +4845,19 @@
     {
      "name": "Eileen Laubacher",
      "party": "D",
-     "pct": 49.2
+     "pct": 49
     },
     {
      "name": "Lauren Boebert",
      "party": "R",
-     "pct": 47.7,
+     "pct": 47.8,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 83
+   "reporting": 85
   },
   {
    "id": "H-CO-05",
@@ -4870,19 +4870,19 @@
     {
      "name": "Jessica Killin",
      "party": "D",
-     "pct": 50.9
+     "pct": 50.8
     },
     {
      "name": "Jeff Crank",
      "party": "R",
-     "pct": 45.8,
+     "pct": 45.9,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 80
+   "reporting": 82
   },
   {
    "id": "H-CO-06",
@@ -8730,7 +8730,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 96
+   "reporting": 94
   },
   {
    "id": "H-MT-02",
@@ -12941,7 +12941,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 58
+   "reporting": 60
   },
   {
    "id": "H-WA-05",
