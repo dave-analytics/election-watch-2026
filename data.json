@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T03:11:33Z"
+  "updatedAt": "2026-11-05T04:10:56Z"
  },
  "races": [
   {
@@ -1659,7 +1659,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 84
+   "reporting": 86
   },
   {
    "id": "H-AZ-01",
@@ -1950,7 +1950,7 @@
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 91
+   "reporting": 96
   },
   {
    "id": "H-NC-01",
@@ -4857,7 +4857,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 88
+   "reporting": 92
   },
   {
    "id": "H-CO-05",
@@ -4882,7 +4882,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 83
+   "reporting": 88
   },
   {
    "id": "H-CO-06",
