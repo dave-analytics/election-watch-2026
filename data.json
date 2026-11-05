@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T00:12:36Z"
+  "updatedAt": "2026-11-05T01:12:00Z"
  },
  "races": [
   {
@@ -1939,18 +1939,18 @@
     {
      "name": "Jeff Hurd",
      "party": "R",
-     "pct": 49.3,
+     "pct": 49.2,
      "inc": true
     },
     {
      "name": "Dwayne Romero",
      "party": "D",
-     "pct": 47.5
+     "pct": 47.6
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 86
+   "reporting": 87
   },
   {
    "id": "H-NC-01",
@@ -2067,7 +2067,7 @@
     {
      "name": "Jonathan Kreiss-Tomkins",
      "party": "D",
-     "pct": 49.2
+     "pct": 49.1
     },
     {
      "name": "Bernadette Wilson",
@@ -3250,19 +3250,19 @@
     {
      "name": "Eli Crane",
      "party": "R",
-     "pct": 49.3,
+     "pct": 49.5,
      "inc": true
     },
     {
      "name": "Jonathan Nez",
      "party": "D",
-     "pct": 49
+     "pct": 48.7
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 85
+   "reporting": 87
   },
   {
    "id": "H-AZ-03",
@@ -3353,19 +3353,19 @@
     {
      "name": "JoAnna Mendoza",
      "party": "D",
-     "pct": 52.9
+     "pct": 53
     },
     {
      "name": "Juan Ciscomani",
      "party": "R",
-     "pct": 45.1,
+     "pct": 44.9,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 6,
-   "reporting": 81
+   "reporting": 83
   },
   {
    "id": "H-AZ-07",
@@ -3723,18 +3723,18 @@
     {
      "name": "Scott Wiener",
      "party": "D",
-     "pct": 55.4
+     "pct": 55.5
     },
     {
      "name": "Connie Chan",
      "party": "D",
-     "pct": 44.6
+     "pct": 44.5
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 11,
-   "reporting": 51
+   "reporting": 57
   },
   {
    "id": "H-CA-12",
@@ -4443,20 +4443,20 @@
     {
      "name": "Ken Calvert",
      "party": "R",
-     "pct": 54.5,
+     "pct": 54.4,
      "inc": true
     },
     {
      "name": "Young Kim",
      "party": "R",
-     "pct": 45.5,
+     "pct": 45.6,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 40,
-   "reporting": 42
+   "reporting": 43
   },
   {
    "id": "H-CA-41",
@@ -4845,19 +4845,19 @@
     {
      "name": "Eileen Laubacher",
      "party": "D",
-     "pct": 49
+     "pct": 48.9
     },
     {
      "name": "Lauren Boebert",
      "party": "R",
-     "pct": 47.8,
+     "pct": 47.9,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 85
+   "reporting": 87
   },
   {
    "id": "H-CO-05",
@@ -12930,18 +12930,18 @@
     {
      "name": "Amanda McKinney",
      "party": "R",
-     "pct": 54.1
+     "pct": 54.3
     },
     {
      "name": "John Duresky",
      "party": "D",
-     "pct": 45.7
+     "pct": 45.5
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 60
+   "reporting": 61
   },
   {
    "id": "H-WA-05",
