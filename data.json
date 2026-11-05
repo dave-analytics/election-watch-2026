@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T05:14:07Z"
+  "updatedAt": "2026-11-05T06:11:20Z"
  },
  "races": [
   {
@@ -12556,19 +12556,19 @@
     {
      "name": "Blake Moore",
      "party": "R",
-     "pct": 50.1,
+     "pct": 50.4,
      "inc": true
     },
     {
      "name": "Peter Crosby",
      "party": "D",
-     "pct": 42.8
+     "pct": 42.3
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 77
+   "reporting": 82
   },
   {
    "id": "H-UT-03",
@@ -12941,7 +12941,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 63
+   "reporting": 67
   },
   {
    "id": "H-WA-05",
