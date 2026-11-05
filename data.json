@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T06:11:20Z"
+  "updatedAt": "2026-11-05T07:13:42Z"
  },
  "races": [
   {
@@ -4845,19 +4845,19 @@
     {
      "name": "Eileen Laubacher",
      "party": "D",
-     "pct": 48.9
+     "pct": 48.7
     },
     {
      "name": "Lauren Boebert",
      "party": "R",
-     "pct": 47.9,
+     "pct": 48,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 92
+   "reporting": 93
   },
   {
    "id": "H-CO-05",
