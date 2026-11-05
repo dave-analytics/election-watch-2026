@@ -4,8 +4,8 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 244,
-   "wonR": 155,
+   "wonD": 247,
+   "wonR": 157,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T18:08:30Z"
+  "updatedAt": "2026-11-05T19:48:46Z"
  },
  "races": [
   {
@@ -1447,9 +1447,11 @@
      "pct": 48.5
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "requested",
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": true
   },
   {
    "id": "G-TN",
@@ -1653,13 +1655,13 @@
     {
      "name": "Mike Lawler",
      "party": "R",
-     "pct": 47.8,
+     "pct": 47.7,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 86
+   "reporting": 88
   },
   {
    "id": "H-AZ-01",
@@ -2019,17 +2021,17 @@
     {
      "name": "Paul LePage",
      "party": "R",
-     "pct": 50.1
+     "pct": 49.9
     },
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 49.3
+     "pct": 48.7
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 94
+   "reporting": 97
   },
   {
    "id": "H-NM-02",
@@ -3342,7 +3344,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 86
+   "reporting": 87
   },
   {
    "id": "H-AZ-06",
@@ -3364,10 +3366,12 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 6,
-   "reporting": 84
+   "reporting": 84,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-AZ-07",
@@ -3407,19 +3411,19 @@
     {
      "name": "Abraham Hamadeh",
      "party": "R",
-     "pct": 51.4,
+     "pct": 51.5,
      "inc": true
     },
     {
      "name": "Bernadette Greene-Placentia",
      "party": "D",
-     "pct": 48.6
+     "pct": 48.5
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 8,
-   "reporting": 86
+   "reporting": 88
   },
   {
    "id": "H-AZ-09",
@@ -4881,10 +4885,12 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 94
+   "reporting": 94,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-CO-06",
@@ -5433,10 +5439,12 @@
      "pct": 48.7
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 13,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-FL-14",
@@ -10492,10 +10500,12 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 10,
-   "reporting": 98
+   "reporting": 98,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-OH-11",
