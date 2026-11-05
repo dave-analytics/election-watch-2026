@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T13:16:28Z",
+ "updatedAt": "2026-11-05T18:05:33Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
@@ -197,7 +197,7 @@
     {
      "fips": "47023",
      "name": "Chester",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4628,
      "D": {
       "name": "Jerri Green",
@@ -213,7 +213,7 @@
     {
      "fips": "47025",
      "name": "Claiborne",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 8989,
      "D": {
       "name": "Jerri Green",
@@ -229,7 +229,7 @@
     {
      "fips": "47027",
      "name": "Clay",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 2148,
      "D": {
       "name": "Jerri Green",
@@ -1237,7 +1237,7 @@
     {
      "fips": "47153",
      "name": "Sequatchie",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4945,
      "D": {
       "name": "Jerri Green",
@@ -1735,7 +1735,7 @@
     {
      "fips": "47023",
      "name": "Chester",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4541,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1751,7 +1751,7 @@
     {
      "fips": "47025",
      "name": "Claiborne",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 8777,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1767,7 +1767,7 @@
     {
      "fips": "47027",
      "name": "Clay",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 2039,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1783,7 +1783,7 @@
     {
      "fips": "47029",
      "name": "Cocke",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 9279,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2775,7 +2775,7 @@
     {
      "fips": "47153",
      "name": "Sequatchie",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4809,
      "D": {
       "name": "Marquita Bradshaw",

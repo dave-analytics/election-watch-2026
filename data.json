@@ -4,8 +4,8 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 242,
-   "wonR": 151,
+   "wonD": 244,
+   "wonR": 155,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T13:20:31Z"
+  "updatedAt": "2026-11-05T18:08:30Z"
  },
  "races": [
   {
@@ -326,7 +326,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 76
+   "reporting": 74
   },
   {
    "cands": [
@@ -1681,9 +1681,11 @@
      "pct": 45.5
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 86
+   "reporting": 86,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-NY-04",
@@ -1939,13 +1941,13 @@
     {
      "name": "Jeff Hurd",
      "party": "R",
-     "pct": 49.2,
+     "pct": 49.3,
      "inc": true
     },
     {
      "name": "Dwayne Romero",
      "party": "D",
-     "pct": 47.6
+     "pct": 47.5
     }
    ],
    "status": "Counting",
@@ -2017,17 +2019,17 @@
     {
      "name": "Paul LePage",
      "party": "R",
-     "pct": 50.3
+     "pct": 50.1
     },
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 49.7
+     "pct": 49.3
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 92
+   "reporting": 94
   },
   {
    "id": "H-NM-02",
@@ -2077,7 +2079,7 @@
    ],
    "status": "Counting",
    "addedReason": "all races",
-   "reporting": 75
+   "reporting": 74
   },
   {
    "id": "G-AL",
@@ -2406,7 +2408,7 @@
    ],
    "status": "Too close to call",
    "addedReason": "all races",
-   "reporting": 99
+   "reporting": 98
   },
   {
    "id": "G-MA",
@@ -2941,7 +2943,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 0,
-   "reporting": 75
+   "reporting": 74
   },
   {
    "id": "H-AL-01",
@@ -4027,7 +4029,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 23,
-   "reporting": 57
+   "reporting": 58
   },
   {
    "id": "H-CA-24",
@@ -4882,7 +4884,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 88
+   "reporting": 94
   },
   {
    "id": "H-CO-06",
@@ -7500,14 +7502,14 @@
     {
      "name": "James McGovern",
      "party": "D",
-     "pct": null,
+     "pct": 100,
      "inc": true
     }
    ],
    "status": "Called",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 0,
+   "reporting": 6,
    "winner": "D",
    "flip": false
   },
@@ -7576,14 +7578,14 @@
     {
      "name": "Katherine Clark",
      "party": "D",
-     "pct": null,
+     "pct": 100,
      "inc": true
     }
    ],
    "status": "Called",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 0,
+   "reporting": 68,
    "winner": "D",
    "flip": false
   },
@@ -7624,14 +7626,14 @@
     {
      "name": "Ayanna Pressley",
      "party": "D",
-     "pct": null,
+     "pct": 100,
      "inc": true
     }
    ],
    "status": "Called",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 0,
+   "reporting": 54,
    "winner": "D",
    "flip": false
   },
@@ -8719,18 +8721,20 @@
     {
      "name": "Sam Forstag",
      "party": "D",
-     "pct": 50
+     "pct": 50.3
     },
     {
      "name": "Aaron Flint",
      "party": "R",
-     "pct": 47.2
+     "pct": 46.8
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 94
+   "reporting": 97,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-MT-02",
@@ -9685,10 +9689,12 @@
      "pct": 48.9
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 97
+   "reporting": 97,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-NY-02",
@@ -9710,10 +9716,12 @@
      "pct": 48.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 97
+   "reporting": 97,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-NY-03",
@@ -10132,7 +10140,7 @@
     {
      "name": "Blake Gendebien",
      "party": "D",
-     "pct": 48.9
+     "pct": 48.8
     }
    ],
    "status": "Counting",
@@ -12556,19 +12564,21 @@
     {
      "name": "Blake Moore",
      "party": "R",
-     "pct": 50.4,
+     "pct": 50.2,
      "inc": true
     },
     {
      "name": "Peter Crosby",
      "party": "D",
-     "pct": 42.3
+     "pct": 42.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 82
+   "reporting": 89,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-UT-03",
@@ -12698,10 +12708,12 @@
      "pct": 48
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 98
+   "reporting": 98,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-VA-06",
