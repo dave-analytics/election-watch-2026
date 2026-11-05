@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T01:12:00Z"
+  "updatedAt": "2026-11-05T02:10:55Z"
  },
  "races": [
   {
@@ -326,7 +326,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 74
+   "reporting": 76
   },
   {
    "cands": [
@@ -1673,17 +1673,17 @@
     {
      "name": "Amish Shah",
      "party": "D",
-     "pct": 52.6
+     "pct": 52.5
     },
     {
      "name": "Jay Feely",
      "party": "R",
-     "pct": 45.4
+     "pct": 45.5
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 85
+   "reporting": 86
   },
   {
    "id": "H-NY-04",
@@ -2077,7 +2077,7 @@
    ],
    "status": "Counting",
    "addedReason": "all races",
-   "reporting": 74
+   "reporting": 75
   },
   {
    "id": "G-AL",
@@ -2941,7 +2941,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 0,
-   "reporting": 74
+   "reporting": 75
   },
   {
    "id": "H-AL-01",
@@ -3262,7 +3262,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 87
+   "reporting": 86
   },
   {
    "id": "H-AZ-03",
@@ -3329,18 +3329,18 @@
     {
      "name": "Mark Lamb",
      "party": "R",
-     "pct": 51.1
+     "pct": 51.2
     },
     {
      "name": "Elizabeth Lee",
      "party": "D",
-     "pct": 48.9
+     "pct": 48.8
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 84
+   "reporting": 86
   },
   {
    "id": "H-AZ-06",
@@ -3365,7 +3365,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 6,
-   "reporting": 83
+   "reporting": 84
   },
   {
    "id": "H-AZ-07",
@@ -3405,19 +3405,19 @@
     {
      "name": "Abraham Hamadeh",
      "party": "R",
-     "pct": 51.1,
+     "pct": 51.4,
      "inc": true
     },
     {
      "name": "Bernadette Greene-Placentia",
      "party": "D",
-     "pct": 48.9
+     "pct": 48.6
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 8,
-   "reporting": 85
+   "reporting": 86
   },
   {
    "id": "H-AZ-09",
@@ -3538,12 +3538,12 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 51.8
+     "pct": 51.6
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 48.2,
+     "pct": 48.4,
      "inc": true
     }
    ],
@@ -4015,13 +4015,13 @@
     {
      "name": "Jay Obernolte",
      "party": "R",
-     "pct": 51.3,
+     "pct": 51.4,
      "inc": true
     },
     {
      "name": "Tessa Hodge",
      "party": "D",
-     "pct": 48.7
+     "pct": 48.6
     }
    ],
    "status": "Counting",
@@ -4456,7 +4456,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 40,
-   "reporting": 43
+   "reporting": 45
   },
   {
    "id": "H-CA-41",
@@ -4857,7 +4857,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 87
+   "reporting": 86
   },
   {
    "id": "H-CO-05",
@@ -4882,7 +4882,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 82
+   "reporting": 85
   },
   {
    "id": "H-CO-06",
@@ -12556,7 +12556,7 @@
     {
      "name": "Blake Moore",
      "party": "R",
-     "pct": 50,
+     "pct": 50.1,
      "inc": true
     },
     {
@@ -12568,7 +12568,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 70
+   "reporting": 73
   },
   {
    "id": "H-UT-03",
@@ -12930,18 +12930,18 @@
     {
      "name": "Amanda McKinney",
      "party": "R",
-     "pct": 54.3
+     "pct": 54.5
     },
     {
      "name": "John Duresky",
      "party": "D",
-     "pct": 45.5
+     "pct": 45.4
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 61
+   "reporting": 63
   },
   {
    "id": "H-WA-05",
@@ -12954,19 +12954,19 @@
     {
      "name": "Michael Baumgartner",
      "party": "R",
-     "pct": 50.3,
+     "pct": 50.5,
      "inc": true
     },
     {
      "name": "Carmela Conroy",
      "party": "D",
-     "pct": 49.3
+     "pct": 49.2
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 58
+   "reporting": 62
   },
   {
    "id": "H-WA-06",
