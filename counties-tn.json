@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T19:44:51Z",
+ "updatedAt": "2026-11-06T00:10:53Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
@@ -37,7 +37,7 @@
     {
      "fips": "47003",
      "name": "Bedford",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 13198,
      "D": {
       "name": "Jerri Green",
@@ -101,7 +101,7 @@
     {
      "fips": "47011",
      "name": "Bradley",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 29384,
      "D": {
       "name": "Jerri Green",
@@ -149,7 +149,7 @@
     {
      "fips": "47017",
      "name": "Carroll",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 7131,
      "D": {
       "name": "Jerri Green",
@@ -181,7 +181,7 @@
     {
      "fips": "47021",
      "name": "Cheatham",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 14074,
      "D": {
       "name": "Jerri Green",
@@ -261,7 +261,7 @@
     {
      "fips": "47031",
      "name": "Coffee",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 15624,
      "D": {
       "name": "Jerri Green",
@@ -549,7 +549,7 @@
     {
      "fips": "47067",
      "name": "Hancock",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 1582,
      "D": {
       "name": "Jerri Green",
@@ -661,7 +661,7 @@
     {
      "fips": "47081",
      "name": "Hickman",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 6540,
      "D": {
       "name": "Jerri Green",
@@ -677,7 +677,7 @@
     {
      "fips": "47083",
      "name": "Houston",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 2383,
      "D": {
       "name": "Jerri Green",
@@ -709,7 +709,7 @@
     {
      "fips": "47087",
      "name": "Jackson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 3457,
      "D": {
       "name": "Jerri Green",
@@ -725,7 +725,7 @@
     {
      "fips": "47089",
      "name": "Jefferson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 15925,
      "D": {
       "name": "Jerri Green",
@@ -773,7 +773,7 @@
     {
      "fips": "47095",
      "name": "Lake",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 1148,
      "D": {
       "name": "Jerri Green",
@@ -981,7 +981,7 @@
     {
      "fips": "47121",
      "name": "Meigs",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 3777,
      "D": {
       "name": "Jerri Green",
@@ -997,7 +997,7 @@
     {
      "fips": "47123",
      "name": "Monroe",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 13634,
      "D": {
       "name": "Jerri Green",
@@ -1045,7 +1045,7 @@
     {
      "fips": "47129",
      "name": "Morgan",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4999,
      "D": {
       "name": "Jerri Green",
@@ -1061,7 +1061,7 @@
     {
      "fips": "47131",
      "name": "Obion",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 8072,
      "D": {
       "name": "Jerri Green",
@@ -1077,7 +1077,7 @@
     {
      "fips": "47133",
      "name": "Overton",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4872,
      "D": {
       "name": "Jerri Green",
@@ -1109,7 +1109,7 @@
     {
      "fips": "47137",
      "name": "Pickett",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 1956,
      "D": {
       "name": "Jerri Green",
@@ -1397,7 +1397,7 @@
     {
      "fips": "47173",
      "name": "Union",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4935,
      "D": {
       "name": "Jerri Green",
@@ -1413,7 +1413,7 @@
     {
      "fips": "47175",
      "name": "Van Buren",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 2183,
      "D": {
       "name": "Jerri Green",
@@ -1509,7 +1509,7 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 104114,
      "D": {
       "name": "Jerri Green",
@@ -1575,7 +1575,7 @@
     {
      "fips": "47003",
      "name": "Bedford",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 12739,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1639,7 +1639,7 @@
     {
      "fips": "47011",
      "name": "Bradley",
-     "reporting": 95,
+     "reporting": 98.3,
      "totalVote": 28676,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1687,7 +1687,7 @@
     {
      "fips": "47017",
      "name": "Carroll",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 7049,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1719,7 +1719,7 @@
     {
      "fips": "47021",
      "name": "Cheatham",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 13949,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1799,7 +1799,7 @@
     {
      "fips": "47031",
      "name": "Coffee",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 15487,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2087,7 +2087,7 @@
     {
      "fips": "47067",
      "name": "Hancock",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 1523,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2199,7 +2199,7 @@
     {
      "fips": "47081",
      "name": "Hickman",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 6485,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2215,7 +2215,7 @@
     {
      "fips": "47083",
      "name": "Houston",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 2339,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2247,7 +2247,7 @@
     {
      "fips": "47087",
      "name": "Jackson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 3331,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2263,7 +2263,7 @@
     {
      "fips": "47089",
      "name": "Jefferson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 15497,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2311,7 +2311,7 @@
     {
      "fips": "47095",
      "name": "Lake",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 1115,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2519,7 +2519,7 @@
     {
      "fips": "47121",
      "name": "Meigs",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 3651,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2535,7 +2535,7 @@
     {
      "fips": "47123",
      "name": "Monroe",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 13502,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2583,7 +2583,7 @@
     {
      "fips": "47129",
      "name": "Morgan",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 4956,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2599,7 +2599,7 @@
     {
      "fips": "47131",
      "name": "Obion",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 8015,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2615,7 +2615,7 @@
     {
      "fips": "47133",
      "name": "Overton",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 6462,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2647,7 +2647,7 @@
     {
      "fips": "47137",
      "name": "Pickett",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 1883,
      "D": {
       "name": "Marquita Bradshaw",
@@ -2935,23 +2935,23 @@
     {
      "fips": "47173",
      "name": "Union",
-     "reporting": 95,
-     "totalVote": 4620,
+     "reporting": 99,
+     "totalVote": 4629,
      "D": {
       "name": "Marquita Bradshaw",
       "votes": 950,
-      "pct": 20.6
+      "pct": 20.5
      },
      "R": {
       "name": "Bill Hagerty",
       "votes": 3592,
-      "pct": 77.7
+      "pct": 77.6
      }
     },
     {
      "fips": "47175",
      "name": "Van Buren",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 2105,
      "D": {
       "name": "Marquita Bradshaw",
@@ -3047,7 +3047,7 @@
     {
      "fips": "47187",
      "name": "Williamson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 103659,
      "D": {
       "name": "Marquita Bradshaw",

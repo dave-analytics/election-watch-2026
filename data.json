@@ -4,7 +4,7 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 247,
+   "wonD": 249,
    "wonR": 157,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-05T19:48:46Z"
+  "updatedAt": "2026-11-06T00:13:43Z"
  },
  "races": [
   {
@@ -1650,7 +1650,7 @@
     {
      "name": "Cait Conley",
      "party": "D",
-     "pct": 52.1
+     "pct": 52.2
     },
     {
      "name": "Mike Lawler",
@@ -1659,9 +1659,11 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 88
+   "reporting": 88,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-AZ-01",
@@ -1949,12 +1951,12 @@
     {
      "name": "Dwayne Romero",
      "party": "D",
-     "pct": 47.5
+     "pct": 47.4
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 96
+   "reporting": 97
   },
   {
    "id": "H-NC-01",
@@ -2026,12 +2028,12 @@
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 48.7
+     "pct": 48.3
     }
    ],
    "status": "Counting",
    "addedReason": "next closest uncalled race",
-   "reporting": 97
+   "reporting": 98
   },
   {
    "id": "H-NM-02",
@@ -2410,7 +2412,7 @@
    ],
    "status": "Too close to call",
    "addedReason": "all races",
-   "reporting": 98
+   "reporting": 99
   },
   {
    "id": "G-MA",
@@ -3254,19 +3256,19 @@
     {
      "name": "Eli Crane",
      "party": "R",
-     "pct": 49.5,
+     "pct": 49.8,
      "inc": true
     },
     {
      "name": "Jonathan Nez",
      "party": "D",
-     "pct": 48.7
+     "pct": 48.4
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 86
+   "reporting": 91
   },
   {
    "id": "H-AZ-03",
@@ -3544,19 +3546,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 51.6
+     "pct": 51.5
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 48.4,
+     "pct": 48.5,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 41
+   "reporting": 42
   },
   {
    "id": "H-CA-05",
@@ -3623,19 +3625,19 @@
     {
      "name": "Doris Matsui",
      "party": "D",
-     "pct": 57.4,
+     "pct": 57.5,
      "inc": true
     },
     {
      "name": "Mai Vang",
      "party": "D",
-     "pct": 42.6
+     "pct": 42.5
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 41
+   "reporting": 42
   },
   {
    "id": "H-CA-08",
@@ -3729,18 +3731,18 @@
     {
      "name": "Scott Wiener",
      "party": "D",
-     "pct": 55.5
+     "pct": 54.6
     },
     {
      "name": "Connie Chan",
      "party": "D",
-     "pct": 44.5
+     "pct": 45.4
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 11,
-   "reporting": 57
+   "reporting": 71
   },
   {
    "id": "H-CA-12",
@@ -4863,7 +4865,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 93
+   "reporting": 95
   },
   {
    "id": "H-CO-05",
@@ -9296,10 +9298,12 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 96
+   "reporting": 97,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-NJ-03",
@@ -12952,7 +12956,7 @@
     {
      "name": "Amanda McKinney",
      "party": "R",
-     "pct": 54.5
+     "pct": 54.4
     },
     {
      "name": "John Duresky",
@@ -12963,7 +12967,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 67
+   "reporting": 80
   },
   {
    "id": "H-WA-05",
@@ -12976,19 +12980,19 @@
     {
      "name": "Michael Baumgartner",
      "party": "R",
-     "pct": 50.5,
+     "pct": 50.6,
      "inc": true
     },
     {
      "name": "Carmela Conroy",
      "party": "D",
-     "pct": 49.2
+     "pct": 49
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 62
+   "reporting": 63
   },
   {
    "id": "H-WA-06",
