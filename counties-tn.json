@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T12:11:54Z",
+ "updatedAt": "2026-11-06T18:10:28Z",
  "source": "NBC News live results",
  "races": {
   "G-TN": {
@@ -21,7 +21,7 @@
     {
      "fips": "47001",
      "name": "Anderson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 23967,
      "D": {
       "name": "Jerri Green",
@@ -405,7 +405,7 @@
     {
      "fips": "47049",
      "name": "Fentress",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 5819,
      "D": {
       "name": "Jerri Green",
@@ -1559,7 +1559,7 @@
     {
      "fips": "47001",
      "name": "Anderson",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 23688,
      "D": {
       "name": "Marquita Bradshaw",
@@ -1943,7 +1943,7 @@
     {
      "fips": "47049",
      "name": "Fentress",
-     "reporting": 95,
+     "reporting": 99,
      "totalVote": 5669,
      "D": {
       "name": "Marquita Bradshaw",

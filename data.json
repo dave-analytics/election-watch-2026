@@ -4,8 +4,8 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 249,
-   "wonR": 157,
+   "wonD": 250,
+   "wonR": 161,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-06T12:14:19Z"
+  "updatedAt": "2026-11-06T18:13:07Z"
  },
  "races": [
   {
@@ -725,12 +725,12 @@
     {
      "name": "Scott Colom",
      "party": "D",
-     "pct": 49
+     "pct": 49.1
     },
     {
      "name": "Cindy Hyde-Smith",
      "party": "R",
-     "pct": 48.9,
+     "pct": 48.8,
      "inc": true
     }
    ],
@@ -1954,9 +1954,11 @@
      "pct": 47.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 97
+   "reporting": 95,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-NC-01",
@@ -3335,18 +3337,20 @@
     {
      "name": "Mark Lamb",
      "party": "R",
-     "pct": 51.5
+     "pct": 51.6
     },
     {
      "name": "Elizabeth Lee",
      "party": "D",
-     "pct": 48.5
+     "pct": 48.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 93
+   "reporting": 95,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-AZ-06",
@@ -3425,7 +3429,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 8,
-   "reporting": 93
+   "reporting": 95
   },
   {
    "id": "H-AZ-09",
@@ -3625,19 +3629,19 @@
     {
      "name": "Doris Matsui",
      "party": "D",
-     "pct": 57.5,
+     "pct": 57.6,
      "inc": true
     },
     {
      "name": "Mai Vang",
      "party": "D",
-     "pct": 42.5
+     "pct": 42.4
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 52
+   "reporting": 54
   },
   {
    "id": "H-CA-08",
@@ -3739,10 +3743,12 @@
      "pct": 45.4
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 11,
-   "reporting": 74
+   "reporting": 74,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-CA-12",
@@ -4865,7 +4871,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 97
+   "reporting": 95
   },
   {
    "id": "H-CO-05",
@@ -10155,10 +10161,12 @@
      "pct": 48.8
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 21,
-   "reporting": 96
+   "reporting": 97,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-NY-23",
@@ -12964,10 +12972,12 @@
      "pct": 45.1
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 74
+   "reporting": 74,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-WA-05",
