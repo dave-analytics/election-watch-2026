@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-06T00:13:43Z"
+  "updatedAt": "2026-11-06T12:14:19Z"
  },
  "races": [
   {
@@ -3256,19 +3256,19 @@
     {
      "name": "Eli Crane",
      "party": "R",
-     "pct": 49.8,
+     "pct": 49.7,
      "inc": true
     },
     {
      "name": "Jonathan Nez",
      "party": "D",
-     "pct": 48.4
+     "pct": 48.5
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 91
+   "reporting": 96
   },
   {
    "id": "H-AZ-03",
@@ -3335,18 +3335,18 @@
     {
      "name": "Mark Lamb",
      "party": "R",
-     "pct": 51.2
+     "pct": 51.5
     },
     {
      "name": "Elizabeth Lee",
      "party": "D",
-     "pct": 48.8
+     "pct": 48.5
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 87
+   "reporting": 93
   },
   {
    "id": "H-AZ-06",
@@ -3413,19 +3413,19 @@
     {
      "name": "Abraham Hamadeh",
      "party": "R",
-     "pct": 51.5,
+     "pct": 51.3,
      "inc": true
     },
     {
      "name": "Bernadette Greene-Placentia",
      "party": "D",
-     "pct": 48.5
+     "pct": 48.7
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 8,
-   "reporting": 88
+   "reporting": 93
   },
   {
    "id": "H-AZ-09",
@@ -3558,7 +3558,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 42
+   "reporting": 48
   },
   {
    "id": "H-CA-05",
@@ -3637,7 +3637,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 42
+   "reporting": 52
   },
   {
    "id": "H-CA-08",
@@ -3742,7 +3742,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 11,
-   "reporting": 71
+   "reporting": 74
   },
   {
    "id": "H-CA-12",
@@ -3821,7 +3821,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 14,
-   "reporting": 52
+   "reporting": 51
   },
   {
    "id": "H-CA-15",
@@ -4023,19 +4023,19 @@
     {
      "name": "Jay Obernolte",
      "party": "R",
-     "pct": 51.4,
+     "pct": 51.3,
      "inc": true
     },
     {
      "name": "Tessa Hodge",
      "party": "D",
-     "pct": 48.6
+     "pct": 48.7
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 23,
-   "reporting": 58
+   "reporting": 68
   },
   {
    "id": "H-CA-24",
@@ -4451,20 +4451,20 @@
     {
      "name": "Ken Calvert",
      "party": "R",
-     "pct": 54.4,
+     "pct": 54.2,
      "inc": true
     },
     {
      "name": "Young Kim",
      "party": "R",
-     "pct": 45.6,
+     "pct": 45.8,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 40,
-   "reporting": 45
+   "reporting": 58
   },
   {
    "id": "H-CA-41",
@@ -4853,19 +4853,19 @@
     {
      "name": "Eileen Laubacher",
      "party": "D",
-     "pct": 48.7
+     "pct": 48.8
     },
     {
      "name": "Lauren Boebert",
      "party": "R",
-     "pct": 48,
+     "pct": 47.9,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 95
+   "reporting": 97
   },
   {
    "id": "H-CO-05",
@@ -12956,18 +12956,18 @@
     {
      "name": "Amanda McKinney",
      "party": "R",
-     "pct": 54.4
+     "pct": 54.7
     },
     {
      "name": "John Duresky",
      "party": "D",
-     "pct": 45.4
+     "pct": 45.1
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 80
+   "reporting": 74
   },
   {
    "id": "H-WA-05",
@@ -12980,19 +12980,19 @@
     {
      "name": "Michael Baumgartner",
      "party": "R",
-     "pct": 50.6,
+     "pct": 50.9,
      "inc": true
     },
     {
      "name": "Carmela Conroy",
      "party": "D",
-     "pct": 49
+     "pct": 48.7
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 63
+   "reporting": 69
   },
   {
    "id": "H-WA-06",
