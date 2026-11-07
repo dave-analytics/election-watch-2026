@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-07T12:13:15Z"
+  "updatedAt": "2026-11-07T18:12:14Z"
  },
  "races": [
   {
@@ -3552,19 +3552,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 51.4
+     "pct": 51.6
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 48.6,
+     "pct": 48.4,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 54
+   "reporting": 55
   },
   {
    "id": "H-CA-05",
@@ -4033,19 +4033,19 @@
     {
      "name": "Jay Obernolte",
      "party": "R",
-     "pct": 51.2,
+     "pct": 51.9,
      "inc": true
     },
     {
      "name": "Tessa Hodge",
      "party": "D",
-     "pct": 48.8
+     "pct": 48.1
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 23,
-   "reporting": 68
+   "reporting": 74
   },
   {
    "id": "H-CA-24",
