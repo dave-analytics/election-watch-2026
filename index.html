@@ -129,6 +129,12 @@ header{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;justify-co
 .badge.call{color:var(--ink);background:var(--fg);border-color:var(--fg)}
 
 /* county table */
+.uncalled{display:flex;flex-direction:column;gap:12px}
+.uc-race{display:flex;flex-direction:column;gap:2px}
+.uc-race small{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.ct tr.uc-row{cursor:pointer}
+.ct tr.uc-row:hover td{background:var(--panel-2)}
+.uc-lead{font-weight:600}
 .counties{border:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-width:0}
 .ct-head{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}
 .ct-head h3{font-size:15px}
@@ -144,7 +150,8 @@ table.ct{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;f
 .ct th[aria-sort]{color:var(--chrome)}
 .ct td{padding:7px 12px;border-bottom:1px solid var(--line-soft);text-align:right;font-family:var(--f-mono);white-space:nowrap}
 .ct td:first-child{font-family:var(--f-body);font-weight:500}
-.ct td.D{color:var(--dem)} .ct td.R{color:var(--rep)}
+.ct td.D{color:var(--dem)} .ct td.R{color:var(--rep)} .ct td.I{color:var(--chrome)}
+.ct b.D{color:var(--dem)} .ct b.R{color:var(--rep)} .ct b.I{color:var(--chrome)}
 .mbar{display:inline-block;width:64px;height:6px;background:var(--tbd);vertical-align:middle;margin-left:8px;position:relative}
 .mbar i{position:absolute;top:0;bottom:0}
 .mbar i.D{right:50%;background:var(--dem)} .mbar i.R{left:50%;background:var(--rep)}
@@ -203,6 +210,11 @@ footer a{color:var(--muted)}
       </dl>
       <p class="verdict" id="hVerdict"></p>
     </article>
+  </section>
+
+  <section class="uncalled" aria-label="Uncalled races" id="uncalled">
+    <div class="l-head"><h2>Uncalled Races</h2><span class="eyebrow" id="ucCount"></span></div>
+    <div class="counties"><div class="ct-wrap"><table class="ct" id="ucTable"></table></div></div>
   </section>
 
   <section class="ledger" aria-label="Races">
@@ -385,13 +397,40 @@ $("counties").addEventListener("input",e=>{if(e.target.id==="ctq"){ctQ=e.target.
 async function loadCounties(){
   try{const r=await fetch("counties-tn.json?t="+Date.now(),{cache:"no-store"});if(r.ok){countyData.TN=await r.json();renderCounties();}}catch(e){}
 }
+
+/* Uncalled races: every race still being counted, closest margin first */
+function raceTitle(x){
+  const st=STATES[x.state]?.[0]||x.state;
+  if(x.chamber==="house") return `${st} · ${x.district?"District "+x.district:"At-large"}`;
+  if(x.chamber==="governor") return `${st} · Governor`;
+  return `${st} Senate${x.special?" (special)":""}`;
+}
+function renderUncalled(){
+  const list=races.filter(x=>!x.winner).map(x=>{
+    const c=mainCands(x.cands||[]); const a=c[0], b=c[1];
+    const m=(a?.pct!=null&&b?.pct!=null)?Math.abs(a.pct-b.pct):null;
+    return {x,a,b,m};
+  }).sort((p,q)=>((p.m??999)-(q.m??999))||((CH[p.x.chamber]??3)-(CH[q.x.chamber]??3)));
+  $("ucCount").textContent=list.length?`${list.length} still counting · closest first`:"Every race has been called";
+  const cell=c=>c?`<span class="tag ${esc(c.party)}">${esc(c.party)}</span> ${esc(c.name)} <b class="${c.party}">${c.pct!=null?c.pct.toFixed(1)+"%":"–"}</b>`:"–";
+  $("ucTable").innerHTML=list.length?`<thead><tr><th>Race</th><th>Candidate</th><th>Candidate</th><th>Margin</th><th>% in</th></tr></thead><tbody>${
+    list.map(({x,a,b,m})=>`<tr class="uc-row" data-id="${esc(x.id)}" tabindex="0"><td><div class="uc-race">${esc(raceTitle(x))}<small>${x.chamber==="house"?"House":x.chamber==="governor"?"Governor":"Senate"}</small></div></td>
+      <td>${cell(a)}</td><td>${cell(b)}</td>
+      <td class="uc-lead ${a?.party||""}">${m!=null&&a?(m<0.05?"Tied":`${esc(a.name.split(" ").slice(-1)[0])} +${m.toFixed(1)}`):"–"}</td>
+      <td>${x.reporting!=null?x.reporting+"%":"–"}</td></tr>`).join("")}</tbody>`
+    :`<tbody><tr><td>Every race has been called.</td></tr></tbody>`;
+}
+$("ucTable").addEventListener("click",e=>{const tr=e.target.closest("tr.uc-row");if(!tr)return;const x=races.find(r=>r.id===tr.dataset.id);if(!x)return;
+  stateSel=x.state;query="";$("q").value="";filter="all";document.querySelectorAll(".seg button[data-f]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.f==="all"));
+  try{localStorage.setItem("cw-state",stateSel)}catch{} renderChips();renderList();document.querySelector(".ledger").scrollIntoView({behavior:"smooth"});});
+$("ucTable").addEventListener("keydown",e=>{if(e.key==="Enter")e.target.closest("tr.uc-row")?.click();});
 async function load(){
   try{
     const ac=new AbortController(), to=setTimeout(()=>ac.abort(),10000);
     const r=await fetch("data.json?t="+Date.now(),{cache:"no-store",signal:ac.signal}); clearTimeout(to);
     if(!r.ok) throw new Error(r.status);
     const j=await r.json(); meta=j.meta; races=j.races||[];
-    setLive(true,"Live"); renderTotals(); renderChips(); renderList();
+    setLive(true,"Live"); renderTotals(); renderChips(); renderList(); renderUncalled();
   }catch(e){ setLive(false,meta?"Reconnecting":"Retrying"); clearTimeout(window._retry); window._retry=setTimeout(load,5000); }
 }
 load(); loadCounties(); setInterval(()=>{load();loadCounties();},60000);
