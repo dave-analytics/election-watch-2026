@@ -4,7 +4,7 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 250,
+   "wonD": 252,
    "wonR": 162,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-07T00:12:44Z"
+  "updatedAt": "2026-11-07T12:13:15Z"
  },
  "races": [
   {
@@ -3270,7 +3270,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 97
+   "reporting": 99
   },
   {
    "id": "H-AZ-03",
@@ -3552,19 +3552,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 51.3
+     "pct": 51.4
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 48.7,
+     "pct": 48.6,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 50
+   "reporting": 54
   },
   {
    "id": "H-CA-05",
@@ -3631,19 +3631,19 @@
     {
      "name": "Doris Matsui",
      "party": "D",
-     "pct": 57.6,
+     "pct": 55.7,
      "inc": true
     },
     {
      "name": "Mai Vang",
      "party": "D",
-     "pct": 42.4
+     "pct": 44.3
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 54
+   "reporting": 67
   },
   {
    "id": "H-CA-08",
@@ -3817,19 +3817,21 @@
     {
      "name": "Aisha Wahab",
      "party": "D",
-     "pct": 56.5,
+     "pct": 57.5,
      "inc": true
     },
     {
      "name": "Melissa Hernandez",
      "party": "D",
-     "pct": 43.5
+     "pct": 42.5
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 14,
-   "reporting": 51
+   "reporting": 67,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-CA-15",
@@ -4031,13 +4033,13 @@
     {
      "name": "Jay Obernolte",
      "party": "R",
-     "pct": 51.3,
+     "pct": 51.2,
      "inc": true
     },
     {
      "name": "Tessa Hodge",
      "party": "D",
-     "pct": 48.7
+     "pct": 48.8
     }
    ],
    "status": "Counting",
@@ -4459,20 +4461,20 @@
     {
      "name": "Ken Calvert",
      "party": "R",
-     "pct": 54.2,
+     "pct": 53.9,
      "inc": true
     },
     {
      "name": "Young Kim",
      "party": "R",
-     "pct": 45.8,
+     "pct": 46.1,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 40,
-   "reporting": 58
+   "reporting": 63
   },
   {
    "id": "H-CA-41",
@@ -11348,10 +11350,12 @@
      "pct": 48.6
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 1,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-SC-02",
@@ -12992,19 +12996,19 @@
     {
      "name": "Michael Baumgartner",
      "party": "R",
-     "pct": 51,
+     "pct": 51.5,
      "inc": true
     },
     {
      "name": "Carmela Conroy",
      "party": "D",
-     "pct": 48.7
+     "pct": 48.1
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 70
+   "reporting": 81
   },
   {
    "id": "H-WA-06",
