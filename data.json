@@ -5,7 +5,7 @@
    "baseR": 219,
    "vacant": 2,
    "wonD": 250,
-   "wonR": 161,
+   "wonR": 162,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-06T18:13:07Z"
+  "updatedAt": "2026-11-07T00:12:44Z"
  },
  "races": [
   {
@@ -741,7 +741,7 @@
    "state": "MS",
    "status": "Too close to call",
    "id": "S-MS",
-   "reporting": 96
+   "reporting": 97
   },
   {
    "cands": [
@@ -3270,7 +3270,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 96
+   "reporting": 97
   },
   {
    "id": "H-AZ-03",
@@ -3426,10 +3426,12 @@
      "pct": 48.7
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 8,
-   "reporting": 95
+   "reporting": 96,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-AZ-09",
@@ -3550,19 +3552,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 51.5
+     "pct": 51.3
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 48.5,
+     "pct": 48.7,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 48
+   "reporting": 50
   },
   {
    "id": "H-CA-05",
@@ -4871,7 +4873,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 95
+   "reporting": 97
   },
   {
    "id": "H-CO-05",
@@ -12990,7 +12992,7 @@
     {
      "name": "Michael Baumgartner",
      "party": "R",
-     "pct": 50.9,
+     "pct": 51,
      "inc": true
     },
     {
@@ -13002,7 +13004,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 69
+   "reporting": 70
   },
   {
    "id": "H-WA-06",
