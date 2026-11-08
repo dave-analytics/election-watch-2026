@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-08T00:12:21Z"
+  "updatedAt": "2026-11-08T12:12:22Z"
  },
  "races": [
   {
@@ -3552,19 +3552,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 51.6
+     "pct": 52.6
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 48.4,
+     "pct": 47.4,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 55
+   "reporting": 58
   },
   {
    "id": "H-CA-05",
@@ -4033,19 +4033,19 @@
     {
      "name": "Jay Obernolte",
      "party": "R",
-     "pct": 51.9,
+     "pct": 51.4,
      "inc": true
     },
     {
      "name": "Tessa Hodge",
      "party": "D",
-     "pct": 48.1
+     "pct": 48.6
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 23,
-   "reporting": 74
+   "reporting": 82
   },
   {
    "id": "H-CA-24",
@@ -4461,20 +4461,20 @@
     {
      "name": "Ken Calvert",
      "party": "R",
-     "pct": 53.9,
+     "pct": 53.8,
      "inc": true
     },
     {
      "name": "Young Kim",
      "party": "R",
-     "pct": 46.1,
+     "pct": 46.2,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 40,
-   "reporting": 63
+   "reporting": 67
   },
   {
    "id": "H-CA-41",
@@ -4875,7 +4875,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 97
+   "reporting": 98
   },
   {
    "id": "H-CO-05",
