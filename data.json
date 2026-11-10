@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-10T12:12:15Z"
+  "updatedAt": "2026-11-10T18:12:08Z"
  },
  "races": [
   {
@@ -2414,7 +2414,7 @@
    ],
    "status": "Too close to call",
    "addedReason": "all races",
-   "reporting": 99
+   "reporting": 98
   },
   {
    "id": "G-MA",
