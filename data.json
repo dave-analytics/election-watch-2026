@@ -5,7 +5,7 @@
    "baseR": 219,
    "vacant": 2,
    "wonD": 252,
-   "wonR": 162,
+   "wonR": 164,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-09T18:11:58Z"
+  "updatedAt": "2026-11-10T00:12:24Z"
  },
  "races": [
   {
@@ -3267,10 +3267,12 @@
      "pct": 48.5
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 2,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-AZ-03",
@@ -3552,19 +3554,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 52.6
+     "pct": 52.3
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 47.4,
+     "pct": 47.7,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 58
+   "reporting": 63
   },
   {
    "id": "H-CA-05",
@@ -3631,19 +3633,19 @@
     {
      "name": "Doris Matsui",
      "party": "D",
-     "pct": 55.7,
+     "pct": 55.8,
      "inc": true
     },
     {
      "name": "Mai Vang",
      "party": "D",
-     "pct": 44.3
+     "pct": 44.2
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 67
+   "reporting": 69
   },
   {
    "id": "H-CA-08",
@@ -5798,10 +5800,12 @@
      "pct": 49.1
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 26,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-FL-27",
@@ -12996,7 +13000,7 @@
     {
      "name": "Michael Baumgartner",
      "party": "R",
-     "pct": 51.5,
+     "pct": 51.6,
      "inc": true
     },
     {
