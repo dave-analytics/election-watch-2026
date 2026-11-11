@@ -4,8 +4,8 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 252,
-   "wonR": 166,
+   "wonD": 253,
+   "wonR": 168,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-10T18:12:08Z"
+  "updatedAt": "2026-11-11T00:12:40Z"
  },
  "races": [
   {
@@ -2414,7 +2414,7 @@
    ],
    "status": "Too close to call",
    "addedReason": "all races",
-   "reporting": 98
+   "reporting": 99
   },
   {
    "id": "G-MA",
@@ -3554,19 +3554,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 52.3
+     "pct": 52.4
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 47.7,
+     "pct": 47.6,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 66
+   "reporting": 67
   },
   {
    "id": "H-CA-05",
@@ -3633,19 +3633,19 @@
     {
      "name": "Doris Matsui",
      "party": "D",
-     "pct": 55.8,
+     "pct": 53.3,
      "inc": true
     },
     {
      "name": "Mai Vang",
      "party": "D",
-     "pct": 44.2
+     "pct": 46.7
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 70
+   "reporting": 87
   },
   {
    "id": "H-CA-08",
@@ -4047,7 +4047,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 23,
-   "reporting": 93
+   "reporting": 94
   },
   {
    "id": "H-CA-24",
@@ -5303,10 +5303,12 @@
      "pct": 49.2
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 7,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-FL-08",
@@ -5355,10 +5357,12 @@
      "pct": 49.7
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 9,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-FL-10",
@@ -5829,10 +5833,12 @@
      "pct": 49.8
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 27,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-FL-28",
@@ -8825,15 +8831,15 @@
    "open": false,
    "cands": [
     {
-     "name": "Greg Murphy",
-     "party": "R",
-     "pct": 49.4,
-     "inc": true
-    },
-    {
      "name": "Raymond Smith",
      "party": "D",
-     "pct": 49.3
+     "pct": 49.4
+    },
+    {
+     "name": "Greg Murphy",
+     "party": "R",
+     "pct": 49.3,
+     "inc": true
     }
    ],
    "status": "Counting",
@@ -8884,7 +8890,7 @@
     {
      "name": "Virginia Foxx",
      "party": "R",
-     "pct": 48.7,
+     "pct": 48.6,
      "inc": true
     }
    ],
