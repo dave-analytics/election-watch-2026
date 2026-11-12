@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-12T12:11:03Z"
+  "updatedAt": "2026-11-12T18:11:24Z"
  },
  "races": [
   {
@@ -2416,7 +2416,7 @@
    ],
    "status": "Too close to call",
    "addedReason": "all races",
-   "reporting": 99
+   "reporting": 98
   },
   {
    "id": "G-MA",
@@ -3556,19 +3556,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 52.1
+     "pct": 52
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 47.9,
+     "pct": 48,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 75
+   "reporting": 79
   },
   {
    "id": "H-CA-05",
