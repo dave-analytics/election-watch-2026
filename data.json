@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-11T18:13:32Z"
+  "updatedAt": "2026-11-12T00:11:23Z"
  },
  "races": [
   {
@@ -725,12 +725,12 @@
     {
      "name": "Scott Colom",
      "party": "D",
-     "pct": 49.1
+     "pct": 49.2
     },
     {
      "name": "Cindy Hyde-Smith",
      "party": "R",
-     "pct": 48.8,
+     "pct": 48.7,
      "inc": true
     }
    ],
@@ -739,9 +739,11 @@
    "incumbent": "Cindy Hyde-Smith",
    "rating": "solidR",
    "state": "MS",
-   "status": "Too close to call",
+   "status": "Called",
    "id": "S-MS",
-   "reporting": 98
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
@@ -3566,7 +3568,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 74
+   "reporting": 75
   },
   {
    "id": "H-CA-05",
