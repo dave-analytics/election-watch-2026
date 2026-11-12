@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-12T00:11:23Z"
+  "updatedAt": "2026-11-12T12:11:03Z"
  },
  "races": [
   {
@@ -310,12 +310,12 @@
     {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": 49
+     "pct": 48.9
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
-     "pct": 47.2,
+     "pct": 47.3,
      "inc": true
     }
    ],
@@ -326,7 +326,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 84
+   "reporting": 86
   },
   {
    "cands": [
@@ -2077,17 +2077,17 @@
     {
      "name": "Jonathan Kreiss-Tomkins",
      "party": "D",
-     "pct": 49.9
+     "pct": 49.8
     },
     {
      "name": "Bernadette Wilson",
      "party": "R",
-     "pct": 28.8
+     "pct": 29
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
-   "reporting": 84
+   "reporting": 86
   },
   {
    "id": "G-AL",
@@ -2939,19 +2939,19 @@
     {
      "name": "Nick Begich",
      "party": "R",
-     "pct": 48.9,
+     "pct": 49,
      "inc": true
     },
     {
      "name": "Bill Hill",
      "party": "I",
-     "pct": 41
+     "pct": 40.9
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 0,
-   "reporting": 84
+   "reporting": 86
   },
   {
    "id": "H-AL-01",
