@@ -5,7 +5,7 @@
    "baseR": 219,
    "vacant": 2,
    "wonD": 254,
-   "wonR": 169,
+   "wonR": 170,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-12T18:11:24Z"
+  "updatedAt": "2026-11-13T00:10:57Z"
  },
  "races": [
   {
@@ -2027,17 +2027,19 @@
     {
      "name": "Paul LePage",
      "party": "R",
-     "pct": 49.9
+     "pct": 50.8
     },
     {
      "name": "Matthew Dunlap",
      "party": "D",
-     "pct": 48.3
+     "pct": 49.2
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "next closest uncalled race",
-   "reporting": 98
+   "reporting": 98,
+   "winner": "R",
+   "flip": true
   },
   {
    "id": "H-NM-02",
@@ -2414,9 +2416,11 @@
      "pct": 49.7
     }
    ],
-   "status": "Too close to call",
+   "status": "Called",
    "addedReason": "all races",
-   "reporting": 98
+   "reporting": 98,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "G-MA",
