@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-13T12:11:11Z"
+  "updatedAt": "2026-11-13T18:11:38Z"
  },
  "races": [
   {
@@ -310,12 +310,12 @@
     {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": 49.2
+     "pct": 49.1
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
-     "pct": 47,
+     "pct": 46.8,
      "inc": true
     }
    ],
@@ -2079,7 +2079,7 @@
     {
      "name": "Jonathan Kreiss-Tomkins",
      "party": "D",
-     "pct": 50.2
+     "pct": 50
     },
     {
      "name": "Bernadette Wilson",
@@ -2943,7 +2943,7 @@
     {
      "name": "Nick Begich",
      "party": "R",
-     "pct": 48.6,
+     "pct": 48.5,
      "inc": true
     },
     {
@@ -4887,7 +4887,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 98
+   "reporting": 99
   },
   {
    "id": "H-CO-05",
