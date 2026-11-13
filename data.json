@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-13T00:10:57Z"
+  "updatedAt": "2026-11-13T12:11:11Z"
  },
  "races": [
   {
@@ -310,12 +310,12 @@
     {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": 48.9
+     "pct": 49.2
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
-     "pct": 47.3,
+     "pct": 47,
      "inc": true
     }
    ],
@@ -326,7 +326,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 86
+   "reporting": 88
   },
   {
    "cands": [
@@ -2079,17 +2079,17 @@
     {
      "name": "Jonathan Kreiss-Tomkins",
      "party": "D",
-     "pct": 49.8
+     "pct": 50.2
     },
     {
      "name": "Bernadette Wilson",
      "party": "R",
-     "pct": 29
+     "pct": 28.7
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
-   "reporting": 86
+   "reporting": 88
   },
   {
    "id": "G-AL",
@@ -2943,19 +2943,19 @@
     {
      "name": "Nick Begich",
      "party": "R",
-     "pct": 49,
+     "pct": 48.6,
      "inc": true
     },
     {
      "name": "Bill Hill",
      "party": "I",
-     "pct": 40.9
+     "pct": 41.2
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 0,
-   "reporting": 86
+   "reporting": 88
   },
   {
    "id": "H-AL-01",
@@ -3560,19 +3560,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 52
+     "pct": 52.2
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 48,
+     "pct": 47.8,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 79
+   "reporting": 83
   },
   {
    "id": "H-CA-05",
@@ -4043,19 +4043,19 @@
     {
      "name": "Jay Obernolte",
      "party": "R",
-     "pct": 50.9,
+     "pct": 50.8,
      "inc": true
     },
     {
      "name": "Tessa Hodge",
      "party": "D",
-     "pct": 49.1
+     "pct": 49.2
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 23,
-   "reporting": 95
+   "reporting": 97
   },
   {
    "id": "H-CA-24",
