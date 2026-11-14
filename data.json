@@ -4,7 +4,7 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 254,
+   "wonD": 255,
    "wonR": 170,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-13T18:11:38Z"
+  "updatedAt": "2026-11-14T00:11:38Z"
  },
  "races": [
   {
@@ -3560,19 +3560,19 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 52.2
+     "pct": 52.3
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 47.8,
+     "pct": 47.7,
      "inc": true
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 83
+   "reporting": 87
   },
   {
    "id": "H-CA-05",
@@ -4884,10 +4884,12 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 99
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-CO-05",
@@ -8951,7 +8953,7 @@
     {
      "name": "Kimberly Hardy",
      "party": "D",
-     "pct": 49.2
+     "pct": 49.1
     }
    ],
    "status": "Counting",
