@@ -4,7 +4,7 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 255,
+   "wonD": 256,
    "wonR": 170,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-14T00:11:38Z"
+  "updatedAt": "2026-11-14T12:12:44Z"
  },
  "races": [
   {
@@ -310,12 +310,12 @@
     {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": 49.1
+     "pct": 49.8
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
-     "pct": 46.8,
+     "pct": 46.1,
      "inc": true
     }
    ],
@@ -326,7 +326,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 88
+   "reporting": 96
   },
   {
    "cands": [
@@ -2079,17 +2079,19 @@
     {
      "name": "Jonathan Kreiss-Tomkins",
      "party": "D",
-     "pct": 50
+     "pct": 50.8
     },
     {
      "name": "Bernadette Wilson",
      "party": "R",
-     "pct": 28.7
+     "pct": 28.1
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
-   "reporting": 88
+   "reporting": 96,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "G-AL",
@@ -2941,21 +2943,21 @@
    "open": false,
    "cands": [
     {
-     "name": "Nick Begich",
+     "name": "Nick Begich III",
      "party": "R",
-     "pct": 48.5,
+     "pct": null,
      "inc": true
     },
     {
-     "name": "Bill Hill",
-     "party": "I",
-     "pct": 41.2
+     "name": "Eric Hafner",
+     "party": "D",
+     "pct": null
     }
    ],
    "status": "Counting",
    "addedReason": "all races",
    "district": 0,
-   "reporting": 88
+   "reporting": 0
   },
   {
    "id": "H-AL-01",
@@ -3560,19 +3562,21 @@
     {
      "name": "Eric Jones",
      "party": "D",
-     "pct": 52.3
+     "pct": 52.5
     },
     {
      "name": "Mike Thompson",
      "party": "D",
-     "pct": 47.7,
+     "pct": 47.5,
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 4,
-   "reporting": 87
+   "reporting": 95,
+   "winner": "D",
+   "flip": false
   },
   {
    "id": "H-CA-05",
