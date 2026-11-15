@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-15T00:11:09Z"
+  "updatedAt": "2026-11-15T12:11:20Z"
  },
  "races": [
   {
@@ -310,12 +310,12 @@
     {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": 49.8
+     "pct": 49.9
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
-     "pct": 46.1,
+     "pct": 46,
      "inc": true
     }
    ],
@@ -326,7 +326,7 @@
    "state": "AK",
    "status": "Counting",
    "id": "S-AK",
-   "reporting": 96
+   "reporting": 97
   },
   {
    "cands": [
