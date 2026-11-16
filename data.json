@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-16T12:11:41Z"
+  "updatedAt": "2026-11-16T18:11:40Z"
  },
  "races": [
   {
@@ -4059,7 +4059,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 23,
-   "reporting": 97
+   "reporting": 98
   },
   {
    "id": "H-CA-24",
