@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-18T00:11:43Z"
+  "updatedAt": "2026-11-18T12:12:45Z"
  },
  "races": [
   {
@@ -310,12 +310,12 @@
     {
      "name": "Mary Peltola",
      "party": "D",
-     "pct": 50
+     "pct": 50.1
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
-     "pct": 45.9,
+     "pct": 45.8,
      "inc": true
     }
    ],
@@ -324,9 +324,11 @@
    "incumbent": "Dan Sullivan",
    "rating": "tossup",
    "state": "AK",
-   "status": "Counting",
+   "status": "Called",
    "id": "S-AK",
-   "reporting": 98
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "cands": [
