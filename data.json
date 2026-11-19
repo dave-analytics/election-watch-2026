@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-19T12:12:39Z"
+  "updatedAt": "2026-11-19T18:11:45Z"
  },
  "races": [
   {
@@ -7490,7 +7490,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 5,
-   "reporting": 99
+   "reporting": 100
   },
   {
    "id": "H-LA-06",
@@ -7514,7 +7514,7 @@
    "status": "Counting",
    "addedReason": "all races",
    "district": 6,
-   "reporting": 99
+   "reporting": 100
   },
   {
    "id": "H-MA-01",
