@@ -5,7 +5,7 @@
    "baseR": 219,
    "vacant": 2,
    "wonD": 257,
-   "wonR": 172,
+   "wonR": 173,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
   },
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-19T00:11:15Z"
+  "updatedAt": "2026-11-19T12:12:39Z"
  },
  "races": [
   {
@@ -2945,21 +2945,23 @@
    "open": false,
    "cands": [
     {
-     "name": "Nick Begich III",
+     "name": "Nick Begich",
      "party": "R",
-     "pct": null,
+     "pct": 51.4,
      "inc": true
     },
     {
-     "name": "Eric Hafner",
-     "party": "D",
-     "pct": null
+     "name": "Bill Hill",
+     "party": "I",
+     "pct": 48.6
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "all races",
    "district": 0,
-   "reporting": 0
+   "reporting": 99,
+   "winner": "R",
+   "flip": false
   },
   {
    "id": "H-AL-01",
