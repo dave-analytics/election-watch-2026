@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-19T18:11:45Z"
+  "updatedAt": "2026-11-20T00:12:17Z"
  },
  "races": [
   {
@@ -872,7 +872,7 @@
   {
    "cands": [
     {
-     "name": "Ben Ray Luján",
+     "name": "Ben Ray Luj\u00e1n",
      "party": "D",
      "pct": 71.5,
      "inc": true
@@ -885,7 +885,7 @@
    ],
    "chamber": "senate",
    "incParty": "D",
-   "incumbent": "Ben Ray Luján",
+   "incumbent": "Ben Ray Luj\u00e1n",
    "rating": "solidD",
    "state": "NM",
    "status": "Called",
@@ -3893,7 +3893,7 @@
      "inc": true
     },
     {
-     "name": "Peter Soulé",
+     "name": "Peter Soul\u00e9",
      "party": "R",
      "pct": 24.1
     }
@@ -4189,7 +4189,7 @@
      "inc": true
     },
     {
-     "name": "Angélica Dueñas",
+     "name": "Ang\u00e9lica Due\u00f1as",
      "party": "D",
      "pct": 39.8
     }
@@ -4503,11 +4503,11 @@
    "chamber": "house",
    "state": "CA",
    "incParty": "D",
-   "incumbent": "Linda Sánchez",
+   "incumbent": "Linda S\u00e1nchez",
    "open": false,
    "cands": [
     {
-     "name": "Linda Sánchez",
+     "name": "Linda S\u00e1nchez",
      "party": "D",
      "pct": 64.9,
      "inc": true
@@ -7016,11 +7016,11 @@
    "chamber": "house",
    "state": "IN",
    "incParty": "D",
-   "incumbent": "André Carson",
+   "incumbent": "Andr\u00e9 Carson",
    "open": false,
    "cands": [
     {
-     "name": "André Carson",
+     "name": "Andr\u00e9 Carson",
      "party": "D",
      "pct": 77.1,
      "inc": true
@@ -12555,7 +12555,7 @@
      "inc": true
     },
     {
-     "name": "Lauren Peña",
+     "name": "Lauren Pe\u00f1a",
      "party": "R",
      "pct": 16.2
     }
