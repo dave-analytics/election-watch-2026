@@ -4,7 +4,7 @@
    "baseD": 214,
    "baseR": 219,
    "vacant": 2,
-   "wonD": 258,
+   "wonD": 259,
    "wonR": 173,
    "projected": "D",
    "projectedBy": "CBS News, NBC News"
@@ -16,7 +16,7 @@
    "holdD": 34,
    "holdR": 31
   },
-  "updatedAt": "2026-11-24T12:11:34Z"
+  "updatedAt": "2026-11-24T18:11:58Z"
  },
  "races": [
   {
@@ -1321,9 +1321,11 @@
      "inc": true
     }
    ],
-   "status": "Counting",
+   "status": "Called",
    "addedReason": "requested",
-   "reporting": 99
+   "reporting": 99,
+   "winner": "D",
+   "flip": true
   },
   {
    "id": "H-TN-05",
